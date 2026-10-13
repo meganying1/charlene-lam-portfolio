@@ -23,21 +23,19 @@ npm run check
 
 ## Source structure and editing
 
-- `src/layouts/PAGE.html` and `src/layouts/PAGE.css`: independently hosted desktop markup and layout styles recovered from each original page. The component names are retained so image placement, original masks, annotations, hover captions and spacing survive. No Wix JavaScript, SDK, API, authentication or hosting is required.
-- `src/desktop-overrides.css`: consistent desktop type roles, readable subtitle contrast, keyboard focus and laptop fitting. Edit colors and font choices here rather than modifying every page's layout CSS.
-- `src/content.json`: the same exact content in ordered semantic blocks for phone and tablet layouts. Each record has the original path, text HTML, images and captions, downloads, and section targets. Keep an image's caption and link attached to its project.
-- `src/styles.css`: phone/tablet spacing, navigation, project grids and the image viewer. Applied only up to 900px.
-- `src/app.js`: navigation disclosure, keyboard controls, image enlargement, native media controls and desktop fitting.
-- `public/assets/`: original image/video/HTML files plus local WebP derivatives. Original filenames are retained. Originals have not been edited.
-- `public/_files/ugd/`: original PDFs at their previous public paths.
-- `public/fonts/`: original locally hosted fonts.
-- `public/embeds/gripper-code.html`: responsive rendering of the exact original Arduino code. The original HTML is also retained in assets.
-- `audit/`: inventory, baseline content, file hashes and verification reports.
-- `src/contact-popup.json`: exact dormant Wix Contact popup configuration, kept separately because the current site's navigation does not open it and its direct path returns a 404.
+- `src/content.json`: one original content source for all widths, preserving text, captions, metadata, image order and project paths.
+- `scripts/components.mjs`: shared semantic header, cards, introductions, figures, evaluation rows, contents, downloads, gallery and footer.
+- `src/styles.css`: shared tokens, component styles and responsive reflow; no whole-page scaling.
+- `src/app.js`: compact navigation, current-section indication and keyboard image zoom/fit controls.
+- `src/image-descriptions.json`: reviewed descriptions of artwork, travel and live-music photographs.
+- `src/panel-transcripts.json`: reviewed printed text alternatives for29 intact original panels.
+- `src/layouts/` and `src/desktop-overrides.css`: archived original desktop layouts, excluded from generated pages.
+- `public/`: unchanged original media, variants, fonts, PDFs and Arduino embed.
+- `audit/`: captured original content, hashes and validation evidence. Contact stays archived in `src/contact-popup.json`.
 
-For a text edit, find the project in `src/layouts/PAGE.html` and the matching block in `src/content.json`; update both so desktop and mobile stay identical. For an asset change, add the original to `public/assets/`, update the desktop image and its mobile record, and preserve related captions. Then rebuild and review both widths. The exact-content audit intentionally flags future text changes against the original baseline; update audit expectations only after the owner approves those changes.
+See `DESIGN-SYSTEM.md` for shared rules and intentional differences, and `audit/DESIGN-REFINEMENT-QA.md` for checks and limitations. Update content once in `src/content.json`; change shared presentation in components/styles. The audit compares original wording with whitespace normalization, checks the original desktop capture, image sequence, PDF links, IDs, anchors and asset hashes.
 
-Desktop layout follows the original site above 900px. On desktops narrower than 1440px, the same composition scales proportionally to fit rather than clipping its left/right edges. Phone/tablet layouts use a separate semantic rendering of the same content, hidden from the accessibility tree when inactive. Photos keep their natural aspect ratios in mobile project views. Text-containing image panels can be enlarged to their original resolution.
+On a disk with limited free space, run `node scripts/build.mjs --link-assets`, then `node scripts/serve.mjs`. The local-only flag avoids duplicating media. Normal `npm run build` still creates a self-contained static deployment.
 
 ## Deploy independently
 
@@ -62,7 +60,7 @@ The dormant Contact popup contains pre-existing template text (`info@mysite.com`
 
 ## Verification and limits
 
-See `audit/QA.md` and `audit/build-verification.json`. All 25 sitemap pages plus the blank `/fullscreen-page` route were recovered. The contact popup was also inventoried separately. The exact-text check includes both desktop and mobile output. Original media and PDFs are SHA-256 verified. Published pages have no Wix-hosted media dependency.
+See `audit/QA.md` and `audit/build-verification.json`. All 25 sitemap pages plus the blank `/fullscreen-page` route were recovered. The contact popup was also inventoried separately. The text check covers the single rendering shared by desktop and mobile. Original media and PDFs are SHA-256 verified. Published pages have no Wix-hosted media dependency.
 
 Browser tests cover phone, tablet, full desktop, smaller desktop, navigation, native media, local downloads, section anchors and image-dialog focus. Physical iPhone/Android hardware was not available; safe-area behavior, browser bars, real touch feel and real-device performance still need an owner device check. This limitation does not affect the preserved content audit.
 

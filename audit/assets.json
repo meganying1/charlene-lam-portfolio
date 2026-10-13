@@ -1,0 +1,2752 @@
+[
+  {
+    "url": "https://static.wixstatic.com/media/55147f_aacade03db4b4bea8ad5ed509a43194d~mv2.jpg",
+    "path": "work/original-assets/55147f_aacade03db4b4bea8ad5ed509a43194d~mv2.jpg",
+    "bytes": 73134,
+    "sha256": "cfca987c5a51c024652ee73b671149fa01422bc2aa7315515cad774a012b2c5e",
+    "references": [
+      {
+        "page": "copy-of-autopasser",
+        "kind": "image",
+        "alt": "Core Gripper Brainstorm1024_1.jpg",
+        "id": "img_comp-lkzypmuu7"
+      }
+    ],
+    "local": "/assets/55147f_aacade03db4b4bea8ad5ed509a43194d~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_6fdffc4674cb4d1d9733cfc231a80ae1~mv2.jpg",
+    "path": "work/original-assets/55147f_6fdffc4674cb4d1d9733cfc231a80ae1~mv2.jpg",
+    "bytes": 25796,
+    "sha256": "7a6e2c0174abf166fa8753ce4a47025359c10bfcca0cb1f9c77d1c9614b363ec",
+    "references": [
+      {
+        "page": "copy-of-autopasser",
+        "kind": "image",
+        "alt": "Lyndra Brainstorm1024_11.jpg",
+        "id": "img_comp-lkzypmuz3"
+      }
+    ],
+    "local": "/assets/55147f_6fdffc4674cb4d1d9733cfc231a80ae1~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_725ef01cd97249f18620c687bdc8b178~mv2.jpg",
+    "path": "work/original-assets/55147f_725ef01cd97249f18620c687bdc8b178~mv2.jpg",
+    "bytes": 76384,
+    "sha256": "2e8b9fcf27b8226979726805b196c79fb440ef78f783782393e18a5b5aa7a860",
+    "references": [
+      {
+        "page": "copy-of-autopasser",
+        "kind": "image",
+        "alt": "Lyndra Brainstorm1024_2.jpg",
+        "id": "img_comp-lkzypmv05"
+      }
+    ],
+    "local": "/assets/55147f_725ef01cd97249f18620c687bdc8b178~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_d668207b44d949afa312ea7eef596fed~mv2.jpg",
+    "path": "work/original-assets/55147f_d668207b44d949afa312ea7eef596fed~mv2.jpg",
+    "bytes": 33149,
+    "sha256": "82523101da7446b055cd07002d36b5131327bb6f673c248ecc31dee871320187",
+    "references": [
+      {
+        "page": "copy-of-autopasser",
+        "kind": "image",
+        "alt": "Lyndra Brainstorm1024_8.jpg",
+        "id": "img_comp-lkzypmv22"
+      }
+    ],
+    "local": "/assets/55147f_d668207b44d949afa312ea7eef596fed~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_ea11b7d22c404eb79023cb6aab7fda14~mv2.jpg",
+    "path": "work/original-assets/55147f_ea11b7d22c404eb79023cb6aab7fda14~mv2.jpg",
+    "bytes": 42986,
+    "sha256": "fd9ccd2386c85a805812550965bba5290004bde0f70162eaf40313654d2871fc",
+    "references": [
+      {
+        "page": "copy-of-autopasser",
+        "kind": "image",
+        "alt": "Lyndra Brainstorm1024_10.jpg",
+        "id": "img_comp-lkzypmv34"
+      }
+    ],
+    "local": "/assets/55147f_ea11b7d22c404eb79023cb6aab7fda14~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_73ec154acbdb43af953e7d11fc12dd09~mv2.jpg",
+    "path": "work/original-assets/55147f_73ec154acbdb43af953e7d11fc12dd09~mv2.jpg",
+    "bytes": 31682,
+    "sha256": "733a76aaef1b63c65fff7b93ae90114d7cb56e4153ed23524bec1abd31ab20b2",
+    "references": [
+      {
+        "page": "copy-of-autopasser",
+        "kind": "image",
+        "alt": "Lyndra Brainstorm1024_6.jpg",
+        "id": "img_comp-lkzypmv44"
+      }
+    ],
+    "local": "/assets/55147f_73ec154acbdb43af953e7d11fc12dd09~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_6eb1ffae361e4ea29992f05a631e048a~mv2.jpg",
+    "path": "work/original-assets/55147f_6eb1ffae361e4ea29992f05a631e048a~mv2.jpg",
+    "bytes": 27845,
+    "sha256": "c30ec2dabf9ee8741a25059a82db89e544efdc33647e39d25cd7fd542a07c41e",
+    "references": [
+      {
+        "page": "copy-of-autopasser",
+        "kind": "image",
+        "alt": "Lyndra Brainstorm1024_9.jpg",
+        "id": "img_comp-lkzypmv54"
+      }
+    ],
+    "local": "/assets/55147f_6eb1ffae361e4ea29992f05a631e048a~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_f862676e027347b0bd432918ef2306fe~mv2.jpg",
+    "path": "work/original-assets/55147f_f862676e027347b0bd432918ef2306fe~mv2.jpg",
+    "bytes": 22275,
+    "sha256": "6e6f8a183774ac117e9c7f2b70214d72bd5f383a7d69623b26e54737cabb0e92",
+    "references": [
+      {
+        "page": "copy-of-autopasser",
+        "kind": "image",
+        "alt": "Lyndra Brainstorm1024_5.jpg",
+        "id": "img_comp-lkzypmv63"
+      }
+    ],
+    "local": "/assets/55147f_f862676e027347b0bd432918ef2306fe~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_65f8a81070e74d85a1e81f5f2d590a29~mv2.png",
+    "path": "work/original-assets/55147f_65f8a81070e74d85a1e81f5f2d590a29~mv2.png",
+    "bytes": 45147,
+    "sha256": "864b27f0d298b33b6dc10a33b186f5870c995c63f4a450ffa3430825c485fcac",
+    "references": [
+      {
+        "page": "copy-of-autopasser",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-lkzypmv72"
+      }
+    ],
+    "local": "/assets/55147f_65f8a81070e74d85a1e81f5f2d590a29~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_ccc51cbc83fe4189817f6690eb2f8f0a~mv2.jpg",
+    "path": "work/original-assets/55147f_ccc51cbc83fe4189817f6690eb2f8f0a~mv2.jpg",
+    "bytes": 26701,
+    "sha256": "5827f9fdf13b3ed62294adefcd7a5584da5bdaeba71816b8a7324389b8fbb8cf",
+    "references": [
+      {
+        "page": "copy-of-autopasser",
+        "kind": "image",
+        "alt": "Lyndra Brainstorm1024_3.jpg",
+        "id": "img_comp-lkzypmv83"
+      }
+    ],
+    "local": "/assets/55147f_ccc51cbc83fe4189817f6690eb2f8f0a~mv2.jpg"
+  },
+  {
+    "url": "https://www.charlene-lam.com/_files/ugd/55147f_6ee3d566cf67449d8fc84a0aa4309a5c.pdf",
+    "path": "work/original-assets/55147f_6ee3d566cf67449d8fc84a0aa4309a5c.pdf",
+    "bytes": 107274,
+    "sha256": "51ab68498b44e6dba2d6303bb3f8309c209bcd01272de333840da2b45bd26e9f",
+    "references": [
+      {
+        "page": "copy-of-autopasser",
+        "kind": "file",
+        "text": "RESUME"
+      },
+      {
+        "page": "autopasser",
+        "kind": "file",
+        "text": "RESUME"
+      },
+      {
+        "page": "engineering",
+        "kind": "file",
+        "text": "RESUME"
+      },
+      {
+        "page": "design",
+        "kind": "file",
+        "text": "RESUME"
+      },
+      {
+        "page": "art",
+        "kind": "file",
+        "text": "RESUME"
+      },
+      {
+        "page": "photography",
+        "kind": "file",
+        "text": "RESUME"
+      },
+      {
+        "page": "strawberry-sandals",
+        "kind": "file",
+        "text": "RESUME"
+      },
+      {
+        "page": "shoe-design-exploration",
+        "kind": "file",
+        "text": "RESUME"
+      },
+      {
+        "page": "automated-gripper",
+        "kind": "file",
+        "text": "RESUME"
+      },
+      {
+        "page": "portrait-dog",
+        "kind": "file",
+        "text": "RESUME"
+      },
+      {
+        "page": "design-with-type",
+        "kind": "file",
+        "text": "RESUME"
+      },
+      {
+        "page": "copy-of-automated-gripper",
+        "kind": "file",
+        "text": "RESUME"
+      },
+      {
+        "page": "air-jordan-colorway",
+        "kind": "file",
+        "text": "RESUME"
+      },
+      {
+        "page": "updating",
+        "kind": "file",
+        "text": "RESUME"
+      },
+      {
+        "page": "portrait-george-floyd",
+        "kind": "file",
+        "text": "RESUME"
+      },
+      {
+        "page": "about",
+        "kind": "file",
+        "text": "RESUME"
+      },
+      {
+        "page": "bird-painting-leather",
+        "kind": "file",
+        "text": "RESUME"
+      },
+      {
+        "page": "portrait-ruth-bader-ginsburg",
+        "kind": "file",
+        "text": "RESUME"
+      },
+      {
+        "page": "copy-of-sageware",
+        "kind": "file",
+        "text": "RESUME"
+      },
+      {
+        "page": "homage-norman-ives",
+        "kind": "file",
+        "text": "RESUME"
+      },
+      {
+        "page": "apple",
+        "kind": "file",
+        "text": "RESUME"
+      },
+      {
+        "page": "sageware",
+        "kind": "file",
+        "text": "RESUME"
+      },
+      {
+        "page": "home",
+        "kind": "file",
+        "text": "RESUME"
+      },
+      {
+        "page": "endless-garden",
+        "kind": "file",
+        "text": "RESUME"
+      },
+      {
+        "page": "portrait-aphrodite",
+        "kind": "file",
+        "text": "RESUME"
+      }
+    ],
+    "local": "/_files/ugd/55147f_6ee3d566cf67449d8fc84a0aa4309a5c.pdf"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_ebdfaa5142b04b998a741f283958fa4ef000.jpg",
+    "path": "work/original-assets/55147f_ebdfaa5142b04b998a741f283958fa4ef000.jpg",
+    "bytes": 186325,
+    "sha256": "45fd9b319b10b799ee8e4a95fc7daad74a178f3a24f7488c459a7a51f06830d4",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "",
+        "id": "comp-lkzyf7za3_img"
+      },
+      {
+        "page": "engineering",
+        "kind": "image",
+        "alt": "",
+        "id": "comp-lkobaciy_img"
+      }
+    ],
+    "local": "/assets/55147f_ebdfaa5142b04b998a741f283958fa4ef000.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_bf9af77922264a8cb80274a2e29a4e9c~mv2.png",
+    "path": "work/original-assets/55147f_bf9af77922264a8cb80274a2e29a4e9c~mv2.png",
+    "bytes": 34995,
+    "sha256": "d73a7b64de985098b3550b886b9e55c69d31423e5462e86ee69ad675d9e02a82",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "image.png",
+        "id": "img_comp-ll0tsaz8"
+      }
+    ],
+    "local": "/assets/55147f_bf9af77922264a8cb80274a2e29a4e9c~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_718e099dbe7b4f3dbaf90759f36f0e31~mv2.png",
+    "path": "work/original-assets/55147f_718e099dbe7b4f3dbaf90759f36f0e31~mv2.png",
+    "bytes": 14469,
+    "sha256": "49aae1188dd6c7ed88061981b58539d0bfd717f69bad2bdc9357e7e9760729f7",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "Asset 2.png",
+        "id": "img_comp-ll0un1oe"
+      }
+    ],
+    "local": "/assets/55147f_718e099dbe7b4f3dbaf90759f36f0e31~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_aa33389d635c4cda84da2a9fe2fa3b05~mv2.jpg",
+    "path": "work/original-assets/55147f_aa33389d635c4cda84da2a9fe2fa3b05~mv2.jpg",
+    "bytes": 729977,
+    "sha256": "350554a220c4c272c233b8cc79dc7e38c92f3e881b20c44331443af21055e932",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "IMG_8359.jpg",
+        "id": "img_comp-ll3cczro"
+      }
+    ],
+    "local": "/assets/55147f_aa33389d635c4cda84da2a9fe2fa3b05~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_93fe80e26da943c2bdf625a8af07746b~mv2.jpg",
+    "path": "work/original-assets/55147f_93fe80e26da943c2bdf625a8af07746b~mv2.jpg",
+    "bytes": 644107,
+    "sha256": "ac8d255182c30a5408386095ef4e13af080307878fd14d01017ba43b2687d315",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "IMG_8757.jpg",
+        "id": "img_comp-ll3cdfmh"
+      }
+    ],
+    "local": "/assets/55147f_93fe80e26da943c2bdf625a8af07746b~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_7cf234b6fd094a15a233da6ea7faa9ff~mv2.jpg",
+    "path": "work/original-assets/55147f_7cf234b6fd094a15a233da6ea7faa9ff~mv2.jpg",
+    "bytes": 1022040,
+    "sha256": "281f42b81a364e91b192d2d5b394c3ecb29b558c19b3892b1136fb07bfd32904",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "IMG_7068.jpg",
+        "id": "img_comp-ll3cbqna"
+      }
+    ],
+    "local": "/assets/55147f_7cf234b6fd094a15a233da6ea7faa9ff~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_34c581e9ed5040eeab42bd0c546e4d8f~mv2.png",
+    "path": "work/original-assets/55147f_34c581e9ed5040eeab42bd0c546e4d8f~mv2.png",
+    "bytes": 653232,
+    "sha256": "ee9a6ef28e4f14669044be75a52c160f6b4421dab3b212eac97d97e9eb2e3e31",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "AutoPasser.png",
+        "id": "img_comp-ll3cym9n"
+      }
+    ],
+    "local": "/assets/55147f_34c581e9ed5040eeab42bd0c546e4d8f~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_9912696bda3745bf8fb81eabce331042~mv2.jpg",
+    "path": "work/original-assets/55147f_9912696bda3745bf8fb81eabce331042~mv2.jpg",
+    "bytes": 138825,
+    "sha256": "548e6dbc5490a827a6d9b86b1a3d31d6839c6bfe49e62adc56f9f41b582df5dc",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "IMG_7932_edited.jpg",
+        "id": "img_comp-ll3c44li"
+      }
+    ],
+    "local": "/assets/55147f_9912696bda3745bf8fb81eabce331042~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_2c2d39441c0f4f638737d469276aac4f~mv2.jpg",
+    "path": "work/original-assets/55147f_2c2d39441c0f4f638737d469276aac4f~mv2.jpg",
+    "bytes": 126006,
+    "sha256": "0cc7a54f76a0560967edb62696633c6d2acd9873bb41b9c7ae9d2c41117ef6e1",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "IMG_7931_edited.jpg",
+        "id": "img_comp-ll3c471e"
+      }
+    ],
+    "local": "/assets/55147f_2c2d39441c0f4f638737d469276aac4f~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_9d58a096bbcd48db870b1aa2ace9cb6b~mv2.jpg",
+    "path": "work/original-assets/55147f_9d58a096bbcd48db870b1aa2ace9cb6b~mv2.jpg",
+    "bytes": 326668,
+    "sha256": "9a344fa54999ba7ab1495677f4124fff5227d70c76bef7c271d30c2687ed26fa",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "IMG_8395.jpg",
+        "id": "img_comp-ll3c3ori"
+      }
+    ],
+    "local": "/assets/55147f_9d58a096bbcd48db870b1aa2ace9cb6b~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_d03303b6e02c4607b448e1043258416f~mv2.png",
+    "path": "work/original-assets/55147f_d03303b6e02c4607b448e1043258416f~mv2.png",
+    "bytes": 118043,
+    "sha256": "1d7ef324d865d81eecad58892b7498909e37b99522fdb2725c2fa01cd004c217",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "image.png",
+        "id": "img_comp-ll3byziu"
+      }
+    ],
+    "local": "/assets/55147f_d03303b6e02c4607b448e1043258416f~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_f505b817763240a3987239730b2e103e~mv2.jpg",
+    "path": "work/original-assets/55147f_f505b817763240a3987239730b2e103e~mv2.jpg",
+    "bytes": 60006,
+    "sha256": "e9bd6d814e63af3a29ac8b1a33e3efaa04c067b8895f1edd73fbe1dc523179df",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "image_edited.jpg",
+        "id": "img_comp-lleku9rx"
+      }
+    ],
+    "local": "/assets/55147f_f505b817763240a3987239730b2e103e~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_45fe5c2baa1b4b8e86061b6c7b7f8bc2~mv2.jpg",
+    "path": "work/original-assets/55147f_45fe5c2baa1b4b8e86061b6c7b7f8bc2~mv2.jpg",
+    "bytes": 92334,
+    "sha256": "0014ef125534b22ca311092a91d3cbc9e809e16f2dca10830933738d1a028093",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "LCD screen build_edited_edited.jpg",
+        "id": "img_comp-llel30db"
+      }
+    ],
+    "local": "/assets/55147f_45fe5c2baa1b4b8e86061b6c7b7f8bc2~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_f23ee5edcc3049b0af6d451c03d40827~mv2.jpg",
+    "path": "work/original-assets/55147f_f23ee5edcc3049b0af6d451c03d40827~mv2.jpg",
+    "bytes": 426230,
+    "sha256": "c888a0cf5bb59a4cf0f367363e428782b63c8ce44df3523221868b5c68fdea53",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "IMG_8392.jpg",
+        "id": "img_comp-ll3dk85m"
+      }
+    ],
+    "local": "/assets/55147f_f23ee5edcc3049b0af6d451c03d40827~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_9a3f6df79353474bb33e77fc91ac9a86~mv2.gif",
+    "path": "work/original-assets/55147f_9a3f6df79353474bb33e77fc91ac9a86~mv2.gif",
+    "bytes": 1201658,
+    "sha256": "373c5422200e3e603f5381448f326c4d8b08d5bdc7bfe02366db4bd0acc62584",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "GUI_video_AdobeExpress_AdobeExpress (1).gif",
+        "id": "img_comp-ll3djky6"
+      }
+    ],
+    "local": "/assets/55147f_9a3f6df79353474bb33e77fc91ac9a86~mv2.gif"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_a140b45d54d64af590c1a6386399402ef000.jpg",
+    "path": "work/original-assets/55147f_a140b45d54d64af590c1a6386399402ef000.jpg",
+    "bytes": 175670,
+    "sha256": "2cf38bbb2ba60bbda7081de81cbf873ae984048329969b23b7e42af1f5b45786",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "",
+        "id": "comp-ll3dtjy9_img"
+      }
+    ],
+    "local": "/assets/55147f_a140b45d54d64af590c1a6386399402ef000.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_c9d9feb6a76d4b2ab4dd1942eddc4e49~mv2.png",
+    "path": "work/original-assets/55147f_c9d9feb6a76d4b2ab4dd1942eddc4e49~mv2.png",
+    "bytes": 8689,
+    "sha256": "21ff6796a8b2520bf77149072a4a48c8fce5673271a3064f1715598fca9a6ebf",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "Asset 4.png",
+        "id": "img_comp-ll09x2cm"
+      }
+    ],
+    "local": "/assets/55147f_c9d9feb6a76d4b2ab4dd1942eddc4e49~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_404cba0604fd433c98fbfb485101e3f8~mv2.jpg",
+    "path": "work/original-assets/55147f_404cba0604fd433c98fbfb485101e3f8~mv2.jpg",
+    "bytes": 41886,
+    "sha256": "f0d12c91245fe8001abb1df7b45a5dc5365fea4acf751f8d1662bd90e841fc07",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "image_edited.jpg",
+        "id": "img_comp-ll3cvoqs"
+      }
+    ],
+    "local": "/assets/55147f_404cba0604fd433c98fbfb485101e3f8~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_e3acd6ed1d5c4f85b40773460245bc20~mv2.png",
+    "path": "work/original-assets/55147f_e3acd6ed1d5c4f85b40773460245bc20~mv2.png",
+    "bytes": 5288,
+    "sha256": "1d1edbdab18b626df2aa3796183cf1ff844ae7f24675bc9c39968cd2d7fad831",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "Asset 5.png",
+        "id": "img_comp-ll09wyn0"
+      }
+    ],
+    "local": "/assets/55147f_e3acd6ed1d5c4f85b40773460245bc20~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_ca79dfebc6c9458d86ecb15a94e29cb9~mv2.png",
+    "path": "work/original-assets/55147f_ca79dfebc6c9458d86ecb15a94e29cb9~mv2.png",
+    "bytes": 14469,
+    "sha256": "49aae1188dd6c7ed88061981b58539d0bfd717f69bad2bdc9357e7e9760729f7",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "Asset 2.png",
+        "id": "img_comp-ll09uw6q"
+      }
+    ],
+    "local": "/assets/55147f_ca79dfebc6c9458d86ecb15a94e29cb9~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_bc8f5b0b14ce46e8892671d37cea4f6e~mv2.png",
+    "path": "work/original-assets/55147f_bc8f5b0b14ce46e8892671d37cea4f6e~mv2.png",
+    "bytes": 5697,
+    "sha256": "735ad91e254fb3c48547d444e29f1f6c5d50befe2d106165cc66dcb2c5db2370",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "Asset 3.png",
+        "id": "img_comp-ll09vqyv"
+      }
+    ],
+    "local": "/assets/55147f_bc8f5b0b14ce46e8892671d37cea4f6e~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_b31103a9cb2d4f818bf1c036a024c1cd~mv2.jpg",
+    "path": "work/original-assets/55147f_b31103a9cb2d4f818bf1c036a024c1cd~mv2.jpg",
+    "bytes": 187826,
+    "sha256": "a3c9c782680ed88174fc5f86d659dc8fc3061b66e68ef5db0a5196c1a61505a1",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "IMG_7931_edited.jpg",
+        "id": "img_comp-ll3cciu0"
+      }
+    ],
+    "local": "/assets/55147f_b31103a9cb2d4f818bf1c036a024c1cd~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_76082df31b134c91ae3d7fc90e6479b5~mv2.jpg",
+    "path": "work/original-assets/55147f_76082df31b134c91ae3d7fc90e6479b5~mv2.jpg",
+    "bytes": 192235,
+    "sha256": "bcb960edc484803f3f1fa73b6fef5e27188e7c5dd225be65a92619f849bb9600",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "IMG_7066_edited.jpg",
+        "id": "img_comp-ll3ccpe0"
+      }
+    ],
+    "local": "/assets/55147f_76082df31b134c91ae3d7fc90e6479b5~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_9efb76b3a62e464692212f73bce3b535~mv2.jpg",
+    "path": "work/original-assets/55147f_9efb76b3a62e464692212f73bce3b535~mv2.jpg",
+    "bytes": 125821,
+    "sha256": "301caa015910636c1c12d62aa8bb1922bb96fb571e359d03ad8536fe01f26ff8",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "IMG_7227_edited.jpg",
+        "id": "img_comp-ll3cccce"
+      }
+    ],
+    "local": "/assets/55147f_9efb76b3a62e464692212f73bce3b535~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_5d13ffada4e84976935b25a731f83997~mv2.jpg",
+    "path": "work/original-assets/55147f_5d13ffada4e84976935b25a731f83997~mv2.jpg",
+    "bytes": 175794,
+    "sha256": "d801748646b39de96cea4685c64558e72a3bb8fb07959b4b70240c25c7872a9b",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "IMG_7929_edited.jpg",
+        "id": "img_comp-ll3cceu7"
+      }
+    ],
+    "local": "/assets/55147f_5d13ffada4e84976935b25a731f83997~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_fa49c6d70af745dfa917b70cbe01dd7a~mv2.jpg",
+    "path": "work/original-assets/55147f_fa49c6d70af745dfa917b70cbe01dd7a~mv2.jpg",
+    "bytes": 1003916,
+    "sha256": "c02df47c90167453807facb4dc4cf2452c54f84fe7109ad0a1c0204301167557",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "IMG_9564.jpg",
+        "id": "img_comp-ll3b4u2t"
+      }
+    ],
+    "local": "/assets/55147f_fa49c6d70af745dfa917b70cbe01dd7a~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_2ec6c9bd83c440aeb0926ded67bbcc89~mv2.jpg",
+    "path": "work/original-assets/55147f_2ec6c9bd83c440aeb0926ded67bbcc89~mv2.jpg",
+    "bytes": 991165,
+    "sha256": "e919594fa8228a75bacc8a8c31e30578de937f72627168a0e139f45494c9cb49",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "IMG_1183.jpg",
+        "id": "img_comp-ll3b4n24"
+      }
+    ],
+    "local": "/assets/55147f_2ec6c9bd83c440aeb0926ded67bbcc89~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_7d50a20d59b34853bc87393cc49c6a68~mv2.jpg",
+    "path": "work/original-assets/55147f_7d50a20d59b34853bc87393cc49c6a68~mv2.jpg",
+    "bytes": 1218436,
+    "sha256": "afb40466fd68640555c3ed2e0155421ff024dae88cd1ffd55f92604f397b9c9f",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "image",
+        "alt": "IMG_9566.jpg",
+        "id": "img_comp-ll3baavv"
+      }
+    ],
+    "local": "/assets/55147f_7d50a20d59b34853bc87393cc49c6a68~mv2.jpg"
+  },
+  {
+    "url": "https://www.charlene-lam.com/_files/ugd/55147f_537ed62014554e9a8c69a08de7072d32.pdf",
+    "path": "work/original-assets/55147f_537ed62014554e9a8c69a08de7072d32.pdf",
+    "bytes": 27283503,
+    "sha256": "8a895da257f5e5d1ffecbba83344475eed8c2fb372e80f765aac915b91b44263",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "file",
+        "text": "Final Report PDF"
+      }
+    ],
+    "local": "/_files/ugd/55147f_537ed62014554e9a8c69a08de7072d32.pdf"
+  },
+  {
+    "url": "https://video.wixstatic.com/video/55147f_ebdfaa5142b04b998a741f283958fa4e/1080p/mp4/file.mp4",
+    "path": "work/original-assets/55147f_ebdfaa5142b04b998a741f283958fa4e-1080p.mp4",
+    "bytes": 6803544,
+    "sha256": "fefc9a5f0b0f2deccd8879ab0d107f5a51db49c3200a42edbd26367730342b32",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "video",
+        "id": "comp-lkzyf7za3",
+        "qualities": [
+          {
+            "quality": "480p",
+            "size": 298560,
+            "url": "video/55147f_ebdfaa5142b04b998a741f283958fa4e/480p/mp4/file.mp4"
+          },
+          {
+            "quality": "720p",
+            "size": 671040,
+            "url": "video/55147f_ebdfaa5142b04b998a741f283958fa4e/720p/mp4/file.mp4"
+          },
+          {
+            "quality": "1080p",
+            "size": 1509840,
+            "url": "video/55147f_ebdfaa5142b04b998a741f283958fa4e/1080p/mp4/file.mp4"
+          }
+        ]
+      },
+      {
+        "page": "engineering",
+        "kind": "video",
+        "id": "comp-lkobaciy",
+        "qualities": [
+          {
+            "quality": "480p",
+            "size": 298560,
+            "url": "video/55147f_ebdfaa5142b04b998a741f283958fa4e/480p/mp4/file.mp4"
+          },
+          {
+            "quality": "720p",
+            "size": 671040,
+            "url": "video/55147f_ebdfaa5142b04b998a741f283958fa4e/720p/mp4/file.mp4"
+          },
+          {
+            "quality": "1080p",
+            "size": 1509840,
+            "url": "video/55147f_ebdfaa5142b04b998a741f283958fa4e/1080p/mp4/file.mp4"
+          }
+        ]
+      }
+    ],
+    "local": "/assets/55147f_ebdfaa5142b04b998a741f283958fa4e-1080p.mp4"
+  },
+  {
+    "url": "https://video.wixstatic.com/video/55147f_a140b45d54d64af590c1a6386399402e/720p/mp4/file.mp4",
+    "path": "work/original-assets/55147f_a140b45d54d64af590c1a6386399402e-720p.mp4",
+    "bytes": 12851684,
+    "sha256": "1db622d8dc7ede3fc312ea7118125cbe8ccae55f291cde34f9b35a4aa50518b0",
+    "references": [
+      {
+        "page": "autopasser",
+        "kind": "video",
+        "id": "comp-ll3dtjy9",
+        "qualities": [
+          {
+            "quality": "360p",
+            "size": 72720,
+            "url": "video/55147f_a140b45d54d64af590c1a6386399402e/360p/mp4/file.mp4"
+          },
+          {
+            "quality": "480p",
+            "size": 129600,
+            "url": "video/55147f_a140b45d54d64af590c1a6386399402e/480p/mp4/file.mp4"
+          },
+          {
+            "quality": "720p",
+            "size": 921600,
+            "url": "video/55147f_a140b45d54d64af590c1a6386399402e/720p/mp4/file.mp4"
+          }
+        ]
+      }
+    ],
+    "local": "/assets/55147f_a140b45d54d64af590c1a6386399402e-720p.mp4"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_5420dde9a0ff451189bd66ce252d93b1~mv2.png",
+    "path": "work/original-assets/55147f_5420dde9a0ff451189bd66ce252d93b1~mv2.png",
+    "bytes": 337220,
+    "sha256": "aefe35bfe426bba2adf05c78b8c7a8235963f751ae9653944a0e14df819dbb84",
+    "references": [
+      {
+        "page": "engineering",
+        "kind": "image",
+        "alt": "Asset 16.png",
+        "id": "img_comp-m3wzzlw1"
+      },
+      {
+        "page": "home",
+        "kind": "image",
+        "alt": "Asset 16.png",
+        "id": "img_comp-mlihtv48"
+      }
+    ],
+    "local": "/assets/55147f_5420dde9a0ff451189bd66ce252d93b1~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_919dac32e8e940519cbcbce069b61349~mv2.png",
+    "path": "work/original-assets/55147f_919dac32e8e940519cbcbce069b61349~mv2.png",
+    "bytes": 301925,
+    "sha256": "f00a3edec4bfb7f1356e5ca2a563615c4e2a2a0a3525ebf7c4e284632a4d2712",
+    "references": [
+      {
+        "page": "engineering",
+        "kind": "image",
+        "alt": "Asset 13.png",
+        "id": "img_comp-m3wyo9va"
+      }
+    ],
+    "local": "/assets/55147f_919dac32e8e940519cbcbce069b61349~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_9b2be989314446a3a7cde52a4543557b~mv2.png",
+    "path": "work/original-assets/55147f_9b2be989314446a3a7cde52a4543557b~mv2.png",
+    "bytes": 1313976,
+    "sha256": "6863eab587ebe491d805b6a92bc2af7a0f5df000d47247391bb623f0d486dbae",
+    "references": [
+      {
+        "page": "engineering",
+        "kind": "image",
+        "alt": "image.png",
+        "id": "img_comp-m3wyopgg1"
+      }
+    ],
+    "local": "/assets/55147f_9b2be989314446a3a7cde52a4543557b~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_9126543b61344d5ab8980686f39fc33c~mv2.png",
+    "path": "work/original-assets/55147f_9126543b61344d5ab8980686f39fc33c~mv2.png",
+    "bytes": 1417761,
+    "sha256": "b1a6641f2a723056b80e5d8b78ed2a63a331bf5212684b132d2fea9caee96038",
+    "references": [
+      {
+        "page": "engineering",
+        "kind": "image",
+        "alt": "Asset 14.png",
+        "id": "img_comp-m3wywurh"
+      }
+    ],
+    "local": "/assets/55147f_9126543b61344d5ab8980686f39fc33c~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_e665e54893d84afbb22e3c0d24d5c85bf000.jpg",
+    "path": "work/original-assets/55147f_e665e54893d84afbb22e3c0d24d5c85bf000.jpg",
+    "bytes": 51685,
+    "sha256": "762255824d4d3e5e1a8a303a090ba04926cf955aed364693fc24a6917bce2bd1",
+    "references": [
+      {
+        "page": "design",
+        "kind": "image",
+        "alt": "",
+        "id": "comp-l96h57jb_img"
+      }
+    ],
+    "local": "/assets/55147f_e665e54893d84afbb22e3c0d24d5c85bf000.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_3e2d3a0265aa4156aae0c5564464daed~mv2.png",
+    "path": "work/original-assets/55147f_3e2d3a0265aa4156aae0c5564464daed~mv2.png",
+    "bytes": 1177267,
+    "sha256": "723e05472f79e9d65111288a5c330f3a707dfdcb9e535aab127403394c6ed32d",
+    "references": [
+      {
+        "page": "design",
+        "kind": "image",
+        "alt": "Asset 3.png",
+        "id": "img_comp-m3x0hsp1"
+      }
+    ],
+    "local": "/assets/55147f_3e2d3a0265aa4156aae0c5564464daed~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_3ddcfcd0e0464a66a9f43ed44e70ee10~mv2.png",
+    "path": "work/original-assets/55147f_3ddcfcd0e0464a66a9f43ed44e70ee10~mv2.png",
+    "bytes": 823491,
+    "sha256": "93463560d8b9e875b92d04d890bbda9b499248c703331f7b8db7086951ead8d5",
+    "references": [
+      {
+        "page": "design",
+        "kind": "image",
+        "alt": "Asset 12.png",
+        "id": "img_comp-m3x0hsp6"
+      }
+    ],
+    "local": "/assets/55147f_3ddcfcd0e0464a66a9f43ed44e70ee10~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_43634c5a9bb64051b547155a460b80ac~mv2.png",
+    "path": "work/original-assets/55147f_43634c5a9bb64051b547155a460b80ac~mv2.png",
+    "bytes": 164033,
+    "sha256": "06e8668888b9e7f27cae0614aa89d93c2102fc25406cd4c615de1d60207f855c",
+    "references": [
+      {
+        "page": "design",
+        "kind": "image",
+        "alt": "Asset 10.png",
+        "id": "img_comp-m3x0hsp4"
+      }
+    ],
+    "local": "/assets/55147f_43634c5a9bb64051b547155a460b80ac~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_537a964d177143039f6d852b85e3084b~mv2.png",
+    "path": "work/original-assets/55147f_537a964d177143039f6d852b85e3084b~mv2.png",
+    "bytes": 426573,
+    "sha256": "bf5161e34a45d8574a1f78e87556adf689a0974dbe26ba9978f4296d1c921b80",
+    "references": [
+      {
+        "page": "design",
+        "kind": "image",
+        "alt": "Asset 17.png",
+        "id": "img_comp-m3x1twpz"
+      }
+    ],
+    "local": "/assets/55147f_537a964d177143039f6d852b85e3084b~mv2.png"
+  },
+  {
+    "url": "https://video.wixstatic.com/video/55147f_e665e54893d84afbb22e3c0d24d5c85b/480p/mp4/file.mp4",
+    "path": "work/original-assets/55147f_e665e54893d84afbb22e3c0d24d5c85b-480p.mp4",
+    "bytes": 1564516,
+    "sha256": "7a0c70375bd9794dc890197813c8e70e4ae84dbca9d17d92476ab4dd4e47f4d3",
+    "references": [
+      {
+        "page": "design",
+        "kind": "video",
+        "id": "comp-l96h57jb",
+        "qualities": [
+          {
+            "quality": "480p",
+            "size": 568320,
+            "url": "video/55147f_e665e54893d84afbb22e3c0d24d5c85b/480p/mp4/file.mp4"
+          }
+        ]
+      }
+    ],
+    "local": "/assets/55147f_e665e54893d84afbb22e3c0d24d5c85b-480p.mp4"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_0cce795b31b74e77ae29aceb393f401c~mv2.gif",
+    "path": "work/original-assets/55147f_0cce795b31b74e77ae29aceb393f401c~mv2.gif",
+    "bytes": 1384715,
+    "sha256": "129330012411b6a809d4ad84eec47fde577cf5ac10d772b08676567e92a9bc99",
+    "references": [
+      {
+        "page": "art",
+        "kind": "image",
+        "alt": "dog-animation-video.gif",
+        "id": "img_comp-m3x42dxq"
+      }
+    ],
+    "local": "/assets/55147f_0cce795b31b74e77ae29aceb393f401c~mv2.gif"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_d933192b1d094b25ba8798700e87a706~mv2.png",
+    "path": "work/original-assets/55147f_d933192b1d094b25ba8798700e87a706~mv2.png",
+    "bytes": 3918875,
+    "sha256": "f0068de98f7866836cd8b029ddd8383313bccc179366e61e2f0c76fc59017352",
+    "references": [
+      {
+        "page": "art",
+        "kind": "image",
+        "alt": "image.png",
+        "id": "img_comp-m3x5bgtv"
+      }
+    ],
+    "local": "/assets/55147f_d933192b1d094b25ba8798700e87a706~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_79c89842d02e44fd8c3a3fba7607a259~mv2.png",
+    "path": "work/original-assets/55147f_79c89842d02e44fd8c3a3fba7607a259~mv2.png",
+    "bytes": 523095,
+    "sha256": "6cf5230a754c49011bb9b9f8e10803ed6c2a1ac5dcf9cce6c6ea92943d55c713",
+    "references": [
+      {
+        "page": "art",
+        "kind": "image",
+        "alt": "Asset 19.png",
+        "id": "img_comp-m3x5dvgb"
+      }
+    ],
+    "local": "/assets/55147f_79c89842d02e44fd8c3a3fba7607a259~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_5ef031e0ba304a14b4ac59936c66f353~mv2.png",
+    "path": "work/original-assets/55147f_5ef031e0ba304a14b4ac59936c66f353~mv2.png",
+    "bytes": 882610,
+    "sha256": "574d21895f0a23a69607192944c7759accc013855a575358305499e3dee85eff",
+    "references": [
+      {
+        "page": "art",
+        "kind": "image",
+        "alt": "Asset 18.png",
+        "id": "img_comp-m3x5dvg2"
+      }
+    ],
+    "local": "/assets/55147f_5ef031e0ba304a14b4ac59936c66f353~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_3409c99082d94664a9506023fc855f1e~mv2.png",
+    "path": "work/original-assets/55147f_3409c99082d94664a9506023fc855f1e~mv2.png",
+    "bytes": 523055,
+    "sha256": "fbb5640b8276726191e8d8f60f3d137844a50f90c7709a703c44b723a3a60d09",
+    "references": [
+      {
+        "page": "art",
+        "kind": "image",
+        "alt": "Asset 21.png",
+        "id": "img_comp-m3x5dvh1"
+      }
+    ],
+    "local": "/assets/55147f_3409c99082d94664a9506023fc855f1e~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_758da2436e54415fa34cf15a39c0e62f~mv2.png",
+    "path": "work/original-assets/55147f_758da2436e54415fa34cf15a39c0e62f~mv2.png",
+    "bytes": 951844,
+    "sha256": "7f7af4164e6a5b4ccd1ce8c56a052a3d5ba2900262991b7640ca069248b2b4a2",
+    "references": [
+      {
+        "page": "art",
+        "kind": "image",
+        "alt": "Asset 20.png",
+        "id": "img_comp-m3x5dvgt"
+      }
+    ],
+    "local": "/assets/55147f_758da2436e54415fa34cf15a39c0e62f~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_a5f7179de81645da9ba03c1d7855ce7f~mv2.png",
+    "path": "work/original-assets/55147f_a5f7179de81645da9ba03c1d7855ce7f~mv2.png",
+    "bytes": 4045336,
+    "sha256": "048bf12617cad139e5375105f331b3f572eb04cf451292535110c39fdcf53b81",
+    "references": [
+      {
+        "page": "art",
+        "kind": "image",
+        "alt": "image.png",
+        "id": "img_comp-m3x5ialb"
+      }
+    ],
+    "local": "/assets/55147f_a5f7179de81645da9ba03c1d7855ce7f~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_c7070574513c4b089f52887ac07a72b1~mv2.jpg",
+    "path": "work/original-assets/55147f_c7070574513c4b089f52887ac07a72b1~mv2.jpg",
+    "bytes": 322041,
+    "sha256": "5ea2316e2454a0648ddcd10c26ec5c6c9312c2efcf8dad020d43ce7342980896",
+    "references": [
+      {
+        "page": "photography",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlww4b2g"
+      }
+    ],
+    "local": "/assets/55147f_c7070574513c4b089f52887ac07a72b1~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_739fa40fe3fe4c29aec421e4bba7b452~mv2.jpg",
+    "path": "work/original-assets/55147f_739fa40fe3fe4c29aec421e4bba7b452~mv2.jpg",
+    "bytes": 391383,
+    "sha256": "125354fae43e89f49d00200837575ce7ed7ee3608919ba73de96961229fd708c",
+    "references": [
+      {
+        "page": "photography",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlww4b2s"
+      }
+    ],
+    "local": "/assets/55147f_739fa40fe3fe4c29aec421e4bba7b452~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_24178ebd4e4543adb7e0d06512398e1e~mv2.jpg",
+    "path": "work/original-assets/55147f_24178ebd4e4543adb7e0d06512398e1e~mv2.jpg",
+    "bytes": 310508,
+    "sha256": "2fc7ad7cf7ac8f5edeacdea8ca69539724c94ed0b5f8ccae4f998667f94ddf4b",
+    "references": [
+      {
+        "page": "photography",
+        "kind": "image",
+        "alt": "CharleneLam(MechE)_GUNNAR_RedRoomAtCafe939-7.jpg",
+        "id": "img_comp-mh8s48xv"
+      }
+    ],
+    "local": "/assets/55147f_24178ebd4e4543adb7e0d06512398e1e~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_4e3cb9eded724dca886b965076387c49~mv2.jpg",
+    "path": "work/original-assets/55147f_4e3cb9eded724dca886b965076387c49~mv2.jpg",
+    "bytes": 255801,
+    "sha256": "44e51e73e72ce1a8f654e157bcd1e4728c2291750490135cf73fd39aa729ad45",
+    "references": [
+      {
+        "page": "photography",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlww4b2i"
+      }
+    ],
+    "local": "/assets/55147f_4e3cb9eded724dca886b965076387c49~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_6264cd54dba348318c82010ac346eaba~mv2.jpg",
+    "path": "work/original-assets/55147f_6264cd54dba348318c82010ac346eaba~mv2.jpg",
+    "bytes": 5378075,
+    "sha256": "89dd7ff29b4f146eefe0434432a2f0d0642ce0aa67005de8170a276cf036a1e1",
+    "references": [
+      {
+        "page": "photography",
+        "kind": "image",
+        "alt": "CharleneLam(MechE)_ZoeKo_RedRoomAtCafe939-4.jpg",
+        "id": "img_comp-mh8sccpf"
+      }
+    ],
+    "local": "/assets/55147f_6264cd54dba348318c82010ac346eaba~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_575d88c895634049aab47b2fcfdddf60~mv2.jpg",
+    "path": "work/original-assets/55147f_575d88c895634049aab47b2fcfdddf60~mv2.jpg",
+    "bytes": 273162,
+    "sha256": "deee7184dd6cff79051c5ba424d48ceed0b863b774be002d817e5a10e22b5a43",
+    "references": [
+      {
+        "page": "photography",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlww4b2o"
+      }
+    ],
+    "local": "/assets/55147f_575d88c895634049aab47b2fcfdddf60~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_174c04b6782947e49925a5c50c37e2ed~mv2.jpg",
+    "path": "work/original-assets/55147f_174c04b6782947e49925a5c50c37e2ed~mv2.jpg",
+    "bytes": 169541,
+    "sha256": "2a16cf84a88a91a2face6d490393d7d5e4b4e74b4c17085e031f1f96ac75d96c",
+    "references": [
+      {
+        "page": "photography",
+        "kind": "image",
+        "alt": "CharleneLam(MechE)_GUNNAR_RedRoomAtCafe939-4.jpg",
+        "id": "img_comp-mh8s455d"
+      }
+    ],
+    "local": "/assets/55147f_174c04b6782947e49925a5c50c37e2ed~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_267600fac62a4b93a14fae87da62ef17~mv2.jpg",
+    "path": "work/original-assets/55147f_267600fac62a4b93a14fae87da62ef17~mv2.jpg",
+    "bytes": 3074579,
+    "sha256": "2f934b0fbc69dc64d3e2d3bca338fb81480f37802f86ead45064ca48380974bb",
+    "references": [
+      {
+        "page": "photography",
+        "kind": "image",
+        "alt": "IMG_0340.JPG",
+        "id": "img_comp-mh8sh28i"
+      }
+    ],
+    "local": "/assets/55147f_267600fac62a4b93a14fae87da62ef17~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_29803ab5c79e4495a547d1872df73197~mv2.jpg",
+    "path": "work/original-assets/55147f_29803ab5c79e4495a547d1872df73197~mv2.jpg",
+    "bytes": 463716,
+    "sha256": "b5ccdb065403d93b6f431c03885d26768c4c6c33dba2075417df25edc2ed2407",
+    "references": [
+      {
+        "page": "photography",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlww4b2q"
+      }
+    ],
+    "local": "/assets/55147f_29803ab5c79e4495a547d1872df73197~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_f6ced5d94c7b43a8820114ebb439eb02~mv2.jpg",
+    "path": "work/original-assets/55147f_f6ced5d94c7b43a8820114ebb439eb02~mv2.jpg",
+    "bytes": 339407,
+    "sha256": "9a21d78b270a65d570ef786242c3ab4065afae656a8b2ee72e6f7494253753a8",
+    "references": [
+      {
+        "page": "photography",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlww4b2u"
+      }
+    ],
+    "local": "/assets/55147f_f6ced5d94c7b43a8820114ebb439eb02~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_0ad92ee7708240678ee92c87c3bb4f8c~mv2.jpg",
+    "path": "work/original-assets/55147f_0ad92ee7708240678ee92c87c3bb4f8c~mv2.jpg",
+    "bytes": 3375595,
+    "sha256": "d83f61a044492fa475f12ba67e48b0f5bce19dc083e01653ec839320881f8283",
+    "references": [
+      {
+        "page": "photography",
+        "kind": "image",
+        "alt": "CharleneLam(MechE)_ZoeKo_RedRoomAtCafe939-2.jpg",
+        "id": "img_comp-mh8scciq"
+      }
+    ],
+    "local": "/assets/55147f_0ad92ee7708240678ee92c87c3bb4f8c~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_72e345ec0263423198b2fdd403398e12~mv2.jpg",
+    "path": "work/original-assets/55147f_72e345ec0263423198b2fdd403398e12~mv2.jpg",
+    "bytes": 6208757,
+    "sha256": "3a5dd45d3cffb367c8b6795a49f1107de47397ef144a7185590c6997b1486bd8",
+    "references": [
+      {
+        "page": "photography",
+        "kind": "image",
+        "alt": "IMG_0811.JPG",
+        "id": "img_comp-mh8src95"
+      }
+    ],
+    "local": "/assets/55147f_72e345ec0263423198b2fdd403398e12~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_467dc797770a438c8bc9c3531c2c6f27~mv2.jpg",
+    "path": "work/original-assets/55147f_467dc797770a438c8bc9c3531c2c6f27~mv2.jpg",
+    "bytes": 304276,
+    "sha256": "aff0b625b6422438403691bf1161aaf0884de8c4536c82be60657f22d7a61002",
+    "references": [
+      {
+        "page": "photography",
+        "kind": "image",
+        "alt": "CharleneLam(MechE)_GUNNAR_RedRoomAtCafe939-8.jpg",
+        "id": "img_comp-mh8s4ft7"
+      }
+    ],
+    "local": "/assets/55147f_467dc797770a438c8bc9c3531c2c6f27~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_0cb9ad8f005747c8bd893c583bd08d1b~mv2.jpg",
+    "path": "work/original-assets/55147f_0cb9ad8f005747c8bd893c583bd08d1b~mv2.jpg",
+    "bytes": 5622114,
+    "sha256": "e5f63d326af57df1ad2f06f17e709ee77db66a43467255dff7294bddabbd50c4",
+    "references": [
+      {
+        "page": "photography",
+        "kind": "image",
+        "alt": "IMG_0396.JPG",
+        "id": "img_comp-mh8sh4uw"
+      }
+    ],
+    "local": "/assets/55147f_0cb9ad8f005747c8bd893c583bd08d1b~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_f3b6294d81ef4aaebfec2caf7fd0bbb6~mv2.jpg",
+    "path": "work/original-assets/55147f_f3b6294d81ef4aaebfec2caf7fd0bbb6~mv2.jpg",
+    "bytes": 200193,
+    "sha256": "0975653a61ba15080faa53a496840e627d859ba2feab35a5d1d03f33ee0cb804",
+    "references": [
+      {
+        "page": "photography",
+        "kind": "image",
+        "alt": "CharleneLam(MechE)_GUNNAR_RedRoomAtCafe939-9.jpg",
+        "id": "img_comp-mh8s56dy"
+      }
+    ],
+    "local": "/assets/55147f_f3b6294d81ef4aaebfec2caf7fd0bbb6~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_c544a33a6cda4d2398c7523f53e250e5~mv2.jpg",
+    "path": "work/original-assets/55147f_c544a33a6cda4d2398c7523f53e250e5~mv2.jpg",
+    "bytes": 245047,
+    "sha256": "ff88803bdb6d7e91413b10291c82a6c3b5e92130d4f37a7187036f6bb7bc36a3",
+    "references": [
+      {
+        "page": "photography",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlww4b31"
+      }
+    ],
+    "local": "/assets/55147f_c544a33a6cda4d2398c7523f53e250e5~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_3406426c45e54d4a960fdf46e0f0070c~mv2.jpg",
+    "path": "work/original-assets/55147f_3406426c45e54d4a960fdf46e0f0070c~mv2.jpg",
+    "bytes": 5815398,
+    "sha256": "48becdf1f868adf988f0dff0e2bb17e7b6f8f5c790853c2879963effd493d0d7",
+    "references": [
+      {
+        "page": "photography",
+        "kind": "image",
+        "alt": "IMG_0634.JPG",
+        "id": "img_comp-mh8sq160"
+      }
+    ],
+    "local": "/assets/55147f_3406426c45e54d4a960fdf46e0f0070c~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_9d781734724c4261aca35eef702f7e50~mv2.jpg",
+    "path": "work/original-assets/55147f_9d781734724c4261aca35eef702f7e50~mv2.jpg",
+    "bytes": 311926,
+    "sha256": "23b37fe37eb6ea61d5a3ca0c77d48c0043aaa9177fc112df9148f213d3ed4600",
+    "references": [
+      {
+        "page": "photography",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlwwkotk"
+      }
+    ],
+    "local": "/assets/55147f_9d781734724c4261aca35eef702f7e50~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_884b1301ced04a0b8690478d408c507d~mv2.jpg",
+    "path": "work/original-assets/55147f_884b1301ced04a0b8690478d408c507d~mv2.jpg",
+    "bytes": 2997458,
+    "sha256": "63b9255c36d363da7f6af135990889e0b3908971f84d73e6d34695348c2e5513",
+    "references": [
+      {
+        "page": "photography",
+        "kind": "image",
+        "alt": "CharleneLam(MechE)_ZoeKo_RedRoomAtCafe939-3.jpg",
+        "id": "img_comp-mh8sccit"
+      }
+    ],
+    "local": "/assets/55147f_884b1301ced04a0b8690478d408c507d~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_35b47471d62c4b58966a0782cdc13c5e~mv2.jpg",
+    "path": "work/original-assets/55147f_35b47471d62c4b58966a0782cdc13c5e~mv2.jpg",
+    "bytes": 481621,
+    "sha256": "c111f1bbda4e2f04bdd3ec0d28496e3f00ea2ed226be9f69498355c27e6ecb28",
+    "references": [
+      {
+        "page": "photography",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlww4b2w"
+      }
+    ],
+    "local": "/assets/55147f_35b47471d62c4b58966a0782cdc13c5e~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_f993648ba7b441e881fd6cfd0e82653a~mv2.jpg",
+    "path": "work/original-assets/55147f_f993648ba7b441e881fd6cfd0e82653a~mv2.jpg",
+    "bytes": 373582,
+    "sha256": "c47b747379142afb5dcbd3a80d3b4d875bc4750b0776b1d20facdf3392340da8",
+    "references": [
+      {
+        "page": "photography",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlww4b2l"
+      }
+    ],
+    "local": "/assets/55147f_f993648ba7b441e881fd6cfd0e82653a~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_7d1d4b2c38cb4591863dbcb304b788e5~mv2.jpg",
+    "path": "work/original-assets/55147f_7d1d4b2c38cb4591863dbcb304b788e5~mv2.jpg",
+    "bytes": 661956,
+    "sha256": "039a4207bf4961cfe98f212ce7719f65f72ce2d0b7a986e9990f176b3f01928a",
+    "references": [
+      {
+        "page": "strawberry-sandals",
+        "kind": "image",
+        "alt": "IMG_0234.jpg",
+        "id": "img_comp-m3x757mf"
+      }
+    ],
+    "local": "/assets/55147f_7d1d4b2c38cb4591863dbcb304b788e5~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_117d1552f34a4f6fafffd58ea679d9a6~mv2.jpg",
+    "path": "work/original-assets/55147f_117d1552f34a4f6fafffd58ea679d9a6~mv2.jpg",
+    "bytes": 933025,
+    "sha256": "e557582f87d85834ebfd8d95c11e1a603600cd54493909e78db405b425cefb05",
+    "references": [
+      {
+        "page": "shoe-design-exploration",
+        "kind": "image",
+        "alt": "shoe-design-exploration_edited.jpg",
+        "id": "img_comp-m3xaln5b"
+      }
+    ],
+    "local": "/assets/55147f_117d1552f34a4f6fafffd58ea679d9a6~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_aca00f6abb074de79e7585008d33cc7b~mv2.png",
+    "path": "work/original-assets/55147f_aca00f6abb074de79e7585008d33cc7b~mv2.png",
+    "bytes": 10324014,
+    "sha256": "d76c0128a51e5ea7fe09a291ee3a9fdfb26f0fcf96fce45122b4754f27413d66",
+    "references": [
+      {
+        "page": "automated-gripper",
+        "kind": "image",
+        "alt": "gripper cover.png",
+        "id": "img_comp-lme8zlag"
+      },
+      {
+        "page": "automated-gripper",
+        "kind": "image",
+        "alt": "gripper cover.png",
+        "id": "img_comp-lkzwlb4j"
+      }
+    ],
+    "local": "/assets/55147f_aca00f6abb074de79e7585008d33cc7b~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_5980049acfe04dc8b2bf22731628ac11~mv2.png",
+    "path": "work/original-assets/55147f_5980049acfe04dc8b2bf22731628ac11~mv2.png",
+    "bytes": 43752,
+    "sha256": "460ae781490fd1bfd0fc9384a2770ef646e2a5085471b3628ffd2f918c9e2034",
+    "references": [
+      {
+        "page": "automated-gripper",
+        "kind": "image",
+        "alt": "image.png",
+        "id": "img_comp-lm6q22o1"
+      }
+    ],
+    "local": "/assets/55147f_5980049acfe04dc8b2bf22731628ac11~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_66eb256fe50f4df8a955e2400f3e4673~mv2.jpg",
+    "path": "work/original-assets/55147f_66eb256fe50f4df8a955e2400f3e4673~mv2.jpg",
+    "bytes": 36870,
+    "sha256": "19959e294dafe3a6f224df14e032b37a736569495650b0a2f2e28db82f8b3b8d",
+    "references": [
+      {
+        "page": "automated-gripper",
+        "kind": "image",
+        "alt": "vacuum head prototype_edited.jpg",
+        "id": "img_comp-lkot6f2m"
+      }
+    ],
+    "local": "/assets/55147f_66eb256fe50f4df8a955e2400f3e4673~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_93fe1019ce564d80b36a9ed2521b41b5~mv2.png",
+    "path": "work/original-assets/55147f_93fe1019ce564d80b36a9ed2521b41b5~mv2.png",
+    "bytes": 12536,
+    "sha256": "0ce6609ba571cb109c8729a7209ea436b51d995a3c542a430cabc88f21165f50",
+    "references": [
+      {
+        "page": "automated-gripper",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-lkzv6lyw"
+      }
+    ],
+    "local": "/assets/55147f_93fe1019ce564d80b36a9ed2521b41b5~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_d7fda95071e54124be4c76bcfefa5190~mv2.jpg",
+    "path": "work/original-assets/55147f_d7fda95071e54124be4c76bcfefa5190~mv2.jpg",
+    "bytes": 19412,
+    "sha256": "6c638777586ace7d5e79b641d5c7920c13de8759a7ca5095111853464de40682",
+    "references": [
+      {
+        "page": "automated-gripper",
+        "kind": "image",
+        "alt": "LYNX Gripper Pneumatic Diagram (1)1024_1",
+        "id": "img_comp-lkozbxgj"
+      }
+    ],
+    "local": "/assets/55147f_d7fda95071e54124be4c76bcfefa5190~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_f258f6061a6e4ed5996e80c628ecfe65~mv2.jpg",
+    "path": "work/original-assets/55147f_f258f6061a6e4ed5996e80c628ecfe65~mv2.jpg",
+    "bytes": 92106,
+    "sha256": "a80313c34f73dd049cf7a4603860c48af387528460a531c349350f58a0acade0",
+    "references": [
+      {
+        "page": "automated-gripper",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-lkzujc92"
+      }
+    ],
+    "local": "/assets/55147f_f258f6061a6e4ed5996e80c628ecfe65~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_2b461efa6f1c43c2a1fa1c86997d355f~mv2.jpg",
+    "path": "work/original-assets/55147f_2b461efa6f1c43c2a1fa1c86997d355f~mv2.jpg",
+    "bytes": 1970450,
+    "sha256": "dca3ba61b0b1075c3de4f872fce6fcda1f17d47c178ec9ee29df463a31768d42",
+    "references": [
+      {
+        "page": "automated-gripper",
+        "kind": "image",
+        "alt": "IMG_1868.jpg",
+        "id": "img_comp-lkp1o4cx"
+      }
+    ],
+    "local": "/assets/55147f_2b461efa6f1c43c2a1fa1c86997d355f~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_87cd3d2b76db4699ba2a1aeffdf5e389~mv2.png",
+    "path": "work/original-assets/55147f_87cd3d2b76db4699ba2a1aeffdf5e389~mv2.png",
+    "bytes": 142611,
+    "sha256": "92545d35167eb3a70fcb4c9c37e2bb85398adc933a0a9c4c4bc2e7cd5b55e452",
+    "references": [
+      {
+        "page": "automated-gripper",
+        "kind": "image",
+        "alt": "gripper blurred.png",
+        "id": "img_comp-lkzwlb4c"
+      }
+    ],
+    "local": "/assets/55147f_87cd3d2b76db4699ba2a1aeffdf5e389~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_84b194ba9e504a618e632d56f0edabf9~mv2.png",
+    "path": "work/original-assets/55147f_84b194ba9e504a618e632d56f0edabf9~mv2.png",
+    "bytes": 183812,
+    "sha256": "ccf6d6e47c6c18353bf32f7b9ad4256c35926d594d78216c5db42c1ff17f7579",
+    "references": [
+      {
+        "page": "automated-gripper",
+        "kind": "image",
+        "alt": "force attachment_blurred.png",
+        "id": "img_comp-lm6rob6a"
+      }
+    ],
+    "local": "/assets/55147f_84b194ba9e504a618e632d56f0edabf9~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_c6e1c9fefe514ed5a3384ebe2305b5bc~mv2.png",
+    "path": "work/original-assets/55147f_c6e1c9fefe514ed5a3384ebe2305b5bc~mv2.png",
+    "bytes": 58570,
+    "sha256": "1152f2bdbfda06dea60c4b2a6f5c912bc0e08da28245e9da061a99a49c8906a8",
+    "references": [
+      {
+        "page": "automated-gripper",
+        "kind": "image",
+        "alt": "force graph_blurred.png",
+        "id": "img_comp-lm6rgvhb"
+      }
+    ],
+    "local": "/assets/55147f_c6e1c9fefe514ed5a3384ebe2305b5bc~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_f31d673c3ad0487bbf96f7616b9cd3c2~mv2.jpg",
+    "path": "work/original-assets/55147f_f31d673c3ad0487bbf96f7616b9cd3c2~mv2.jpg",
+    "bytes": 2019892,
+    "sha256": "32ec9bac9625b7874cce800de1adac5323dc7cfbbce1d097d9e7844816c4280a",
+    "references": [
+      {
+        "page": "automated-gripper",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-lkzw96f3"
+      }
+    ],
+    "local": "/assets/55147f_f31d673c3ad0487bbf96f7616b9cd3c2~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_944e154e4e2840d6a1c15da6f3f938b1~mv2.jpg",
+    "path": "work/original-assets/55147f_944e154e4e2840d6a1c15da6f3f938b1~mv2.jpg",
+    "bytes": 1940920,
+    "sha256": "1852ad9167a1882abe5922896cf30f6f96c0d717bf9c967e37f90959162ce430",
+    "references": [
+      {
+        "page": "automated-gripper",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-lkzw96ex"
+      }
+    ],
+    "local": "/assets/55147f_944e154e4e2840d6a1c15da6f3f938b1~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_abb89d98b66f4849ae65b2c044da9afa~mv2.png",
+    "path": "work/original-assets/55147f_abb89d98b66f4849ae65b2c044da9afa~mv2.png",
+    "bytes": 1276,
+    "sha256": "68cd720b1beee238a4f8a743095ad3987e508c14485ba120b6c620b44bfe2314",
+    "references": [
+      {
+        "page": "automated-gripper",
+        "kind": "image",
+        "alt": "image.png",
+        "id": "img_comp-lkzwx5hp"
+      },
+      {
+        "page": "automated-gripper",
+        "kind": "image",
+        "alt": "image.png",
+        "id": "img_comp-lkzwxn00"
+      },
+      {
+        "page": "automated-gripper",
+        "kind": "image",
+        "alt": "image.png",
+        "id": "img_comp-lkzwxqma"
+      },
+      {
+        "page": "automated-gripper",
+        "kind": "image",
+        "alt": "image.png",
+        "id": "img_comp-lkzwxveu"
+      },
+      {
+        "page": "automated-gripper",
+        "kind": "image",
+        "alt": "image.png",
+        "id": "img_comp-lm89ljzt"
+      },
+      {
+        "page": "automated-gripper",
+        "kind": "image",
+        "alt": "image.png",
+        "id": "img_comp-lm89ljzb"
+      },
+      {
+        "page": "automated-gripper",
+        "kind": "image",
+        "alt": "image.png",
+        "id": "img_comp-lm89lefd"
+      },
+      {
+        "page": "automated-gripper",
+        "kind": "image",
+        "alt": "image.png",
+        "id": "img_comp-lkzwydns"
+      }
+    ],
+    "local": "/assets/55147f_abb89d98b66f4849ae65b2c044da9afa~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_258e84f904e645438f32f7e0146b6d4c~mv2.png",
+    "path": "work/original-assets/55147f_258e84f904e645438f32f7e0146b6d4c~mv2.png",
+    "bytes": 1420,
+    "sha256": "811a8903dfae9d4fd1cdce2f30ce1980ece7e4da0fb186780da434accf08d214",
+    "references": [
+      {
+        "page": "automated-gripper",
+        "kind": "image",
+        "alt": "image.png",
+        "id": "img_comp-lkzwyql2"
+      }
+    ],
+    "local": "/assets/55147f_258e84f904e645438f32f7e0146b6d4c~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_3b5906d602744de3b6599302fa4212ec~mv2.jpg",
+    "path": "work/original-assets/55147f_3b5906d602744de3b6599302fa4212ec~mv2.jpg",
+    "bytes": 1334020,
+    "sha256": "0802617a1bcef34a962759758419ba715b426d9068d24b2220eba47017759879",
+    "references": [
+      {
+        "page": "automated-gripper",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-lkzw9frg"
+      }
+    ],
+    "local": "/assets/55147f_3b5906d602744de3b6599302fa4212ec~mv2.jpg"
+  },
+  {
+    "url": "https://www.charlene-lam.com/_files/ugd/55147f_f5e2e5c2ba844369bc86ac8a9dc27881.pdf",
+    "path": "work/original-assets/55147f_f5e2e5c2ba844369bc86ac8a9dc27881.pdf",
+    "bytes": 40350,
+    "sha256": "abe0fe1696a4f96fc4c1a6e6e5dab475e45cd7ed8f6cfad6cd7e8ac505327c81",
+    "references": [
+      {
+        "page": "automated-gripper",
+        "kind": "file",
+        "text": ""
+      }
+    ],
+    "local": "/_files/ugd/55147f_f5e2e5c2ba844369bc86ac8a9dc27881.pdf"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_d5ca6db9691741ec8292667b31fb9486~mv2.jpg",
+    "path": "work/original-assets/55147f_d5ca6db9691741ec8292667b31fb9486~mv2.jpg",
+    "bytes": 453710,
+    "sha256": "174744c38e78e111ecf9191729b2d6874ac57c0eac7e1c3b1a8754bab6211619",
+    "references": [
+      {
+        "page": "portrait-dog",
+        "kind": "image",
+        "alt": "IMG_8036 (1)_edited.jpg",
+        "id": "img_comp-m3x9ziim"
+      }
+    ],
+    "local": "/assets/55147f_d5ca6db9691741ec8292667b31fb9486~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_c1f966eae7804c74979af03d984af06c~mv2.png",
+    "path": "work/original-assets/55147f_c1f966eae7804c74979af03d984af06c~mv2.png",
+    "bytes": 439429,
+    "sha256": "60e1bb6df1b9d3b117acf2ec18784eec1f18ce605e1fb081c07de8e840266edb",
+    "references": [
+      {
+        "page": "design-with-type",
+        "kind": "image",
+        "alt": "image.png",
+        "id": "img_comp-m3x6ibbm"
+      }
+    ],
+    "local": "/assets/55147f_c1f966eae7804c74979af03d984af06c~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_2fdcb17cb720405e88b873fe00b01def~mv2.jpg",
+    "path": "work/original-assets/55147f_2fdcb17cb720405e88b873fe00b01def~mv2.jpg",
+    "bytes": 2804035,
+    "sha256": "5c3a7d4e45f96a9ff5bc402db1662e67edc9e04e0e010a350e6ab7316f3f176f",
+    "references": [
+      {
+        "page": "design-with-type",
+        "kind": "image",
+        "alt": "book-pages_edited.jpg",
+        "id": "img_comp-m3x6ra4q"
+      }
+    ],
+    "local": "/assets/55147f_2fdcb17cb720405e88b873fe00b01def~mv2.jpg"
+  },
+  {
+    "url": "https://www.charlene-lam.com/_files/ugd/55147f_a90d84e0fa034c96bbf66c959c9f2c99.pdf",
+    "path": "work/original-assets/55147f_a90d84e0fa034c96bbf66c959c9f2c99.pdf",
+    "bytes": 32660251,
+    "sha256": "e74179aa9ffe6eef743dbe4efb59e2380de8d654cf9e738579876bcbd0aba682",
+    "references": [
+      {
+        "page": "design-with-type",
+        "kind": "file",
+        "text": ""
+      }
+    ],
+    "local": "/_files/ugd/55147f_a90d84e0fa034c96bbf66c959c9f2c99.pdf"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_2d5a32fac15b402cbcefc7abbc6445f0~mv2.png",
+    "path": "work/original-assets/55147f_2d5a32fac15b402cbcefc7abbc6445f0~mv2.png",
+    "bytes": 1769267,
+    "sha256": "23c810f20d4080d06817e317023666d2ca6bf1bad37cd4fd44430653d2e81f8c",
+    "references": [
+      {
+        "page": "copy-of-automated-gripper",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-lkzxuimu"
+      }
+    ],
+    "local": "/assets/55147f_2d5a32fac15b402cbcefc7abbc6445f0~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_1fb7f7d716d1424ba34caa6787e6459c~mv2.jpg",
+    "path": "work/original-assets/55147f_1fb7f7d716d1424ba34caa6787e6459c~mv2.jpg",
+    "bytes": 28172,
+    "sha256": "7d90386f51720dad44146a35ec129775ba745f8fc702d1f64b3290de3d103a3e",
+    "references": [
+      {
+        "page": "copy-of-automated-gripper",
+        "kind": "image",
+        "alt": "Lyndra Brainstorm1024_7.jpg",
+        "id": "img_comp-lkzxbg1t"
+      }
+    ],
+    "local": "/assets/55147f_1fb7f7d716d1424ba34caa6787e6459c~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_65d972fb37d0468caf88e21a26b46b3f~mv2.png",
+    "path": "work/original-assets/55147f_65d972fb37d0468caf88e21a26b46b3f~mv2.png",
+    "bytes": 9623,
+    "sha256": "ef7e81dd4c41b766660635eea60a490e58fbeafe78a0f95854c390c61087db45",
+    "references": [
+      {
+        "page": "copy-of-automated-gripper",
+        "kind": "image",
+        "alt": "cuttingblockcad3.png",
+        "id": "img_comp-lmeanl3y"
+      }
+    ],
+    "local": "/assets/55147f_65d972fb37d0468caf88e21a26b46b3f~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_f5cd568bf6c24760993e51d31a15352d~mv2.png",
+    "path": "work/original-assets/55147f_f5cd568bf6c24760993e51d31a15352d~mv2.png",
+    "bytes": 10560,
+    "sha256": "af347c41401fc8d75ae034b025bd20a3fb99443868e3f3d69a2c1e8ecbf73738",
+    "references": [
+      {
+        "page": "copy-of-automated-gripper",
+        "kind": "image",
+        "alt": "cuttingblockcad4.png",
+        "id": "img_comp-lmeanl3f"
+      }
+    ],
+    "local": "/assets/55147f_f5cd568bf6c24760993e51d31a15352d~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_1dd94133e62c4a40a138df10f27a9267~mv2.png",
+    "path": "work/original-assets/55147f_1dd94133e62c4a40a138df10f27a9267~mv2.png",
+    "bytes": 9913,
+    "sha256": "519b8f879984c6cc769714698769ebf612cee4dee4a12862ebdccf1709db3d70",
+    "references": [
+      {
+        "page": "copy-of-automated-gripper",
+        "kind": "image",
+        "alt": "cuttingblockcad2.png",
+        "id": "img_comp-lme9n4os"
+      }
+    ],
+    "local": "/assets/55147f_1dd94133e62c4a40a138df10f27a9267~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_f934997c1d2f48a19cd1a6d876e05385~mv2.png",
+    "path": "work/original-assets/55147f_f934997c1d2f48a19cd1a6d876e05385~mv2.png",
+    "bytes": 10267,
+    "sha256": "678ee6b12274927d811fb0cd256b53adc119dd8e36dd96d2226d2558515d3d3e",
+    "references": [
+      {
+        "page": "copy-of-automated-gripper",
+        "kind": "image",
+        "alt": "cuttingblockcad.png",
+        "id": "img_comp-lme9n4om"
+      }
+    ],
+    "local": "/assets/55147f_f934997c1d2f48a19cd1a6d876e05385~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_bda800748c39458fbe8c82edc45ad707~mv2.png",
+    "path": "work/original-assets/55147f_bda800748c39458fbe8c82edc45ad707~mv2.png",
+    "bytes": 25240,
+    "sha256": "392a762af8544bc400797bf67dc224c7ae58d577aacaff441a1c4ddf09553866",
+    "references": [
+      {
+        "page": "copy-of-automated-gripper",
+        "kind": "image",
+        "alt": "explodedassemblybladeholder.png",
+        "id": "img_comp-lme9x32g2"
+      }
+    ],
+    "local": "/assets/55147f_bda800748c39458fbe8c82edc45ad707~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_fc0a116735d344968af52f26d2d41ba8~mv2.png",
+    "path": "work/original-assets/55147f_fc0a116735d344968af52f26d2d41ba8~mv2.png",
+    "bytes": 7785,
+    "sha256": "4a2ee44003666ef1c8c16f191977f5a7f5702251011dd9bd1fd05b30bc05e30e",
+    "references": [
+      {
+        "page": "copy-of-automated-gripper",
+        "kind": "image",
+        "alt": "bladeholdercad.png",
+        "id": "img_comp-lme9x31b"
+      }
+    ],
+    "local": "/assets/55147f_fc0a116735d344968af52f26d2d41ba8~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_320f2879cc0140cab0f0e9f435cd1bdb~mv2.png",
+    "path": "work/original-assets/55147f_320f2879cc0140cab0f0e9f435cd1bdb~mv2.png",
+    "bytes": 9264,
+    "sha256": "01092540b4c0c916e91cf7ace19607bb842da9d088fe559b237a12b557c1e55f",
+    "references": [
+      {
+        "page": "copy-of-automated-gripper",
+        "kind": "image",
+        "alt": "bladeholdercad2.png",
+        "id": "img_comp-lme9qp52"
+      }
+    ],
+    "local": "/assets/55147f_320f2879cc0140cab0f0e9f435cd1bdb~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_2c51676b76064faeb48f837426f1f681~mv2.jpg",
+    "path": "work/original-assets/55147f_2c51676b76064faeb48f837426f1f681~mv2.jpg",
+    "bytes": 5939,
+    "sha256": "f1e9fa6c76ec52814ac2de6ab322f200e5a60eb8f9bfb2f5b3cdcf2a05daa0f9",
+    "references": [
+      {
+        "page": "copy-of-automated-gripper",
+        "kind": "image",
+        "alt": "bladeholderphoto.jpg",
+        "id": "img_comp-lme9x32k2"
+      }
+    ],
+    "local": "/assets/55147f_2c51676b76064faeb48f837426f1f681~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_2328a651c0c74807b626d3d796003cff~mv2.jpg",
+    "path": "work/original-assets/55147f_2328a651c0c74807b626d3d796003cff~mv2.jpg",
+    "bytes": 99020,
+    "sha256": "e345dc2244670c3d6afe09b0d626923ee38e8ebde0ba7e4ddc94566e5b20d68e",
+    "references": [
+      {
+        "page": "copy-of-automated-gripper",
+        "kind": "image",
+        "alt": "drawing cutting stand.jpg",
+        "id": "img_comp-lmea2uy9"
+      }
+    ],
+    "local": "/assets/55147f_2328a651c0c74807b626d3d796003cff~mv2.jpg"
+  },
+  {
+    "url": "https://www.charlene-lam.com/_files/ugd/55147f_faeed8797ff543bd9cf15fc15feff314.pdf",
+    "path": "work/original-assets/55147f_faeed8797ff543bd9cf15fc15feff314.pdf",
+    "bytes": 421930,
+    "sha256": "50bc9fd7c87c8f3f076d2b4e09e9a8a46929ff09829779c39428ed930bb87fad",
+    "references": [
+      {
+        "page": "copy-of-automated-gripper",
+        "kind": "file",
+        "text": "All Cutting Stand Drawings"
+      }
+    ],
+    "local": "/_files/ugd/55147f_faeed8797ff543bd9cf15fc15feff314.pdf"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_1e484a343f824cf5b6f21133701f7e18~mv2.png",
+    "path": "work/original-assets/55147f_1e484a343f824cf5b6f21133701f7e18~mv2.png",
+    "bytes": 817796,
+    "sha256": "79cddbfbcb6dace0eea384b1b7be64af2752ab24067992a1137727021b019505",
+    "references": [
+      {
+        "page": "air-jordan-colorway",
+        "kind": "image",
+        "alt": "Asset 12.png",
+        "id": "img_comp-m3xatqlt"
+      }
+    ],
+    "local": "/assets/55147f_1e484a343f824cf5b6f21133701f7e18~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_c165cac8c228459c87b48122c0834b53~mv2.jpg",
+    "path": "work/original-assets/55147f_c165cac8c228459c87b48122c0834b53~mv2.jpg",
+    "bytes": 1926635,
+    "sha256": "e2a2616e5edf35e2dc1a28ce3503ae3416871e2f772240bb94df1ef8cfcad868",
+    "references": [
+      {
+        "page": "air-jordan-colorway",
+        "kind": "image",
+        "alt": "Asset 29-100.jpg",
+        "id": "img_comp-m3xb73b3"
+      }
+    ],
+    "local": "/assets/55147f_c165cac8c228459c87b48122c0834b53~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_ca3d3fda85114210b16a11b4854e0b42~mv2.jpg",
+    "path": "work/original-assets/55147f_ca3d3fda85114210b16a11b4854e0b42~mv2.jpg",
+    "bytes": 2021852,
+    "sha256": "5c21a895d921daac7955133f5e6c949bceb91eb480785070c389070a107c82e4",
+    "references": [
+      {
+        "page": "air-jordan-colorway",
+        "kind": "image",
+        "alt": "Asset 30-100.jpg",
+        "id": "img_comp-m3xbg056"
+      }
+    ],
+    "local": "/assets/55147f_ca3d3fda85114210b16a11b4854e0b42~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_350c0c6a0a28484888eabc3f31c1c1d8~mv2.jpg",
+    "path": "work/original-assets/55147f_350c0c6a0a28484888eabc3f31c1c1d8~mv2.jpg",
+    "bytes": 747239,
+    "sha256": "cbde29c5c14c0e0d61ce6a2def3e844c3302b8b715f8e683e89268b93f587eb1",
+    "references": [
+      {
+        "page": "portrait-george-floyd",
+        "kind": "image",
+        "alt": "IMG_8005.jpg",
+        "id": "img_comp-m3x9wxl8"
+      }
+    ],
+    "local": "/assets/55147f_350c0c6a0a28484888eabc3f31c1c1d8~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_8d58a35aede544a1a8b8c079c1c94e06~mv2.png",
+    "path": "work/original-assets/55147f_8d58a35aede544a1a8b8c079c1c94e06~mv2.png",
+    "bytes": 807482,
+    "sha256": "b01659af2cff0ee3a7380bb2ed81f97fd893cde9c295ea58b1f6305c5e40ddac",
+    "references": [
+      {
+        "page": "about",
+        "kind": "image",
+        "alt": "Charlene Lam Photo_edited.png",
+        "id": "img_comp-m3tuwomc2"
+      }
+    ],
+    "local": "/assets/55147f_8d58a35aede544a1a8b8c079c1c94e06~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_e4a0a65070194f7e8d035508f1960dca~mv2.jpg",
+    "path": "work/original-assets/55147f_e4a0a65070194f7e8d035508f1960dca~mv2.jpg",
+    "bytes": 573363,
+    "sha256": "4d3f21e0d00c0ae040a06cc32202a7aecd89fb7660296e32a37f1dd0d1cacee9",
+    "references": [
+      {
+        "page": "about",
+        "kind": "image",
+        "alt": "IMG_0209.jpg",
+        "id": "img_comp-m0y66210"
+      }
+    ],
+    "local": "/assets/55147f_e4a0a65070194f7e8d035508f1960dca~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_93ce228ce7824250aac974c818590844~mv2.jpg",
+    "path": "work/original-assets/55147f_93ce228ce7824250aac974c818590844~mv2.jpg",
+    "bytes": 4334426,
+    "sha256": "4e4e73d8544b9104a2f0c3db3d289251fd79c9b27d70322aa0d813e66bc7d662",
+    "references": [
+      {
+        "page": "about",
+        "kind": "image",
+        "alt": "IMG_5525.jpg",
+        "id": "img_comp-m0y53kcn"
+      }
+    ],
+    "local": "/assets/55147f_93ce228ce7824250aac974c818590844~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_52fcef374d1f4e9b9c2984d1bb016641~mv2.png",
+    "path": "work/original-assets/55147f_52fcef374d1f4e9b9c2984d1bb016641~mv2.png",
+    "bytes": 3352117,
+    "sha256": "26dd8cf0cc6fa5628118effa0b82eaa774b057356725e4e3666218513f8cf025",
+    "references": [
+      {
+        "page": "bird-painting-leather",
+        "kind": "image",
+        "alt": "purse 2.PNG",
+        "id": "img_comp-m3x71odg"
+      }
+    ],
+    "local": "/assets/55147f_52fcef374d1f4e9b9c2984d1bb016641~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_1476f727e28847cc8c55d67a650c05f8~mv2.jpeg",
+    "path": "work/original-assets/55147f_1476f727e28847cc8c55d67a650c05f8~mv2.jpeg",
+    "bytes": 674083,
+    "sha256": "b601f8b68901f714f24e05e92a2ee2d68574fd41a41d8fc85978f7b18f6e5016",
+    "references": [
+      {
+        "page": "portrait-ruth-bader-ginsburg",
+        "kind": "image",
+        "alt": "0D8F9726-8B20-4141-82A8-FAA63F8D6F01.JPEG",
+        "id": "img_comp-m3x9ult9"
+      }
+    ],
+    "local": "/assets/55147f_1476f727e28847cc8c55d67a650c05f8~mv2.jpeg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_4ecdeca293b342b0851cd95f5954ed44~mv2.jpg",
+    "path": "work/original-assets/55147f_4ecdeca293b342b0851cd95f5954ed44~mv2.jpg",
+    "bytes": 15296807,
+    "sha256": "17693537a461bfed955ae7e705aba699aaf0cc0a486b6ffb1507c3fa43998b40",
+    "references": [
+      {
+        "page": "copy-of-sageware",
+        "kind": "image",
+        "alt": "Expanding Cupcake Carrier Poster.jpg",
+        "id": "img_comp-msrz2vfn"
+      }
+    ],
+    "local": "/assets/55147f_4ecdeca293b342b0851cd95f5954ed44~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_c3f7c4016929457ba92a9cf55ae1a7ab~mv2.png",
+    "path": "work/original-assets/55147f_c3f7c4016929457ba92a9cf55ae1a7ab~mv2.png",
+    "bytes": 135458,
+    "sha256": "dbbd3096fb7c6670cc3784cb4d6374c8d27ac21e289beec8420fb54214ae1dd3",
+    "references": [
+      {
+        "page": "homage-norman-ives",
+        "kind": "image",
+        "alt": "Asset 22.png",
+        "id": "img_comp-m3x7h63m"
+      }
+    ],
+    "local": "/assets/55147f_c3f7c4016929457ba92a9cf55ae1a7ab~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_c3fdca16d58241fa9a147076ae3bd561~mv2.png",
+    "path": "work/original-assets/55147f_c3fdca16d58241fa9a147076ae3bd561~mv2.png",
+    "bytes": 21118,
+    "sha256": "13c077af195c35aca75b620f9052d39510b46c0f053b04a6c555be71c597b81d",
+    "references": [
+      {
+        "page": "homage-norman-ives",
+        "kind": "image",
+        "alt": "Asset 27.png",
+        "id": "img_comp-m3x7g0th"
+      }
+    ],
+    "local": "/assets/55147f_c3fdca16d58241fa9a147076ae3bd561~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_4936de70d8164eb8ae1312aae19a7c67~mv2.png",
+    "path": "work/original-assets/55147f_4936de70d8164eb8ae1312aae19a7c67~mv2.png",
+    "bytes": 8314,
+    "sha256": "f90e440ef9580148c567c9e3b861c3cd40dece0016ea975388f8ffe0a07eabeb",
+    "references": [
+      {
+        "page": "homage-norman-ives",
+        "kind": "image",
+        "alt": "Asset 26.png",
+        "id": "img_comp-m3x7g3fp"
+      }
+    ],
+    "local": "/assets/55147f_4936de70d8164eb8ae1312aae19a7c67~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_69a060f23119497d98260a3fca52079d~mv2.png",
+    "path": "work/original-assets/55147f_69a060f23119497d98260a3fca52079d~mv2.png",
+    "bytes": 18961,
+    "sha256": "bad70b6c4bd6d1e9560c89ae5aaf5b74eebed5ffecfb520e2c1ebd00b87be0f1",
+    "references": [
+      {
+        "page": "homage-norman-ives",
+        "kind": "image",
+        "alt": "Asset 25.png",
+        "id": "img_comp-m3x7h68c"
+      }
+    ],
+    "local": "/assets/55147f_69a060f23119497d98260a3fca52079d~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_1f46287043544a26b2a60f0682f5c485~mv2.png",
+    "path": "work/original-assets/55147f_1f46287043544a26b2a60f0682f5c485~mv2.png",
+    "bytes": 14117,
+    "sha256": "874681e0da30ad9ff631f1756441377982975d69886a103788e8ce7b99e94951",
+    "references": [
+      {
+        "page": "homage-norman-ives",
+        "kind": "image",
+        "alt": "Asset 23.png",
+        "id": "img_comp-m3x7h63t"
+      }
+    ],
+    "local": "/assets/55147f_1f46287043544a26b2a60f0682f5c485~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_846d7b5b0d2141ba9c3cfb98ba09cf82~mv2.png",
+    "path": "work/original-assets/55147f_846d7b5b0d2141ba9c3cfb98ba09cf82~mv2.png",
+    "bytes": 17253,
+    "sha256": "3230f8ee30925e4cdb59827ab6e68e9f0036d3cfa24f7ac43e50864c53a39e0f",
+    "references": [
+      {
+        "page": "homage-norman-ives",
+        "kind": "image",
+        "alt": "Asset 24.png",
+        "id": "img_comp-m3x7h641"
+      }
+    ],
+    "local": "/assets/55147f_846d7b5b0d2141ba9c3cfb98ba09cf82~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_696b07c38f674dd99fac4d95fbbb46e6~mv2.jpg",
+    "path": "work/original-assets/55147f_696b07c38f674dd99fac4d95fbbb46e6~mv2.jpg",
+    "bytes": 1192676,
+    "sha256": "dee9e73f39fbc70200d4b62cf0b2b4d15e7c3bf2b1531467d3bfc8d8aa92476d",
+    "references": [
+      {
+        "page": "apple",
+        "kind": "image",
+        "alt": "IMG_2775 (2).jpg",
+        "id": "img_comp-m3xbszaq"
+      }
+    ],
+    "local": "/assets/55147f_696b07c38f674dd99fac4d95fbbb46e6~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_6dd07aaca2214df0a3ff94d57c17e589~mv2.jpg",
+    "path": "work/original-assets/55147f_6dd07aaca2214df0a3ff94d57c17e589~mv2.jpg",
+    "bytes": 111229,
+    "sha256": "5a337e05a146c9b843addb41326eea3e998fa69b09ce0519c58f3b9c4830926a",
+    "references": [
+      {
+        "page": "sageware",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlwv6rz2"
+      }
+    ],
+    "local": "/assets/55147f_6dd07aaca2214df0a3ff94d57c17e589~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_b3c40f1bd15f43c6b859ad7555022b01~mv2.jpg",
+    "path": "work/original-assets/55147f_b3c40f1bd15f43c6b859ad7555022b01~mv2.jpg",
+    "bytes": 200064,
+    "sha256": "28c460994daf2284e20ab282fd19e0ed4c82dd5d885299e952ef3a2b5442cce8",
+    "references": [
+      {
+        "page": "sageware",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlwv7vax"
+      }
+    ],
+    "local": "/assets/55147f_b3c40f1bd15f43c6b859ad7555022b01~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_390fa7d8aa5e48199a09c3c1d3ab3380~mv2.jpg",
+    "path": "work/original-assets/55147f_390fa7d8aa5e48199a09c3c1d3ab3380~mv2.jpg",
+    "bytes": 283485,
+    "sha256": "fb2e8c56001ffdf53c760ee9d7133461f9c3d9c0e859ed9f218b30594454800d",
+    "references": [
+      {
+        "page": "sageware",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlwv7vb0"
+      }
+    ],
+    "local": "/assets/55147f_390fa7d8aa5e48199a09c3c1d3ab3380~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_f5041660d44c4265a6b8dfbccf7c5fb2~mv2.jpg",
+    "path": "work/original-assets/55147f_f5041660d44c4265a6b8dfbccf7c5fb2~mv2.jpg",
+    "bytes": 152872,
+    "sha256": "cfb72ac6c67792df1183fc228a4d09a2f2d6db9ade339bcfb92e2a1d859883b7",
+    "references": [
+      {
+        "page": "sageware",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlwv7vb3"
+      }
+    ],
+    "local": "/assets/55147f_f5041660d44c4265a6b8dfbccf7c5fb2~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_3bcce3d7a47d485098454ee696342da6~mv2.jpg",
+    "path": "work/original-assets/55147f_3bcce3d7a47d485098454ee696342da6~mv2.jpg",
+    "bytes": 73620,
+    "sha256": "2abe94fb45a8d37336e17344b6adc8887a1c59313a7bb9e61db9f68fa1e5d076",
+    "references": [
+      {
+        "page": "sageware",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlwvargk"
+      }
+    ],
+    "local": "/assets/55147f_3bcce3d7a47d485098454ee696342da6~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_a8c7a6602b9346f6a663242c86ffb8c9~mv2.jpg",
+    "path": "work/original-assets/55147f_a8c7a6602b9346f6a663242c86ffb8c9~mv2.jpg",
+    "bytes": 165015,
+    "sha256": "529e1726a6e1c8247a0a6c02f96407dacc4f6f5401798a96db9b529b2ae7e9af",
+    "references": [
+      {
+        "page": "sageware",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlwvargi"
+      }
+    ],
+    "local": "/assets/55147f_a8c7a6602b9346f6a663242c86ffb8c9~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_7a0b3955e1ea43b5bf48b8d2fe0fbc24~mv2.jpg",
+    "path": "work/original-assets/55147f_7a0b3955e1ea43b5bf48b8d2fe0fbc24~mv2.jpg",
+    "bytes": 146231,
+    "sha256": "1741bebe37f7beb9a79b61b2dce54f19d8ae9e12d8b66141b77f9fab6fba2458",
+    "references": [
+      {
+        "page": "sageware",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlwvargn"
+      }
+    ],
+    "local": "/assets/55147f_7a0b3955e1ea43b5bf48b8d2fe0fbc24~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_465319159af744b39a3c3f97b01c69bd~mv2.jpg",
+    "path": "work/original-assets/55147f_465319159af744b39a3c3f97b01c69bd~mv2.jpg",
+    "bytes": 73871,
+    "sha256": "6d9a69083b25c6a84708d28e43142a3871f7778fa5436fbb3c937dfcfa605207",
+    "references": [
+      {
+        "page": "sageware",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlwvargq"
+      }
+    ],
+    "local": "/assets/55147f_465319159af744b39a3c3f97b01c69bd~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_fe9a889b1470463f9e36a2e25479bfc2~mv2.jpg",
+    "path": "work/original-assets/55147f_fe9a889b1470463f9e36a2e25479bfc2~mv2.jpg",
+    "bytes": 190622,
+    "sha256": "a324c1ba4337a5fd86e10132f567dfda0d72ad8000e025e3cb68d2fb6fecb3d3",
+    "references": [
+      {
+        "page": "sageware",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlwvdiyu"
+      }
+    ],
+    "local": "/assets/55147f_fe9a889b1470463f9e36a2e25479bfc2~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_8a124db5d7a54c1fbb2e117f4c796dcd~mv2.jpg",
+    "path": "work/original-assets/55147f_8a124db5d7a54c1fbb2e117f4c796dcd~mv2.jpg",
+    "bytes": 131854,
+    "sha256": "78d81d5acca45731329f11d07fc3fba61a6cf4fe5a1959b937a14468299c931c",
+    "references": [
+      {
+        "page": "sageware",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlwvdiyx"
+      }
+    ],
+    "local": "/assets/55147f_8a124db5d7a54c1fbb2e117f4c796dcd~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_d637a12d1f4640e6a2ae02eb6f58f82c~mv2.jpg",
+    "path": "work/original-assets/55147f_d637a12d1f4640e6a2ae02eb6f58f82c~mv2.jpg",
+    "bytes": 146436,
+    "sha256": "a859fc84254dc48089f461a839028d652e7eb37d138763a41cec26dfd1f0e1d8",
+    "references": [
+      {
+        "page": "sageware",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlwvdiz1"
+      }
+    ],
+    "local": "/assets/55147f_d637a12d1f4640e6a2ae02eb6f58f82c~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_e6cd57200be94fbeab4fb9a12ad37a1e~mv2.jpg",
+    "path": "work/original-assets/55147f_e6cd57200be94fbeab4fb9a12ad37a1e~mv2.jpg",
+    "bytes": 73808,
+    "sha256": "2ad5cea091cb6ce913fbe740d035b97ea197fe701593814601248198737cb706",
+    "references": [
+      {
+        "page": "sageware",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlwvfby2"
+      }
+    ],
+    "local": "/assets/55147f_e6cd57200be94fbeab4fb9a12ad37a1e~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_abb99972824846b6bd8c9f644daa06e2~mv2.jpg",
+    "path": "work/original-assets/55147f_abb99972824846b6bd8c9f644daa06e2~mv2.jpg",
+    "bytes": 217414,
+    "sha256": "f50a273871e70c7b672af5eb8be5fe896b397a11ee3a11c502694ae79f49f881",
+    "references": [
+      {
+        "page": "sageware",
+        "kind": "image",
+        "alt": "Sageware Portfolio  (17).jpg",
+        "id": "img_comp-mlwvk14n"
+      }
+    ],
+    "local": "/assets/55147f_abb99972824846b6bd8c9f644daa06e2~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_db43055a5a26433491cdb974c6bc18b9~mv2.jpg",
+    "path": "work/original-assets/55147f_db43055a5a26433491cdb974c6bc18b9~mv2.jpg",
+    "bytes": 153692,
+    "sha256": "03b5611d16fb407d16c22605ca0f8b0a30d15f1670b0d734a7a3037f1a059c77",
+    "references": [
+      {
+        "page": "sageware",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlwvfby8"
+      }
+    ],
+    "local": "/assets/55147f_db43055a5a26433491cdb974c6bc18b9~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_b48106b380414315af9bd0f88b842635~mv2.jpg",
+    "path": "work/original-assets/55147f_b48106b380414315af9bd0f88b842635~mv2.jpg",
+    "bytes": 150100,
+    "sha256": "aff65ffb5f96573fcb7f54d4e0211f822548e097d3e154923a9e73ff6f7370af",
+    "references": [
+      {
+        "page": "sageware",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlwvlkrg"
+      }
+    ],
+    "local": "/assets/55147f_b48106b380414315af9bd0f88b842635~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_5cb332f3adcb44c998334b2e286af6bf~mv2.jpg",
+    "path": "work/original-assets/55147f_5cb332f3adcb44c998334b2e286af6bf~mv2.jpg",
+    "bytes": 131019,
+    "sha256": "6471cf5618981abd1b8b5a645d80f245cd0d03b5bf8caa83b8555f3444e5023f",
+    "references": [
+      {
+        "page": "sageware",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlwvfby4"
+      }
+    ],
+    "local": "/assets/55147f_5cb332f3adcb44c998334b2e286af6bf~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_01f7acfa28944ebf84bb2c415bff85b0~mv2.jpg",
+    "path": "work/original-assets/55147f_01f7acfa28944ebf84bb2c415bff85b0~mv2.jpg",
+    "bytes": 82174,
+    "sha256": "a02bbb7f5dec96bc4839d84e1b676f32b99544cab111d3d7970a6322754af783",
+    "references": [
+      {
+        "page": "sageware",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlwvnu6l"
+      }
+    ],
+    "local": "/assets/55147f_01f7acfa28944ebf84bb2c415bff85b0~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_8d521b8dd80349cf975bdd3a13ed961e~mv2.jpg",
+    "path": "work/original-assets/55147f_8d521b8dd80349cf975bdd3a13ed961e~mv2.jpg",
+    "bytes": 221064,
+    "sha256": "7b48a14f88be5cfd798904c50394061532a6297269bd63dce6c248a3d67b8940",
+    "references": [
+      {
+        "page": "sageware",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlwvnu6d"
+      }
+    ],
+    "local": "/assets/55147f_8d521b8dd80349cf975bdd3a13ed961e~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_54357a5b1f4b49af8017476a970b3108~mv2.jpg",
+    "path": "work/original-assets/55147f_54357a5b1f4b49af8017476a970b3108~mv2.jpg",
+    "bytes": 160870,
+    "sha256": "67b674127181936a95dff227919b489beef03d5ed54b2cd4922d009de407079d",
+    "references": [
+      {
+        "page": "sageware",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlwvfby5"
+      }
+    ],
+    "local": "/assets/55147f_54357a5b1f4b49af8017476a970b3108~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_3fce5565356440dda9377864ab434620~mv2.jpg",
+    "path": "work/original-assets/55147f_3fce5565356440dda9377864ab434620~mv2.jpg",
+    "bytes": 171397,
+    "sha256": "b6abe21f6371814c4c133c995f2e830f78217b17a8814db868ff9ee9e664fd19",
+    "references": [
+      {
+        "page": "sageware",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlwvnu6h"
+      }
+    ],
+    "local": "/assets/55147f_3fce5565356440dda9377864ab434620~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_46e378e4155742499ce4149fdf261363~mv2.jpg",
+    "path": "work/original-assets/55147f_46e378e4155742499ce4149fdf261363~mv2.jpg",
+    "bytes": 256309,
+    "sha256": "6b1c1a26b1018381aa7fdbfe5f1361fe6af950fd104ad425ca22e3e3d49f19e4",
+    "references": [
+      {
+        "page": "sageware",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mlwvnu69"
+      }
+    ],
+    "local": "/assets/55147f_46e378e4155742499ce4149fdf261363~mv2.jpg"
+  },
+  {
+    "url": "https://www.charlene-lam.com/_files/ugd/55147f_ba3b6326c93946b5a2613a487aa69a4d.pdf",
+    "path": "work/original-assets/55147f_ba3b6326c93946b5a2613a487aa69a4d.pdf",
+    "bytes": 6215924,
+    "sha256": "a05cfad1b1c1d30307bc30392d908e96b9210f7c447e9ba69ac8d850976692bd",
+    "references": [
+      {
+        "page": "sageware",
+        "kind": "file",
+        "text": "view final report here"
+      }
+    ],
+    "local": "/_files/ugd/55147f_ba3b6326c93946b5a2613a487aa69a4d.pdf"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_a449a30a257940fd95ca603d0b7adf45~mv2.jpg",
+    "path": "work/original-assets/55147f_a449a30a257940fd95ca603d0b7adf45~mv2.jpg",
+    "bytes": 579343,
+    "sha256": "78acd61ee162b2b309c37a06c9948646feba347fe2813d3f2a1f9d7fb4d0966a",
+    "references": [
+      {
+        "page": "home",
+        "kind": "image",
+        "alt": "Safeware TLA render- ID try out.70.jpg",
+        "id": "img_comp-m3wxetkx"
+      }
+    ],
+    "local": "/assets/55147f_a449a30a257940fd95ca603d0b7adf45~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_5bae0e69388c4f9cb37a9cefdbc01bf2~mv2.jpg",
+    "path": "work/original-assets/55147f_5bae0e69388c4f9cb37a9cefdbc01bf2~mv2.jpg",
+    "bytes": 2160982,
+    "sha256": "2a8f38296084810a5db481edd143f22d560ceb209ba52663c189a3b54a6af77b",
+    "references": [
+      {
+        "page": "home",
+        "kind": "image",
+        "alt": "cupcake holder thumbnail_edited.jpg",
+        "id": "img_comp-m3wtpq4o"
+      }
+    ],
+    "local": "/assets/55147f_5bae0e69388c4f9cb37a9cefdbc01bf2~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_abef657b43184223a010c5dd7ef5278d~mv2.jpg",
+    "path": "work/original-assets/55147f_abef657b43184223a010c5dd7ef5278d~mv2.jpg",
+    "bytes": 968001,
+    "sha256": "f96442daf80e70d22128d642bb34198f88ba2729a2289b7eadf4580efae5c67c",
+    "references": [
+      {
+        "page": "home",
+        "kind": "image",
+        "alt": "capstone cover image_edited.jpg",
+        "id": "img_comp-mt0j65xw"
+      }
+    ],
+    "local": "/assets/55147f_abef657b43184223a010c5dd7ef5278d~mv2.jpg"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_83145f87dbda44eea12695676877d4db~mv2.png",
+    "path": "work/original-assets/55147f_83145f87dbda44eea12695676877d4db~mv2.png",
+    "bytes": 32355,
+    "sha256": "43db9cfe5eaaae565da5aeb1aff9bd3577025495c6c5229661dfdb4cc8298f59",
+    "references": [
+      {
+        "page": "endless-garden",
+        "kind": "image",
+        "alt": "charlene capstone-1.png",
+        "id": "img_comp-mt0neg0i"
+      }
+    ],
+    "local": "/assets/55147f_83145f87dbda44eea12695676877d4db~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_1a9d968eedf84050afb9083d274f86e5~mv2.png",
+    "path": "work/original-assets/55147f_1a9d968eedf84050afb9083d274f86e5~mv2.png",
+    "bytes": 431514,
+    "sha256": "08784aab2815da951497ffc940b494d1d54955152658c79ae7583194c52ab7f1",
+    "references": [
+      {
+        "page": "endless-garden",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mt0ngwup"
+      }
+    ],
+    "local": "/assets/55147f_1a9d968eedf84050afb9083d274f86e5~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_d1272322f83945d3a69652f1b7b08ebf~mv2.png",
+    "path": "work/original-assets/55147f_d1272322f83945d3a69652f1b7b08ebf~mv2.png",
+    "bytes": 232136,
+    "sha256": "937d26a52dac22477a51989afbed3bf93cb9a748b96a0bbefe176ae3a671fce2",
+    "references": [
+      {
+        "page": "endless-garden",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mt0nhocy"
+      }
+    ],
+    "local": "/assets/55147f_d1272322f83945d3a69652f1b7b08ebf~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_464f038fa49744ccaf7b7f18839a4f0a~mv2.png",
+    "path": "work/original-assets/55147f_464f038fa49744ccaf7b7f18839a4f0a~mv2.png",
+    "bytes": 330500,
+    "sha256": "80c105d0efe7382d01d24742d6675516381c2d5a79edf70ad1bb945a3f9811bd",
+    "references": [
+      {
+        "page": "endless-garden",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mt0nids0"
+      }
+    ],
+    "local": "/assets/55147f_464f038fa49744ccaf7b7f18839a4f0a~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_38e6134056ea4510970b56dfb467634b~mv2.png",
+    "path": "work/original-assets/55147f_38e6134056ea4510970b56dfb467634b~mv2.png",
+    "bytes": 658236,
+    "sha256": "5b9f79a573dd6da38ef3d2b6d73f1c22ccf9a44cfdb6d60ca50aa35efb98c3c7",
+    "references": [
+      {
+        "page": "endless-garden",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mt0nivtu"
+      }
+    ],
+    "local": "/assets/55147f_38e6134056ea4510970b56dfb467634b~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_6101029203364e9098e317e4ee869e37~mv2.png",
+    "path": "work/original-assets/55147f_6101029203364e9098e317e4ee869e37~mv2.png",
+    "bytes": 756336,
+    "sha256": "78368eec5e71b9c255f6858fcdf52a4e68fdb1d35f269527dcfd31abe974ea1b",
+    "references": [
+      {
+        "page": "endless-garden",
+        "kind": "image",
+        "alt": "",
+        "id": "img_comp-mt0njt5x"
+      }
+    ],
+    "local": "/assets/55147f_6101029203364e9098e317e4ee869e37~mv2.png"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_698fa695fe44403ba6bdbe32957d5be5~mv2.png",
+    "path": "work/original-assets/55147f_698fa695fe44403ba6bdbe32957d5be5~mv2.png",
+    "bytes": 658793,
+    "sha256": "15b2ba0f6549db1c580015ed511add3b4f6a67ca2cdbc94ae0c3120cd96f8a67",
+    "references": [
+      {
+        "page": "endless-garden",
+        "kind": "image",
+        "alt": "capstone.png",
+        "id": "img_comp-mt0oc3bl"
+      }
+    ],
+    "local": "/assets/55147f_698fa695fe44403ba6bdbe32957d5be5~mv2.png"
+  },
+  {
+    "url": "https://www.charlene-lam.com/_files/ugd/55147f_263ca7b149a345fc87d410401a9aad6b.pdf",
+    "path": "work/original-assets/55147f_263ca7b149a345fc87d410401a9aad6b.pdf",
+    "bytes": 2669193,
+    "sha256": "e7d9f3a52ffd9af59fa35ca42c92cde72c5c57ab16a2b4f4d7795a75b649ab49",
+    "references": [
+      {
+        "page": "endless-garden",
+        "kind": "file",
+        "text": ""
+      }
+    ],
+    "local": "/_files/ugd/55147f_263ca7b149a345fc87d410401a9aad6b.pdf"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_5e2f0a8bf6ab4918b51d5f2388c5c2ee~mv2.jpg",
+    "path": "work/original-assets/55147f_5e2f0a8bf6ab4918b51d5f2388c5c2ee~mv2.jpg",
+    "bytes": 756966,
+    "sha256": "7e9eed9d60faf82df5e5143f825fbc79a7e2fcd54a56cb5c97e27b6938962ec5",
+    "references": [
+      {
+        "page": "portrait-aphrodite",
+        "kind": "image",
+        "alt": "IMG_7343.jpg",
+        "id": "img_comp-m3xa56h4"
+      }
+    ],
+    "local": "/assets/55147f_5e2f0a8bf6ab4918b51d5f2388c5c2ee~mv2.jpg"
+  },
+  {
+    "url": "https://video.wixstatic.com/video/55147f_7a207269769c4fd68229b72a3164c907/480p/mp4/file.mp4",
+    "path": "work/original-assets/55147f_7a207269769c4fd68229b72a3164c907-480p.mp4",
+    "bytes": 2001707,
+    "sha256": "447e2d2075f931a78633a68ae4ca53de830b6b259962d930f7a115066f2a7f9b",
+    "references": [
+      {
+        "page": "automated-gripper",
+        "id": "comp-lkp1lmx5",
+        "kind": "video"
+      }
+    ],
+    "local": "/assets/55147f_7a207269769c4fd68229b72a3164c907-480p.mp4"
+  },
+  {
+    "url": "https://www-charlene-lam-com.filesusr.com/html/55147f_8518177ce5593aabfcdff2b5638003eb.html",
+    "path": "work/original-assets/55147f_8518177ce5593aabfcdff2b5638003eb.html",
+    "bytes": 4563,
+    "sha256": "dc7ddf93fee9e84c6871e3f20d8a9a7a805c03a63da949909daef4cd43233a1d",
+    "references": [
+      {
+        "page": "automated-gripper",
+        "id": "comp-lkouij85",
+        "kind": "embed"
+      }
+    ],
+    "local": "/assets/55147f_8518177ce5593aabfcdff2b5638003eb.html"
+  },
+  {
+    "url": "https://static.wixstatic.com/media/55147f_7a207269769c4fd68229b72a3164c907f000.jpg",
+    "path": "work/original-assets/55147f_7a207269769c4fd68229b72a3164c907f000.jpg",
+    "bytes": 82936,
+    "sha256": "3211109ed53cca7d7e43ae729345a7fca4e8a3d84111f174f9486d8bae5cc691",
+    "references": [
+      {
+        "page": "automated-gripper",
+        "kind": "poster",
+        "id": "comp-lkp1lmx5"
+      }
+    ],
+    "local": "/assets/55147f_7a207269769c4fd68229b72a3164c907f000.jpg"
+  }
+]

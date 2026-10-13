@@ -1,0 +1,224 @@
+[
+  {
+    "url": "https://static.parastorage.com/fonts/v2/eca8b0cd-45d8-43cf-aee7-ca462bc5497c/v1/din-next-w10-light.woff2",
+    "local": "/fonts/9252183be1d4-din-next-w10-light.woff2",
+    "bytes": 15504,
+    "sha256": "3bd3fee65e14af4c8c1bb0d129fab577a907fbc5086e041fdd05199c1a5f4d23"
+  },
+  {
+    "url": "https://static.parastorage.com/fonts/v2/eca8b0cd-45d8-43cf-aee7-ca462bc5497c/v1/din-next-w02-light.woff2",
+    "local": "/fonts/7001cafef9b9-din-next-w02-light.woff2",
+    "bytes": 37024,
+    "sha256": "ebfb2353b529b5a4ff2920ea70d2ebc5ffd06402c1eb76f9fe2f055d9f679235"
+  },
+  {
+    "url": "https://static.parastorage.com/fonts/v2/eca8b0cd-45d8-43cf-aee7-ca462bc5497c/v1/din-next-w01-light.woff2",
+    "local": "/fonts/328d7eb6d22b-din-next-w01-light.woff2",
+    "bytes": 20988,
+    "sha256": "6156303f614ae366b8b64bcd9d5bae47e24fee316244d6dcd3e85f02d8bdfe7f"
+  },
+  {
+    "url": "https://static.parastorage.com/fonts/v2/b46aabec-b529-45a8-a0fe-2abaf6daf369/v1/dinneuzeitgroteskltw01-_812426.other.woff2",
+    "local": "/fonts/c8a6094c20f9-dinneuzeitgroteskltw01-_812426.other.woff2",
+    "bytes": 3028,
+    "sha256": "b6028cc6b4bb09c706a1eb87f5fed790354e596bf794ab53758b3de71aba8198"
+  },
+  {
+    "url": "https://static.parastorage.com/fonts/v2/b46aabec-b529-45a8-a0fe-2abaf6daf369/v1/dinneuzeitgroteskltw01-_812426.latin-ext.woff2",
+    "local": "/fonts/1bb9aaba5550-dinneuzeitgroteskltw01-_812426.latin-ext.woff2",
+    "bytes": 3288,
+    "sha256": "5ca554e5aa06b830687edae6902ed56b41e64655538364c86aa32d0c54b3f6fa"
+  },
+  {
+    "url": "https://static.parastorage.com/fonts/v2/b46aabec-b529-45a8-a0fe-2abaf6daf369/v1/dinneuzeitgroteskltw01-_812426.latin.woff2",
+    "local": "/fonts/dee3b15eb85c-dinneuzeitgroteskltw01-_812426.latin.woff2",
+    "bytes": 13668,
+    "sha256": "c8f3f0f520d4c9fbebf9084ca2c951c70d9b908f51abae81a993410a28d0426e"
+  },
+  {
+    "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EiSysd0mm.woff2",
+    "local": "/fonts/6ea8d1d9ab24-NGSpv5_NC0k9P_v6ZUCbLRAHxK1EiSysd0mm.woff2",
+    "bytes": 12856,
+    "sha256": "7c9c7bae5afef888d71ade1799cf00723c9b0e57665913b096cf4404865bc903"
+  },
+  {
+    "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/heebo/v15/NGSpv5_NC0k9P_v6ZUCbLRAHxK1E1yysd0mm.woff2",
+    "local": "/fonts/a4e08b44da48-NGSpv5_NC0k9P_v6ZUCbLRAHxK1E1yysd0mm.woff2",
+    "bytes": 12916,
+    "sha256": "9de6ecb86f95f274680657178c507abd37463202a827fa1496f15104b27efd90"
+  },
+  {
+    "url": "https://static.parastorage.com/fonts/v2/2f12de04-5ca4-4ada-9e66-a958673b12b5/v1/helvetica-lt-w10-bold.woff2",
+    "local": "/fonts/4fd1215436dc-helvetica-lt-w10-bold.woff2",
+    "bytes": 23396,
+    "sha256": "a6305695d13a88b1cadf73234625cbc31445e28d9e6e390544cedd2365030341"
+  },
+  {
+    "url": "https://static.parastorage.com/fonts/v2/2f12de04-5ca4-4ada-9e66-a958673b12b5/v1/helvetica-w02-bold.woff2",
+    "local": "/fonts/7fe933283ba2-helvetica-w02-bold.woff2",
+    "bytes": 35596,
+    "sha256": "c74f9e1c7455e9acb2463ac23e80f8109f296e0d512d0e57b4e2bf080c3a25f5"
+  },
+  {
+    "url": "https://static.parastorage.com/fonts/v2/2f12de04-5ca4-4ada-9e66-a958673b12b5/v1/helvetica-w01-bold.woff2",
+    "local": "/fonts/4459fda0f363-helvetica-w01-bold.woff2",
+    "bytes": 28648,
+    "sha256": "22c148080695837bcba284e8069146bd93e94aaa8e8ec4cbe43e0cfe8224527e"
+  },
+  {
+    "url": "https://static.parastorage.com/fonts/v2/2af1bf48-e783-4da8-9fa0-599dde29f2d5/v1/helvetica-lt-w10-roman.woff2",
+    "local": "/fonts/3bf4f8385bc1-helvetica-lt-w10-roman.woff2",
+    "bytes": 24252,
+    "sha256": "820c74a4b2ebb9eee9eda0560fc94e3d9ff8520b36e47d99269d89a6288603f6"
+  },
+  {
+    "url": "https://static.parastorage.com/fonts/v2/2af1bf48-e783-4da8-9fa0-599dde29f2d5/v1/helvetica-w02-roman.woff2",
+    "local": "/fonts/dc8f7d0e9510-helvetica-w02-roman.woff2",
+    "bytes": 41956,
+    "sha256": "4fb3ec1c70340c02b0d1cc37ccab3be7c23cb5fb1d2124619b91ef65e515573f"
+  },
+  {
+    "url": "https://static.parastorage.com/fonts/v2/2af1bf48-e783-4da8-9fa0-599dde29f2d5/v1/helvetica-w01-roman.woff2",
+    "local": "/fonts/00915920e370-helvetica-w01-roman.woff2",
+    "bytes": 36712,
+    "sha256": "fcdfd6f1841b7b145fc382858a45c8342ab62abb0766db43431ab2de54253e97"
+  },
+  {
+    "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/questrial/v9/QdVUSTchPBm7nuUeVf70viFluW44JQ.woff2",
+    "local": "/fonts/aed7469041f3-QdVUSTchPBm7nuUeVf70viFluW44JQ.woff2",
+    "bytes": 13576,
+    "sha256": "495347eafc1881654163fd276f18415487f16cb282b9695dc03a8b99a4de21b5"
+  },
+  {
+    "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/syne/v22/8vIH7w4qzmVxm2NL9G78HEZnMg.woff2",
+    "local": "/fonts/952b9e2590c3-8vIH7w4qzmVxm2NL9G78HEZnMg.woff2",
+    "bytes": 11140,
+    "sha256": "42216fd6ce425c5f5403ff637e6b15409328e2274fe0ef634b49b3cb05240bec"
+  },
+  {
+    "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/syne/v22/8vIH7w4qzmVxm25L9G78HEZnMg.woff2",
+    "local": "/fonts/18b6a4d531ce-8vIH7w4qzmVxm25L9G78HEZnMg.woff2",
+    "bytes": 14484,
+    "sha256": "530188c2edada3884df5370142ce2d70c2132dfaa9e7cdf07e0bc5386b2f9fb4"
+  },
+  {
+    "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/syne/v22/8vIH7w4qzmVxm2BL9G78HEY.woff2",
+    "local": "/fonts/d5491616ceec-8vIH7w4qzmVxm2BL9G78HEY.woff2",
+    "bytes": 34556,
+    "sha256": "fd5cd3e651fc646ef3580ade6025f54f21efe47ca9a02733599bd357d4486a8b"
+  },
+  {
+    "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmy15VGdeOYktMqlap.woff2",
+    "local": "/fonts/a3df2fb40c6b-pxiDyp8kv8JHgFVrJJLmy15VGdeOYktMqlap.woff2",
+    "bytes": 5824,
+    "sha256": "36b9a194bedbaa4f6d47a076423812a8746f135f779badb89e5bca8a973e8bdf"
+  },
+  {
+    "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiGyp8kv8JHgFVrJJLufntAOvWDSHFF.woff2",
+    "local": "/fonts/b6165ef68244-pxiGyp8kv8JHgFVrJJLufntAOvWDSHFF.woff2",
+    "bytes": 5900,
+    "sha256": "a083458639fb169475f8f2e943a0ba93a0e51a46c79786a128bf9c6b1d36cd96"
+  },
+  {
+    "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiEyp8kv8JHgFVrJJnecnFHGPezSQ.woff2",
+    "local": "/fonts/46ddeb66edf6-pxiEyp8kv8JHgFVrJJnecnFHGPezSQ.woff2",
+    "bytes": 5532,
+    "sha256": "ae72a2e827d27f81fd78a0c40dc93fd4c2b85fde419e308f1b387aaa208dad22"
+  },
+  {
+    "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiByp8kv8JHgFVrLCz7Z1JlFd2JQEl8qw.woff2",
+    "local": "/fonts/2fca2a872bd9-pxiByp8kv8JHgFVrLCz7Z1JlFd2JQEl8qw.woff2",
+    "bytes": 5388,
+    "sha256": "44f348aca6a78096d424a5130c3ec1d946529d27011db274e49153f9d750d163"
+  },
+  {
+    "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmy15VF9eOYktMqg.woff2",
+    "local": "/fonts/f48c4f4ca5cb-pxiDyp8kv8JHgFVrJJLmy15VF9eOYktMqg.woff2",
+    "bytes": 8628,
+    "sha256": "54c799453c6f2cc895ca6b433513a87b131ad842d744bd298b1b13a7d1b86705"
+  },
+  {
+    "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiGyp8kv8JHgFVrJJLucHtAOvWDSA.woff2",
+    "local": "/fonts/2c9d6bb3baf4-pxiGyp8kv8JHgFVrJJLucHtAOvWDSA.woff2",
+    "bytes": 8676,
+    "sha256": "4eaac5c96bd47f9fd1f09c91f0b27b5a93346ed7e94de849c835f2116cea3e1d"
+  },
+  {
+    "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2",
+    "local": "/fonts/80bd3fa1b017-pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2",
+    "bytes": 7900,
+    "sha256": "3dc5d0c52428fe1696264907a1054ebbaac07f8cbe45832c105f819c2ae397c0"
+  },
+  {
+    "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v21/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2",
+    "local": "/fonts/48dfb838aaeb-pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2",
+    "bytes": 7848,
+    "sha256": "197a3cbd7290c242c5c765268cdd69a9a39867fdc80cd13071f243a81c56fb76"
+  },
+  {
+    "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/aDjpMND83pDErGXlVEr-Sfk_vArhqVIZ0nv9q090hN8.woff2",
+    "local": "/fonts/535c8061da3d-aDjpMND83pDErGXlVEr-Sfk_vArhqVIZ0nv9q090hN8.woff2",
+    "bytes": 10504,
+    "sha256": "f5decc210dbe7320771b5ddf86e95be8c6d74d09ac53ab756d4bebcca49c5d3f"
+  },
+  {
+    "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/c4FPK8_hIFKoX59qcGwdChUOjZSKWg4xBWp_C_qQx0o.woff2",
+    "local": "/fonts/e620ca959615-c4FPK8_hIFKoX59qcGwdChUOjZSKWg4xBWp_C_qQx0o.woff2",
+    "bytes": 12176,
+    "sha256": "5a74628f4bac2e86b98dd2da6d09aa84271894a68d3fbdf2f8569da5278e273a"
+  },
+  {
+    "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/RbebACOccNN-5ixkDIVLjRUOjZSKWg4xBWp_C_qQx0o.woff2",
+    "local": "/fonts/af999a22a5c6-RbebACOccNN-5ixkDIVLjRUOjZSKWg4xBWp_C_qQx0o.woff2",
+    "bytes": 12256,
+    "sha256": "7554797917550379f4d842a5ab0280261035c880d7233264bf5d4e4ecbcac54e"
+  },
+  {
+    "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/9VWMTeb5jtXkNoTv949Npfk_vArhqVIZ0nv9q090hN8.woff2",
+    "local": "/fonts/f27324544bae-9VWMTeb5jtXkNoTv949Npfk_vArhqVIZ0nv9q090hN8.woff2",
+    "bytes": 10400,
+    "sha256": "5654b0e267ff835ebdb0b8f09e24b7a393bd0818b68d475e1729c3dd59af4f67"
+  },
+  {
+    "url": "https://static.parastorage.com/fonts/v2/8eac109b-0fa9-42bf-a305-43e471e23779/v1/helvetica-w02-light.woff2",
+    "local": "/fonts/02558e81e565-helvetica-w02-light.woff2",
+    "bytes": 22492,
+    "sha256": "2be90a76ac71b5abf5eb25f5a2feb93819852f99957e5b121df8ecad0190a5a5"
+  },
+  {
+    "url": "https://static.parastorage.com/fonts/v2/8eac109b-0fa9-42bf-a305-43e471e23779/v1/helvetica-w01-light.woff2",
+    "local": "/fonts/7972bb30901c-helvetica-w01-light.woff2",
+    "bytes": 17348,
+    "sha256": "f0e5c2783ecd83f6495064730d26fefd8eba34f24c550210a7452961a3117dc7"
+  },
+  {
+    "url": "https://static.parastorage.com/fonts/v2/c24fcada-6239-48bc-8b88-9288338191c9/v1/proxima-n-w05-reg.woff2",
+    "local": "/fonts/3a94f23599ec-proxima-n-w05-reg.woff2",
+    "bytes": 82024,
+    "sha256": "5185daf236a2f25ecc182bbe3dee5a66f42d8ed6a4d4e065cc0feec9a6ace90d"
+  },
+  {
+    "url": "https://static.parastorage.com/fonts/v2/c24fcada-6239-48bc-8b88-9288338191c9/v1/proxima-n-w01-reg.woff2",
+    "local": "/fonts/99fba282244e-proxima-n-w01-reg.woff2",
+    "bytes": 23088,
+    "sha256": "5571fff42dc7e301a496d7affcc5305688037d897a6a4cbad6a3de042e384717"
+  },
+  {
+    "url": "https://static.parastorage.com/fonts/v2/790166f1-b347-4f16-8a29-f0c4931a7c35/v1/futura-lt-w01-book.woff2",
+    "local": "/fonts/1b6294d30fb9-futura-lt-w01-book.woff2",
+    "bytes": 18428,
+    "sha256": "446d2c488253b49a62319b809a1afa6f942a8521e4c7b13dcde1b72b630878a2"
+  },
+  {
+    "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/google/s/heebo/v26/NGSpv5_NC0k9P_v6ZUCbLRAHxK1Ebiucd0Onz02SXQ.woff2",
+    "local": "/fonts/1c5e56fa14d6-NGSpv5_NC0k9P_v6ZUCbLRAHxK1Ebiucd0Onz02SXQ.woff2",
+    "bytes": 25708,
+    "sha256": "805ce73e78b8a43772b7256e24ee6ad1f325903afb0b4a499a5e37cde7aa95ac"
+  },
+  {
+    "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/google/s/heebo/v26/NGSpv5_NC0k9P_v6ZUCbLRAHxK1Euyycd0Onz02SXQ.woff2",
+    "local": "/fonts/c0e4730f0065-NGSpv5_NC0k9P_v6ZUCbLRAHxK1Euyycd0Onz02SXQ.woff2",
+    "bytes": 25772,
+    "sha256": "147ef5c4782c7c2d1f78beefaf4045cb25853a0a886bda1ae30649eac3a9a31d"
+  }
+]

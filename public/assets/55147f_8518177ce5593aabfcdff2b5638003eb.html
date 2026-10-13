@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<title>Gripper Code</title>
+
+<div style="height:400px;width:475px;border:1px solid #ccc;font:11px/20px Helvetica, Helvetica, Serif;overflow-y:scroll;overflow-x:hidden;">
+<FONT COLOR="#afb2b6">/*<br>
+  AUTONOMOUS GRIPPER CODE<br>
+  Specifies the timing and sequence of movemnts involving the x-axis pneumatic cylinder,<br>
+  the y-axis pneumatic cylinder, and the venturi tube (vacuum) on the Autonomous Gripper using Arduino<br>
+  Charlene Lam<br>
+  2023-06-20<br>
+*/<br>
+<br>
+// Constants</FONT><br>
+<FONT COLOR="#60a0b6">const int</FONT> relayZCylPin = 11;      <FONT COLOR="#afb2b6">// Pin connected to Relay for ZCyl control</FONT><br>
+<FONT COLOR="#60a0b6">const int</FONT> relayXCylPin = 10;      <FONT COLOR="#afb2b6">// Pin connected to Relay for XCyl control</FONT><br>
+<FONT COLOR="#60a0b6">const int</FONT> relayVacuumPin = 9;    <FONT COLOR="#afb2b6">// Pin connected to Relay for Vacuum control</FONT><br>
+<FONT COLOR="#60a0b6">const int</FONT> startButtonPin = 7;    <FONT COLOR="#afb2b6">// Pin connected to the start button</FONT><br>
+<br>
+<FONT COLOR="#afb2b6">// Function to control the relays</FONT><br>
+  void <FONT COLOR="#d84719">controlRelays</FONT>(<FONT COLOR="#60a0b6">bool</FONT> relayZCylState, <FONT COLOR="#60a0b6">bool</FONT> relayXCylState, <FONT COLOR="#60a0b6">bool</FONT> relayVacuumState) {<br>
+
+  &emsp;<FONT COLOR="#d84719">digitalWrite</FONT>(relayZCylPin, relayZCylState ? LOW : HIGH);<br>
+  &emsp;<FONT COLOR="#d84719">digitalWrite</FONT>(relayXCylPin, relayXCylState ? LOW : HIGH);<br>
+  &emsp;<FONT COLOR="#d84719">digitalWrite</FONT>(relayVacuumPin, relayVacuumState ? HIGH : LOW);<br>
+}<br>
+  <br>
+<FONT COLOR="#afb2b6">// Setup function</FONT><br>
+<FONT COLOR="#60a0b6">void</FONT> <FONT COLOR="#d84719">setup</FONT>() {<br>
+  &emsp;<FONT COLOR="#d84719">Serial.begin</FONT>(9600);<br>
+  &emsp;<FONT COLOR="#d84719">pinMode</FONT>(relayZCylPin, OUTPUT);<br>
+  &emsp;<FONT COLOR="#d84719">pinMode</FONT>(relayXCylPin, OUTPUT);<br>
+  &emsp;<FONT COLOR="#d84719">pinMode</FONT>(relayVacuumPin, OUTPUT);<br>
+  &emsp;<FONT COLOR="#d84719">pinMode</FONT>(startButtonPin, INPUT_PULLUP);<br>
+}<br>
+  <br>
+  <FONT COLOR="#afb2b6">// Main loop</FONT><br>
+
+<FONT COLOR="#60a0b6">void</FONT> <FONT COLOR="#d84719">loop</FONT>() {<br>
+  &emsp;<FONT COLOR="#d84719">controlRelays</FONT>(false, false, true);  <FONT COLOR="#afb2b6">// Home ZCyl, XCyl, and Vacuum</FONT><br>
+  &emsp;<FONT COLOR="#d84719">delay</FONT>(1000);<br>
+  &emsp;<FONT COLOR="#d84719">Serial.println</FONT>(<FONT COLOR="#d84719">digitalRead</FONT>(startButtonPin)); <FONT COLOR="#afb2b6">// Start serial monitor</FONT><br>
+  &emsp;delay(1000);<br>
+  <br>
+  <FONT COLOR="#afb2b6">// Check if the start button is pressed to start the machine</FONT><br>
+  &emsp;if (digitalRead(startButtonPin) == LOW) {<br>
+    &emsp;&emsp;<FONT COLOR="#afb2b6">// Run the machine sequence</FONT><br>
+    &emsp;&emsp;<FONT COLOR="#afb2b6">// Note: ZCyl extended = true, XCyl extended = true, vacuum off = true</FONT><br>
+    &emsp;&emsp;<FONT COLOR="#d84719">controlRelays</FONT>(false, false, false);  <FONT COLOR="#afb2b6">// Vacuum on</FONT><br>
+    &emsp;&emsp;<FONT COLOR="#d84719">delay(1000)</FONT>;<br>
+    &emsp;&emsp;<FONT COLOR="#d84719">controlRelays</FONT>(true, false, false);  <FONT COLOR="#afb2b6">// ZCyl extends</FONT><br>
+    &emsp;&emsp;<FONT COLOR="#d84719">delay(2000)</FONT>;<br>
+    &emsp;&emsp;<FONT COLOR="#d84719">controlRelays</FONT>(false, false, false); <FONT COLOR="#afb2b6">// ZCyl retracts</FONT><br>
+    &emsp;&emsp;<FONT COLOR="#d84719">delay(1000)</FONT>;<br>
+    &emsp;&emsp;<FONT COLOR="#d84719">controlRelays</FONT>(false, true, false);  <FONT COLOR="#afb2b6">// XCyl extends</FONT><br>
+    &emsp;&emsp;<FONT COLOR="#d84719">delay(1000)</FONT>;<br>
+    &emsp;&emsp;<FONT COLOR="#d84719">controlRelays</FONT>(true, true, false);   <FONT COLOR="#afb2b6">// ZCyl extends</FONT><br>
+    &emsp;&emsp;<FONT COLOR="#d84719">delay(1000)</FONT>;<br>
+    &emsp;&emsp;<FONT COLOR="#d84719">controlRelays</FONT>(true, true, true);   <FONT COLOR="#afb2b6">// Vacuum off</FONT><br>
+    &emsp;&emsp;<FONT COLOR="#d84719">delay(1000)</FONT>;<br>
+    &emsp;&emsp;<FONT COLOR="#d84719">controlRelays</FONT>(false, true, true);  <FONT COLOR="#afb2b6">// ZCyl retracts</FONT><br>
+    &emsp;&emsp;<FONT COLOR="#d84719">delay</FONT>(1000);<br>
+    &emsp;&emsp;<FONT COLOR="#d84719">controlRelays</FONT>(false, false, true); <FONT COLOR="#afb2b6">// XCyl retracts</FONT><br>
+      &emsp;&emsp;}<br>
+}<br>
+</div>
+    &emsp;&emsp;}<br>
+}<br>
+</div>

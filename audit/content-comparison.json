@@ -1,0 +1,187 @@
+{
+  "pages": [
+    {
+      "path": "/copy-of-autopasser",
+      "richTextBlocks": 10,
+      "originalImageInstances": 10,
+      "renderedImageAndPosterInstances": 10,
+      "missingImages": []
+    },
+    {
+      "path": "/autopasser",
+      "richTextBlocks": 27,
+      "originalImageInstances": 28,
+      "renderedImageAndPosterInstances": 28,
+      "missingImages": []
+    },
+    {
+      "path": "/engineering",
+      "richTextBlocks": 5,
+      "originalImageInstances": 5,
+      "renderedImageAndPosterInstances": 5,
+      "missingImages": []
+    },
+    {
+      "path": "/design",
+      "richTextBlocks": 5,
+      "originalImageInstances": 5,
+      "renderedImageAndPosterInstances": 5,
+      "missingImages": []
+    },
+    {
+      "path": "/art",
+      "richTextBlocks": 7,
+      "originalImageInstances": 7,
+      "renderedImageAndPosterInstances": 7,
+      "missingImages": []
+    },
+    {
+      "path": "/photography",
+      "richTextBlocks": 3,
+      "originalImageInstances": 21,
+      "renderedImageAndPosterInstances": 21,
+      "missingImages": []
+    },
+    {
+      "path": "/strawberry-sandals",
+      "richTextBlocks": 2,
+      "originalImageInstances": 1,
+      "renderedImageAndPosterInstances": 1,
+      "missingImages": []
+    },
+    {
+      "path": "/shoe-design-exploration",
+      "richTextBlocks": 2,
+      "originalImageInstances": 1,
+      "renderedImageAndPosterInstances": 1,
+      "missingImages": []
+    },
+    {
+      "path": "/automated-gripper",
+      "richTextBlocks": 42,
+      "originalImageInstances": 23,
+      "renderedImageAndPosterInstances": 24,
+      "missingImages": []
+    },
+    {
+      "path": "/portrait-dog",
+      "richTextBlocks": 2,
+      "originalImageInstances": 1,
+      "renderedImageAndPosterInstances": 1,
+      "missingImages": []
+    },
+    {
+      "path": "/design-with-type",
+      "richTextBlocks": 3,
+      "originalImageInstances": 2,
+      "renderedImageAndPosterInstances": 2,
+      "missingImages": []
+    },
+    {
+      "path": "/copy-of-automated-gripper",
+      "richTextBlocks": 16,
+      "originalImageInstances": 11,
+      "renderedImageAndPosterInstances": 11,
+      "missingImages": []
+    },
+    {
+      "path": "/air-jordan-colorway",
+      "richTextBlocks": 2,
+      "originalImageInstances": 3,
+      "renderedImageAndPosterInstances": 3,
+      "missingImages": []
+    },
+    {
+      "path": "/updating",
+      "richTextBlocks": 2,
+      "originalImageInstances": 0,
+      "renderedImageAndPosterInstances": 0,
+      "missingImages": []
+    },
+    {
+      "path": "/portrait-george-floyd",
+      "richTextBlocks": 2,
+      "originalImageInstances": 1,
+      "renderedImageAndPosterInstances": 1,
+      "missingImages": []
+    },
+    {
+      "path": "/about",
+      "richTextBlocks": 3,
+      "originalImageInstances": 3,
+      "renderedImageAndPosterInstances": 3,
+      "missingImages": []
+    },
+    {
+      "path": "/bird-painting-leather",
+      "richTextBlocks": 2,
+      "originalImageInstances": 1,
+      "renderedImageAndPosterInstances": 1,
+      "missingImages": []
+    },
+    {
+      "path": "/portrait-ruth-bader-ginsburg",
+      "richTextBlocks": 2,
+      "originalImageInstances": 1,
+      "renderedImageAndPosterInstances": 1,
+      "missingImages": []
+    },
+    {
+      "path": "/copy-of-sageware",
+      "richTextBlocks": 0,
+      "originalImageInstances": 1,
+      "renderedImageAndPosterInstances": 1,
+      "missingImages": []
+    },
+    {
+      "path": "/homage-norman-ives",
+      "richTextBlocks": 2,
+      "originalImageInstances": 6,
+      "renderedImageAndPosterInstances": 6,
+      "missingImages": []
+    },
+    {
+      "path": "/apple",
+      "richTextBlocks": 4,
+      "originalImageInstances": 1,
+      "renderedImageAndPosterInstances": 1,
+      "missingImages": []
+    },
+    {
+      "path": "/sageware",
+      "richTextBlocks": 0,
+      "originalImageInstances": 21,
+      "renderedImageAndPosterInstances": 21,
+      "missingImages": []
+    },
+    {
+      "path": "/",
+      "richTextBlocks": 5,
+      "originalImageInstances": 4,
+      "renderedImageAndPosterInstances": 4,
+      "missingImages": []
+    },
+    {
+      "path": "/endless-garden",
+      "richTextBlocks": 0,
+      "originalImageInstances": 7,
+      "renderedImageAndPosterInstances": 7,
+      "missingImages": []
+    },
+    {
+      "path": "/portrait-aphrodite",
+      "richTextBlocks": 2,
+      "originalImageInstances": 1,
+      "renderedImageAndPosterInstances": 1,
+      "missingImages": []
+    },
+    {
+      "path": "/fullscreen-page",
+      "richTextBlocks": 0,
+      "originalImageInstances": 0,
+      "renderedImageAndPosterInstances": 0,
+      "missingImages": []
+    }
+  ],
+  "exactTextFailures": []
+}

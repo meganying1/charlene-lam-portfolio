@@ -1,0 +1,173 @@
+{
+  "gw8vn": {
+    "fillLayers": {
+      "containerId": "gw8vn",
+      "hasBgFullscreenScrollEffect": false,
+      "shouldRenderUnderlay": true,
+      "shouldPadMedia": false,
+      "hasCanvasAnimation": false
+    }
+  },
+  "comp-jzihfxxm": {
+    "fillLayers": {
+      "containerId": "comp-jzihfxxm",
+      "hasBgFullscreenScrollEffect": false,
+      "shouldRenderUnderlay": true,
+      "shouldPadMedia": false,
+      "hasCanvasAnimation": false
+    }
+  },
+  "Containercomp-jzihfxxm": {
+    "meshProps": {
+      "wedges": [],
+      "rotatedComponents": [],
+      "fixedComponents": []
+    }
+  },
+  "comp-jzihjf3z": {
+    "skin": "AppWidgetSkin",
+    "meshProps": {
+      "wedges": [],
+      "rotatedComponents": [],
+      "fixedComponents": []
+    },
+    "shouldUseClassName": true
+  },
+  "comp-jzihjf5h": {
+    "meshProps": {
+      "wedges": [],
+      "rotatedComponents": [],
+      "fixedComponents": []
+    }
+  },
+  "comp-jzihfxye": {
+    "svgContent": "<svg preserveAspectRatio=\"xMidYMid meet\" data-bbox=\"82.189 55.096 481.811 481.808\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"82.189 55.096 481.811 481.808\" role=presentation aria-hidden=true>\n    <g>\n        <path d=\"M531.936 536.904L323.094 328.063 114.253 536.904l-32.064-32.062L291.032 296 82.189 87.157l32.064-32.061 208.842 208.842L531.936 55.096 564 87.157 355.155 296 564 504.842l-32.064 32.062z\"/>\n    </g>\n</svg>\n",
+    "translations": {
+      "a11yLabel": "Back to site"
+    }
+  },
+  "comp-jzqr2jpf": {
+    "html": "<h2 class=\"font_6 wixui-rich-text__text\" style=\"font-size:25px;\"><span class=\"color_45 wixui-rich-text__text\">Contact</span></h2>",
+    "skin": "WRichTextNewSkin",
+    "isQaMode": false,
+    "fullNameCompType": "wysiwyg.viewer.components.WRichText"
+  },
+  "comp-jzql8cah": {
+    "html": "<p class=\"font_8 wixui-rich-text__text\" style=\"line-height:1.6em; font-size:16px;\"><span class=\"color_15 wixui-rich-text__text\"><a data-auto-recognition=\"true\" href=\"mailto:info@mysite.com\" class=\"wixui-rich-text__text\">info@mysite.com</a><br class=\"wixui-rich-text__text\">\nTel: 123-456-7890</span></p>",
+    "skin": "WRichTextNewSkin",
+    "isQaMode": false,
+    "fullNameCompType": "wysiwyg.viewer.components.WRichText"
+  },
+  "comp-jzqr5wuv": {
+    "html": "<p class=\"font_6 wixui-rich-text__text\" style=\"line-height:normal; font-size:25px;\"><span style=\"letter-spacing:normal;\" class=\"wixui-rich-text__text\"><span class=\"color_45 wixui-rich-text__text\">Based in</span></span></p>",
+    "skin": "WRichTextThemeSkin",
+    "isQaMode": false,
+    "fullNameCompType": "wysiwyg.viewer.components.WRichText"
+  },
+  "comp-jzql8cat": {
+    "html": "<p class=\"font_8 wixui-rich-text__text\" style=\"line-height:1.6em; font-size:16px;\"><span class=\"color_15 wixui-rich-text__text\">San Francisco, California</span></p>",
+    "skin": "WRichTextNewSkin",
+    "isQaMode": false,
+    "fullNameCompType": "wysiwyg.viewer.components.WRichText"
+  },
+  "comp-jzihjhdq": {
+    "skin": "AppsTextInputSkin",
+    "value": "",
+    "inputType": "text",
+    "label": "Name",
+    "name": "name",
+    "placeholder": "",
+    "readOnly": false,
+    "required": false,
+    "autoComplete_": null,
+    "isDisabled": false,
+    "maxLength": 100,
+    "translations": {
+      "phoneFormatLengthValidationError": "Please enter a phone number with {digits} digits.",
+      "phoneFormatDefaultValidationError": "Please enter between 4 to 17 digits. You can include hyphens (-) or start with a (+), e.g., 555-123-4567 or +(222)987654321.",
+      "phoneFormatComplexPhoneDefaultValidationError": "Please enter between 4 to 17 digits. You can include hyphens (-), e.g., 555-123-4567.",
+      "errorMessage": "Error text displays here."
+    },
+    "textInputAutoFillFixEnabled": true
+  },
+  "comp-jzihjhds": {
+    "skin": "AppsTextInputSkin",
+    "value": "",
+    "inputType": "email",
+    "label": "Email",
+    "name": "email",
+    "placeholder": "",
+    "readOnly": false,
+    "required": true,
+    "autoComplete_": null,
+    "isDisabled": false,
+    "pattern": "^.+@.+\\.[a-zA-Z]{2,63}$",
+    "maxLength": 250,
+    "translations": {
+      "phoneFormatLengthValidationError": "Please enter a phone number with {digits} digits.",
+      "phoneFormatDefaultValidationError": "Please enter between 4 to 17 digits. You can include hyphens (-) or start with a (+), e.g., 555-123-4567 or +(222)987654321.",
+      "phoneFormatComplexPhoneDefaultValidationError": "Please enter between 4 to 17 digits. You can include hyphens (-), e.g., 555-123-4567.",
+      "errorMessage": "Error text displays here."
+    },
+    "textInputAutoFillFixEnabled": true
+  },
+  "comp-jzihmghi": {
+    "skin": "AppsTextInputSkin",
+    "value": "",
+    "inputType": "tel",
+    "label": "Phone",
+    "name": "phone",
+    "placeholder": "",
+    "readOnly": false,
+    "required": false,
+    "autoComplete_": null,
+    "isDisabled": false,
+    "translations": {
+      "phoneFormatLengthValidationError": "Please enter a phone number with {digits} digits.",
+      "phoneFormatDefaultValidationError": "Please enter between 4 to 17 digits. You can include hyphens (-) or start with a (+), e.g., 555-123-4567 or +(222)987654321.",
+      "phoneFormatComplexPhoneDefaultValidationError": "Please enter between 4 to 17 digits. You can include hyphens (-), e.g., 555-123-4567.",
+      "errorMessage": "Error text displays here."
+    },
+    "textInputAutoFillFixEnabled": true
+  },
+  "comp-jzihjhdw": {
+    "skin": "TextAreaDefaultSkin",
+    "value": "",
+    "label": "Message",
+    "placeholder": "",
+    "readOnly": false,
+    "required": false,
+    "isDisabled": false,
+    "translations": {}
+  },
+  "comp-jzihjhqg": {
+    "label": "Contact Me",
+    "skin": "BasicButton",
+    "link": {
+      "type": "FormSubmitButtonLink",
+      "id": "dataItem-jzihjhrl1",
+      "metaData": {
+        "isPreset": true,
+        "schemaVersion": "1.0",
+        "isHidden": false
+      }
+    },
+    "hasPlatformClickHandler": true,
+    "classNames": {
+      "desktop": "desktop"
+    },
+    "a11y": {},
+    "isQaMode": false,
+    "fullNameCompType": "wysiwyg.viewer.components.SiteButton",
+    "language": "en",
+    "mainPageId": "c1dmp",
+    "compId": "comp-jzihjhqg",
+    "trackClicksAnalytics": false
+  },
+  "comp-jzihjhqi": {
+    "html": "<p class=\"font_8 wixui-rich-text__text\" style=\"text-align:center; font-size:16px;\"><span class=\"color_15 wixui-rich-text__text\"><span style=\"font-family:helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;\" class=\"wixui-rich-text__text\">Thanks for submitting!</span></span></p>",
+    "skin": "WRichTextNewSkin",
+    "isQaMode": false,
+    "fullNameCompType": "wysiwyg.viewer.components.WRichText"
+  }
+}

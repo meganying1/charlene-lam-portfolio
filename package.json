@@ -1,0 +1,15 @@
+{
+  "name": "charlene-lam-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "check": "node scripts/verify.mjs",
+    "build:preview": "npm run build && node scripts/build-preview.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -8,3 +8,5 @@
 - Compared each generated image attribute and sequence with the preceding PR snapshot: unchanged. All 26 generated pages have zero image-expansion controls/dialogs and zero project footers.
 
 Browser automation was unavailable for this pass. The local comparison preview is refreshed for visual review; prior branch browser checks are recorded separately in DESIGN-REFINEMENT-QA.md. No merge or production-domain changes are included.
+
+The 2026-10-25 refinement retains this global no-expansion behavior, including Photography. Updated browser-based responsive and interaction verification is recorded in `UI-UX-REFINEMENT-QA.md`.

@@ -18,7 +18,7 @@ export const panels = new Set([
 ]);
 export const category = (s) =>
   panels.has(s)
-    ? "home"
+    ? s === "copy-of-sageware" ? "design" : "engineering"
     : [
           "home",
           "engineering",
@@ -83,13 +83,14 @@ export function renderPage(
   descriptions = {},
 ) {
   let titleSeen = false;
+  let imageIndex = 0;
   const label = p.title.split(" | ")[0].trim();
   const image = (n, card = false, alt) => {
     const r = responsive[n.src];
     const attrs = r
       ? `src="${esc(r.default)}" srcset="${r.sources.map((x) => `${esc(x.src)} ${x.width}w`).join(", ")}" sizes="${card ? "(max-width:640px) calc(100vw - 40px), 50vw" : "(max-width:900px) calc(100vw - 40px), 1040px"}"`
       : `src="${esc(n.src)}"`;
-    return `<img ${attrs} alt="${esc(alt ?? n.alt)}" width="${r?.width || n.width}" height="${r?.height || n.height}" loading="lazy" decoding="async" data-original="${esc(n.src)}" data-source-id="${esc(n.id)}">`;
+    return `<img ${attrs} alt="${esc(alt ?? n.alt)}" width="${r?.width || n.width}" height="${r?.height || n.height}" loading="${imageIndex++ < 2 ? "eager" : "lazy"}" decoding="async" data-original="${esc(n.src)}" data-source-id="${esc(n.id)}">`;
   };
   const figure = (n) => {
     const generic =
@@ -107,8 +108,9 @@ export function renderPage(
         : generic
           ? `${label} — ${p.slug === "photography" ? "live music photograph" : context ? plain(context.html) : "project image"} ${p.nodes.filter((x) => x.type === "image").findIndex((x) => x.id === n.id) + 1}`
           : n.alt);
-    const visual = `<div class="figure-visual">${image(n, false, alt)}</div>`;
-    return `<figure class="media ${n.width <= 100 && n.height <= 100 ? "small-figure" : ""}" id="${esc(n.id)}-figure">${n.href ? `<a href="${esc(n.href)}">${image(n, false, alt)}</a>` : visual}${transcripts[n.src] ? `<details class="panel-transcript"><summary>Read panel text</summary><div class="transcript-content">${transcripts[n.src].map((t) => `<p>${esc(t)}</p>`).join("")}</div></details>` : ""}</figure>`;
+    const picture = image(n, false, alt);
+    const visual = `<div class="figure-visual">${picture}</div>`;
+    return `<figure class="media ${n.width <= 100 && n.height <= 100 ? "small-figure" : ""}" id="${esc(n.id)}-figure">${n.href ? `<a href="${esc(n.href)}">${picture}</a>` : visual}${transcripts[n.src] ? `<details class="panel-transcript"><summary>Read panel text</summary><div class="transcript-content">${transcripts[n.src].map((t) => `<p>${esc(t)}</p>`).join("")}</div></details>` : ""}</figure>`;
   };
   const download = (n, html) =>
     `<a class="download" href="${esc(n.href)}">${html || esc(n.text || (p.slug === "endless-garden" ? "Download Report" : "Open linked document"))}<span aria-hidden="true">↗</span></a>`;
@@ -120,10 +122,8 @@ export function renderPage(
   if (ti >= 0 && !["about", "photography"].includes(p.slug)) {
     intro.push(nodes.splice(ti, 1)[0]);
     if (!indexes.has(p.slug) && !panels.has(p.slug) && p.slug !== "updating") {
-      if (!p.nav.length) {
-        const i = nodes.findIndex((n) => n.type === "text");
-        if (i >= 0) intro.push(nodes.splice(i, 1)[0]);
-      }
+      const description = nodes.findIndex((n) => n.type === "text");
+      if (description >= 0) intro.push(nodes.splice(description, 1)[0]);
       if (p.slug === "autopasser") {
         const i = nodes.findIndex((n) => n.id === "comp-ll0v00s4");
         intro.push(nodes.splice(i, 1)[0]);
@@ -136,7 +136,10 @@ export function renderPage(
     let html = Rich(n, {
       title,
       about: p.slug === "about",
-      className: n.id === "comp-ll0v00s4" ? "metadata" : "",
+      className: n.id === "comp-ll0v00s4" ? "metadata" :
+        !/<h[123]|<ul|<ol/.test(n.html) && plain(n.html).length < 150 &&
+        ["image", "video"].includes(p.nodes[p.nodes.findIndex(x => x.id === n.id) - 1]?.type)
+          ? "media-caption" : "",
     });
     if (n.id === "comp-ll0v00s4")
       html = html.replace(/<\/?h3>/g, (m) =>
@@ -146,8 +149,15 @@ export function renderPage(
       html = html.replace(/<\/?h2>/g, (m) =>
         m.includes("/") ? "</p>" : "<p>",
       );
+    if (intro.includes(n))
+      html = html.replace(/(?:<br\s*\/?>\s*)+(\([^<]*\d{4}\))/g,
+        '<span class="project-year">$1</span>');
     return html;
   };
+  const video = (n) => `<figure class="media video-media"><video id="${esc(n.id)}" src="${esc(n.src)}" ${n.poster ? `poster="${esc(n.poster)}"` : ""} controls playsinline preload="metadata" ${n.loop ? "loop" : ""} ${n.muted ? "muted" : ""} aria-label="${esc(label)} video"></video></figure>`;
+  const leadingAnchors = [];
+  while (nodes[0]?.type === "anchor") leadingAnchors.push(nodes.shift());
+  const lead = p.nav.length && ["image", "video"].includes(nodes[0]?.type) ? nodes.shift() : null;
   let body = intro.length
     ? `<header class="project-header ${indexes.has(p.slug) ? "index-heading" : ""}">${intro.map(text).join("")}</header>`
     : "";
@@ -155,6 +165,9 @@ export function renderPage(
     body += `<header class="project-header"><h1>${esc(label)}</h1></header>`;
     titleSeen = true;
   }
+  if (lead) body = `<div class="project-intro">${body}${lead.type === "video" ? video(lead) : figure(lead)}</div>`;
+  body = leadingAnchors.map(n => `<span class="anchor" id="${esc(n.id)}"></span>`).join("") + body;
+  if (p.nav.length) body += SectionContents(p);
   for (let i = 0; i < nodes.length; i++) {
     const n = nodes[i];
     if (n.type === "anchor") {
@@ -264,7 +277,7 @@ export function renderPage(
       continue;
     }
     if (n.type === "video") {
-      body += `<figure class="media video-media"><video id="${esc(n.id)}" src="${esc(n.src)}" ${n.poster ? `poster="${esc(n.poster)}"` : ""} controls playsinline preload="metadata" ${n.loop ? "loop" : ""} ${n.muted ? "muted" : ""} aria-label="${esc(label)} video"></video></figure>`;
+      body += video(n);
       continue;
     }
     if (n.type === "embed") {
@@ -293,7 +306,7 @@ export function renderPage(
     if (!body.includes(esc(href)))
       body += download({ href, text: link.text || "Open linked document" });
   }
-  return `${p.nav.length ? SectionContents(p) : ""}<main id="main" tabindex="-1" class="${indexes.has(p.slug) ? "index-content" : panels.has(p.slug) ? "panels" : "project-content"}" aria-label="${esc(label)}">${body}</main>`;
+  return `<main id="main" tabindex="-1" class="${indexes.has(p.slug) ? "index-content" : panels.has(p.slug) ? "panels" : "project-content"}" aria-label="${esc(label)}">${body}</main>`;
 }
 export function SectionContents(p) {
   return `<details class="section-contents"><summary>On this page</summary><nav aria-label="Page sections">${p.nav

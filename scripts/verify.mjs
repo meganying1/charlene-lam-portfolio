@@ -90,6 +90,11 @@ for (const p of pages) {
   if (JSON.stringify(rendered) !== JSON.stringify(images(p.nodes)))
     errors.push(`${p.path}: original image sequence changed`);
   imageCount += rendered.length;
+  const videos = [...html.matchAll(/<video[^>]*\ssrc="([^"]+)"/g)].map(m => m[1]);
+  if (JSON.stringify(videos) !== JSON.stringify(p.nodes.filter(n => n.type === "video").map(n => n.src)))
+    errors.push(`${p.path}: original video sequence changed`);
+  if (/<dialog[\s>]|\bdata-image=|class="[^"]*(?:expand-icon|photo-expand|expand-image)/.test(html))
+    errors.push(`${p.path}: image enlargement controls must stay removed`);
   for (const match of html.matchAll(
     /\b(?:href|src|poster|data-original|data-image)="([^"]*)"/g,
   )) {

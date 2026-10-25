@@ -31,8 +31,13 @@ currentLabel.className = "current-section";
 contents?.querySelector("summary").append(currentLabel);
 function updateSection() {
   let current = targets[0];
+  let closest = -Infinity;
   for (const target of targets) {
-    if (target.getBoundingClientRect().top <= 120) current = target;
+    const top = target.getBoundingClientRect().top;
+    if (top <= 120 && top >= closest) {
+      current = target;
+      closest = top;
+    }
   }
   for (const link of sectionLinks) {
     if (current && link.hash === "#" + current.id) {
@@ -58,7 +63,26 @@ window.addEventListener(
 );
 updateSection();
 sectionLinks.forEach((link) =>
-  link.addEventListener("click", () => {
+  link.addEventListener("click", (event) => {
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
     if (contents) contents.open = false;
+    // Keep keyboard navigation at the selected section after its link is hidden.
+    const target = document.getElementById(decodeURIComponent(link.hash.slice(1)));
+    let destination = target;
+    if (target?.classList.contains("anchor")) {
+      for (let next = target.nextElementSibling; next; next = next.nextElementSibling) {
+        const heading = next.querySelector("h1,h2,h3");
+        if (heading) {
+          destination = heading;
+          break;
+        }
+      }
+    }
+    destination?.setAttribute("tabindex", "-1");
+    if (location.hash !== link.hash) history.pushState(null, "", link.hash);
+    target?.scrollIntoView({ block: "start" });
+    destination?.focus({ preventScroll: true });
+    requestAnimationFrame(updateSection);
   }),
 );

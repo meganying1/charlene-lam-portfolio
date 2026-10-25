@@ -1,6 +1,6 @@
 # Charlene Lam — independent portfolio
 
-This static website runs without Wix, a database, a framework, or a package installation. Node.js 20 or newer is the only build/preview requirement. All portfolio media, documents, original font files, and image variants are stored locally.
+This static website runs without Wix, a database, a framework, or a package installation. Node.js 20 or newer is the only build/preview requirement. All portfolio media, documents, original font files, and image variants are stored locally. Images display without expansion controls or click-to-expand behavior. Individual project pages omit the bottom category and CHARLENE links.
 
 The current Wix website and its DNS have not been changed. The separate private preview is for review. Do not change the domain or cancel Wix until the owner approves the replacement.
 
@@ -24,9 +24,9 @@ npm run check
 ## Source structure and editing
 
 - `src/content.json`: one original content source for all widths, preserving text, captions, metadata, image order and project paths.
-- `scripts/components.mjs`: shared semantic header, cards, introductions, figures, evaluation rows, contents, downloads, gallery and footer.
+- `scripts/components.mjs`: shared semantic header, cards, introductions, figures, evaluation rows, contents, downloads and gallery.
 - `src/styles.css`: shared tokens, component styles and responsive reflow; no whole-page scaling.
-- `src/app.js`: compact navigation, current-section indication and keyboard image zoom/fit controls.
+- `src/app.js`: compact navigation and current-section indication.
 - `src/image-descriptions.json`: reviewed descriptions of artwork, travel and live-music photographs.
 - `src/panel-transcripts.json`: reviewed printed text alternatives for29 intact original panels.
 - `src/layouts/` and `src/desktop-overrides.css`: archived original desktop layouts, excluded from generated pages.
@@ -54,7 +54,7 @@ The `.openai/hosting.json` file configures the separate private Sites review dep
 
 ## Functionality and services
 
-The published site uses local native video controls, original animated GIFs, project links, section links, local PDFs, a mobile menu and keyboard-accessible image enlargement. Email uses the original `mailto:` link and opens the visitor's mail application. LinkedIn and Generate remain their original external destinations.
+The published site uses local native video controls, original animated GIFs, project links, section links, local PDFs, and a mobile menu. Email uses the original `mailto:` link and opens the visitor's mail application. LinkedIn and Generate remain their original external destinations.
 
 The dormant Contact popup contains pre-existing template text (`info@mysite.com`, `Tel: 123-456-7890`, `San Francisco, California`) and a Wix submission form. It is archived exactly, not introduced into navigation. Activating it independently requires choosing and configuring a form submission service/backend, along with spam protection and delivery details. No submission service is falsely simulated and no success message is shown without delivery.
 
@@ -62,7 +62,7 @@ The dormant Contact popup contains pre-existing template text (`info@mysite.com`
 
 See `audit/QA.md` and `audit/build-verification.json`. All 25 sitemap pages plus the blank `/fullscreen-page` route were recovered. The contact popup was also inventoried separately. The text check covers the single rendering shared by desktop and mobile. Original media and PDFs are SHA-256 verified. Published pages have no Wix-hosted media dependency.
 
-Browser tests cover phone, tablet, full desktop, smaller desktop, navigation, native media, local downloads, section anchors and image-dialog focus. Physical iPhone/Android hardware was not available; safe-area behavior, browser bars, real touch feel and real-device performance still need an owner device check. This limitation does not affect the preserved content audit.
+Browser tests cover phone, tablet, full desktop, smaller desktop, navigation, native media, local downloads, section anchors and image/content preservation. Physical iPhone/Android hardware was not available; safe-area behavior, browser bars, real touch feel and real-device performance still need an owner device check. This limitation does not affect the preserved content audit.
 
 ### Private preview file-size adaptation
 

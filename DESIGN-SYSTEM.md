@@ -16,10 +16,12 @@ Edit shared tokens in `src/styles.css`, components in `scripts/components.mjs`, 
 | Spacing | 4,8,12,16,24,32,48,64,96px | Metadata8; media24; sections64/40; endings48 |
 | Cards | Ratio658:366; radius24/20px; persistent caption | Home and discipline indexes |
 | Other images | Natural proportions; original panels intact | Artwork, diagrams, Photography and panels |
-| Controls/states | Standalone targets44px; downloads radius8px; focus3px purple offset3px;160ms color/opacity feedback | Menu, figures, downloads, navigation |
+| Controls/states | Standalone targets44px; downloads radius8px; focus3px purple offset3px;160ms color/opacity feedback | Menu, downloads, navigation |
 
-Shared components: SiteHeader, ProjectHeader, ProjectCard, rich text, Figure/AnnotatedFigure, EvaluationRow, SectionContents, DownloadLink, PhotographyGallery, ProjectFooter and FigureViewer. The static renderer composes them by content type without duplicate desktop/mobile markup.
+Shared components: SiteHeader, ProjectHeader, ProjectCard, rich text, Figure/AnnotatedFigure, EvaluationRow, SectionContents, DownloadLink, PhotographyGallery. The static renderer composes them by content type without duplicate desktop/mobile markup.
 
-Intentional differences: Home's featured label stays20px; category heroes retain asymmetric title/media layouts; engineering keeps pale surfaces and rounded panels; artwork retains intrinsic framing; Photography uses proportional desktop rows and one column on phones. Typography/colors embedded in original images are unchanged. Featured-only projects return to Home’s existing FEATURED WORKS section rather than implying they appear in a discipline index.
+Intentional differences: Home's featured label stays20px; category heroes retain asymmetric title/media layouts; engineering uses the same white canvas and unpadded figure framing as other projects; artwork retains intrinsic framing; Photography uses proportional desktop rows and one column on phones. Typography/colors embedded in original images are unchanged.
 
-Before shipping, compare all indexes, six artwork pages, engineering case studies and panel/design pages side by side. Check320–1440px and both sides of each breakpoint; keyboard, real touch, text zoom, contrast, viewing, section targets, navigation states and downloads. Run preservation checks after changes. Completed checks and limits are recorded in `audit/DESIGN-REFINEMENT-QA.md`.
+Before shipping, compare all indexes, six artwork pages, engineering case studies and panel/design pages side by side. Check320–1440px and both sides of each breakpoint; keyboard, real touch, text zoom, contrast, section targets, navigation states and downloads. Run preservation checks after changes. Completed checks and limits are recorded in `audit/DESIGN-REFINEMENT-QA.md`.
+
+Unlinked content images render without enlargement controls, click handlers, hover feedback or zoom cursors. Existing project and document links remain links. Individual projects have no category/CHARLENE footer links. Long engineering projects use a compact inline section-contents control at every width.

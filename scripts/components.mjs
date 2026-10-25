@@ -107,7 +107,7 @@ export function renderPage(
         : generic
           ? `${label} — ${p.slug === "photography" ? "live music photograph" : context ? plain(context.html) : "project image"} ${p.nodes.filter((x) => x.type === "image").findIndex((x) => x.id === n.id) + 1}`
           : n.alt);
-    const visual = `<div class="figure-visual">${image(n, false, alt)}<button class="image-expand" type="button" data-image="${esc(n.src)}" aria-label="Enlarge ${esc(alt)}"><span aria-hidden="true">↗</span><span class="sr-only">Enlarge image</span></button></div>`;
+    const visual = `<div class="figure-visual">${image(n, false, alt)}</div>`;
     return `<figure class="media ${n.width <= 100 && n.height <= 100 ? "small-figure" : ""}" id="${esc(n.id)}-figure">${n.href ? `<a href="${esc(n.href)}">${image(n, false, alt)}</a>` : visual}${transcripts[n.src] ? `<details class="panel-transcript"><summary>Read panel text</summary><div class="transcript-content">${transcripts[n.src].map((t) => `<p>${esc(t)}</p>`).join("")}</div></details>` : ""}</figure>`;
   };
   const download = (n, html) =>
@@ -293,12 +293,7 @@ export function renderPage(
     if (!body.includes(esc(href)))
       body += download({ href, text: link.text || "Open linked document" });
   }
-  const footer =
-    !indexes.has(p.slug) &&
-    !["about", "photography", "updating", "fullscreen-page"].includes(p.slug)
-      ? `<footer class="project-footer"><a href="${category(p.slug) === "home" ? "/" : "/" + category(p.slug)}">${category(p.slug) === "home" ? "FEATURED WORKS" : category(p.slug).toUpperCase()}</a><a href="/">CHARLENE</a></footer>`
-      : "";
-  return `${p.nav.length ? SectionContents(p) : ""}<main id="main" tabindex="-1" class="${indexes.has(p.slug) ? "index-content" : panels.has(p.slug) ? "panels" : "project-content"}" aria-label="${esc(label)}">${body}${footer}</main>`;
+  return `${p.nav.length ? SectionContents(p) : ""}<main id="main" tabindex="-1" class="${indexes.has(p.slug) ? "index-content" : panels.has(p.slug) ? "panels" : "project-content"}" aria-label="${esc(label)}">${body}</main>`;
 }
 export function SectionContents(p) {
   return `<details class="section-contents"><summary>On this page</summary><nav aria-label="Page sections">${p.nav
@@ -320,5 +315,3 @@ export function SectionContents(p) {
     })
     .join("")}</nav></details>`;
 }
-export const FigureViewer = () =>
-  '<dialog class="image-dialog" aria-label="Expanded image"><div class="viewer-toolbar"><button type="button" data-zoom="out" aria-label="Zoom out">−</button><button type="button" data-zoom="fit">Fit</button><button type="button" data-zoom="in" aria-label="Zoom in">+</button><button class="close-dialog" type="button" aria-label="Close expanded image">×</button></div><div class="expanded-image-scroll" tabindex="0" aria-label="Image, scroll to explore when enlarged"><img alt=""></div><p class="viewer-status sr-only" aria-live="polite"></p></dialog>';

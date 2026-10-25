@@ -3,7 +3,6 @@ import path from "node:path";
 import {
   SiteHeader,
   renderPage,
-  FigureViewer,
   esc,
   category,
   indexes,
@@ -45,8 +44,7 @@ for (const p of pages) {
           transcripts,
           originals.find((x) => x.slug === p.slug),
           descriptions,
-        ) +
-        FigureViewer()
+        )
   }</body></html>`;
   const dest =
     p.slug === "home" ? "dist/index.html" : `dist/${p.slug}/index.html`;

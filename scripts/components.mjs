@@ -1,3 +1,5 @@
+import { imageRatio, renderMediaGroup } from "./media-layout.mjs";
+
 // All templates use the same content, typography and interactive components.
 export const esc = (s) =>
   String(s ?? "")
@@ -92,7 +94,7 @@ export function renderPage(
       : `src="${esc(n.src)}"`;
     return `<img ${attrs} alt="${esc(alt ?? n.alt)}" width="${r?.width || n.width}" height="${r?.height || n.height}" loading="${imageIndex++ < 2 ? "eager" : "lazy"}" decoding="async" data-original="${esc(n.src)}" data-source-id="${esc(n.id)}">`;
   };
-  const figure = (n) => {
+  const figure = (n, caption) => {
     const generic =
       !n.alt ||
       /^(?:image|asset|img_|[\dA-F]{8}-)|\.(jpg|jpeg|png|gif)$/i.test(n.alt);
@@ -110,7 +112,8 @@ export function renderPage(
           : n.alt);
     const picture = image(n, false, alt);
     const visual = `<div class="figure-visual">${picture}</div>`;
-    return `<figure class="media ${n.width <= 100 && n.height <= 100 ? "small-figure" : ""}" id="${esc(n.id)}-figure">${n.href ? `<a href="${esc(n.href)}">${picture}</a>` : visual}${transcripts[n.src] ? `<details class="panel-transcript"><summary>Read panel text</summary><div class="transcript-content">${transcripts[n.src].map((t) => `<p>${esc(t)}</p>`).join("")}</div></details>` : ""}</figure>`;
+    const ratio = imageRatio(n, responsive);
+    return `<figure class="media ${n.width <= 100 && n.height <= 100 ? "small-figure" : ""} ${n.src.endsWith('.png') ? 'media--diagram' : ''}" style="--ratio:${ratio};--media-width:${Math.min(1040,ratio*760)}px" id="${esc(n.id)}-figure">${n.href ? `<a href="${esc(n.href)}">${picture}</a>` : visual}${caption ? `<figcaption>${text(caption)}</figcaption>` : ''}${transcripts[n.src] ? `<details class="panel-transcript"><summary>Read panel text</summary><div class="transcript-content">${transcripts[n.src].map((t) => `<p>${esc(t)}</p>`).join("")}</div></details>` : ""}</figure>`;
   };
   const download = (n, html) =>
     `<a class="download" href="${esc(n.href)}">${html || esc(n.text || (p.slug === "endless-garden" ? "Download Report" : "Open linked document"))}<span aria-hidden="true">↗</span></a>`;
@@ -154,7 +157,8 @@ export function renderPage(
         '<span class="project-year">$1</span>');
     return html;
   };
-  const video = (n) => `<figure class="media video-media"><video id="${esc(n.id)}" src="${esc(n.src)}" ${n.poster ? `poster="${esc(n.poster)}"` : ""} controls playsinline preload="metadata" ${n.loop ? "loop" : ""} ${n.muted ? "muted" : ""} aria-label="${esc(label)} video"></video></figure>`;
+  const video = (n, caption) => `<figure class="media video-media"><video id="${esc(n.id)}" src="${esc(n.src)}" ${n.poster ? `poster="${esc(n.poster)}"` : ""} controls playsinline preload="metadata" ${n.loop ? "loop" : ""} ${n.muted ? "muted" : ""} aria-label="${esc(label)} video"></video>${caption ? `<figcaption>${text(caption)}</figcaption>` : ''}</figure>`;
+  const captionIds = new Set(['comp-ll3d20dn', 'comp-ll3d4zs8', 'comp-lkzur2ah', 'comp-lkzus9qv', 'comp-lkzx2rdh']);
   const leadingAnchors = [];
   while (nodes[0]?.type === "anchor") leadingAnchors.push(nodes.shift());
   const lead = p.nav.length && ["image", "video"].includes(nodes[0]?.type) ? nodes.shift() : null;
@@ -167,7 +171,6 @@ export function renderPage(
   }
   if (lead) body = `<div class="project-intro">${body}${lead.type === "video" ? video(lead) : figure(lead)}</div>`;
   body = leadingAnchors.map(n => `<span class="anchor" id="${esc(n.id)}"></span>`).join("") + body;
-  if (p.nav.length) body += SectionContents(p);
   for (let i = 0; i < nodes.length; i++) {
     const n = nodes[i];
     if (n.type === "anchor") {
@@ -175,6 +178,11 @@ export function renderPage(
       continue;
     }
     if (n.type === "text") {
+      if (p.slug === 'automated-gripper' && n.id === 'comp-lkzwolg8') {
+        const firstImage = nodes[++i], secondHeading = nodes[++i], secondImage = nodes[++i];
+        body += `<div class="media-comparison"><section>${text(n)}${figure(firstImage)}</section><section>${text(secondHeading)}${figure(secondImage)}</section></div>`;
+        continue;
+      }
       let html = text(n);
       if (p.slug === "photography")
         html = html.replace(/<\/?h3>/g, (m) =>
@@ -194,7 +202,7 @@ export function renderPage(
         sum = 0;
       const flush = () => {
         if (row.length)
-          body += `<div class="photography-row">${row.map((x) => figure(x).replace('class="media ', `style="--ratio:${responsive[x.src] ? responsive[x.src].width / responsive[x.src].height : x.width / x.height}" class="media `)).join("")}</div>`;
+          body += `<div class="photography-row">${row.map(x => figure(x)).join("")}</div>`;
         row = [];
         sum = 0;
       };
@@ -272,12 +280,18 @@ export function renderPage(
           !(p.slug === "automated-gripper" && nodes[i + 1].width <= 22)
         )
           images.push(nodes[++i]);
-        body += `<div class="media-grid">${images.map(figure).join("")}</div>`;
-      } else body += figure(n);
+        const caption = captionIds.has(nodes[i+1]?.id) ? nodes[++i] : null;
+        const group = renderMediaGroup(images, image => figure(image), responsive);
+        body += caption ? `<figure class="captioned-group">${group}<figcaption>${text(caption)}</figcaption></figure>` : group;
+      } else {
+        const caption = captionIds.has(nodes[i+1]?.id) ? nodes[++i] : null;
+        body += figure(n, caption);
+      }
       continue;
     }
     if (n.type === "video") {
-      body += video(n);
+      const caption = captionIds.has(nodes[i+1]?.id) ? nodes[++i] : null;
+      body += video(n, caption);
       continue;
     }
     if (n.type === "embed") {
@@ -306,25 +320,8 @@ export function renderPage(
     if (!body.includes(esc(href)))
       body += download({ href, text: link.text || "Open linked document" });
   }
-  return `<main id="main" tabindex="-1" class="${indexes.has(p.slug) ? "index-content" : panels.has(p.slug) ? "panels" : "project-content"}" aria-label="${esc(label)}">${body}</main>`;
-}
-export function SectionContents(p) {
-  return `<details class="section-contents"><summary>On this page</summary><nav aria-label="Page sections">${p.nav
-    .map((a) => {
-      const i = p.nodes.findIndex((n) => n.id === a.target);
-      let heading = "";
-      if (i >= 0) {
-        for (let j = i; j < p.nodes.length; j++) {
-          const n = p.nodes[j];
-          if (n.type === "text" && /<h[12]/.test(n.html)) {
-            heading = plain(
-              n.html.match(/<h[12][^>]*>([\s\S]*?)<\/h[12]>/)?.[1] || "",
-            );
-            break;
-          }
-        }
-      }
-      return `<a href="#${esc(a.target)}"><span>${esc(a.text)}</span>${heading && heading !== a.text ? `<span class="section-target">${heading}</span>` : ""}</a>`;
-    })
-    .join("")}</nav></details>`;
+  const artwork = category(p.slug) === "art" && !indexes.has(p.slug)
+    ? p.nodes.find(n => n.type === "image") : null;
+  const projectWidth = artwork ? ` style="--project-width:${Math.min(760,imageRatio(artwork,responsive)*760)}px"` : "";
+  return `<main${projectWidth} id="main" tabindex="-1" class="${indexes.has(p.slug) ? "index-content" : panels.has(p.slug) ? "panels" : "project-content"}" aria-label="${esc(label)}">${body}</main>`;
 }

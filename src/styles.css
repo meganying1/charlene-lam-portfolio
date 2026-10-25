@@ -28,6 +28,8 @@
   --detail: 1040px;
   --reading: 720px;
   --artwork: 760px;
+  --media-gap: 24px;
+  --media-radius: 24px;
   --gutter: 56px;
   --s1: 4px;
   --s2: 8px;
@@ -236,7 +238,7 @@ main  {
   max-width: var(--wide);
 }
 .category-art:not(.index-page) .project-content  {
-  max-width: var(--artwork);
+  max-width: var(--project-width, var(--artwork));
 }
 .project-header  {
   margin-bottom: var(--s8);
@@ -397,12 +399,24 @@ main  {
   cursor: default;
 }
 .figure-visual > img  {
-  width: auto;
-  max-height: 900px;
+  width: 100%;
+  max-height: none;
+  border-radius: var(--media-radius);
   object-fit: contain;
   object-position: left center;
 }
-.small-figure  {
+.media--diagram .figure-visual > img,
+.category-art:not(.index-page) .figure-visual > img,
+.panels .figure-visual > img {
+  border-radius: 0;
+}
+.project-content > .media:not(.video-media) {
+  max-width: min(100%, var(--reading), var(--media-width, 100%));
+}
+.category-art .project-content > .media {
+  max-width: 100%;
+}
+.project-content > .small-figure, .small-figure  {
   max-width: 100px;
   margin: var(--s6) 0;
 }
@@ -416,20 +430,69 @@ main  {
   object-fit: contain;
   background: var(--paper);
 }
-.media-grid  {
+.media-group {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: var(--s6);
-  align-items: start;
+  gap: var(--media-gap);
   margin: var(--s8) 0;
 }
-.media-grid .media  {
+.media-group--compact, .media-row--compact {
+  max-width: var(--reading);
+}
+.media-row, .media-mosaic {
+  display: grid;
+  grid-template-columns: var(--media-columns);
+  gap: var(--media-gap);
+  align-items: start;
+  min-width: 0;
+}
+.media-stack {
+  display: grid;
+  gap: var(--media-gap);
+  min-width: 0;
+}
+.media-group .media {
+  min-width: 0;
+  max-width: none;
   margin: 0;
 }
-.media-grid .figure-visual > img  {
-  max-height: 650px;
+.media-row--inset {
+  width: calc((100% - 2 * var(--media-gap)) * 2 / 3 + var(--media-gap));
+  max-width: none;
+  margin-inline: auto;
+}
+.media-comparison {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--media-gap);
+  margin: var(--s8) 0;
+}
+.media-comparison section {
+  min-width: 0;
+}
+.media-comparison .rich {
+  margin-top: 0;
+}
+.media-comparison .media {
+  margin-bottom: 0;
+}
+.captioned-group {
+  margin: var(--s8) 0;
+}
+.captioned-group .media-group {
+  margin: 0;
+}
+figcaption {
+  margin-top: var(--s3);
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.5;
+}
+figcaption .rich {
+  margin: 0;
+  font-size: inherit;
 }
 .annotated-figure  {
+  max-width: var(--reading);
   margin: var(--s8) 0;
 }
 .annotated-figure .media  {
@@ -500,44 +563,11 @@ main  {
 .download strong  {
   font-weight: 400;
 }
-/* Disclosure stays in document flow, following the project introduction. */
-.section-contents  {
-  width: 100%;
-  margin: var(--s8) 0;
-  font-size: 16px;
-}
-.section-contents summary, .panel-transcript summary, .code-details summary  {
+.panel-transcript summary, .code-details summary {
   cursor: pointer;
   min-height: 48px;
   padding: 10px 0;
   color: var(--accent);
-}
-.section-contents nav  {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 8px 24px;
-  padding: 12px 0;
-}
-.section-contents a  {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 48px;
-  text-decoration: none;
-  border-left: 2px solid var(--line);
-  padding: 8px 12px;
-  color: var(--ink);
-}
-.section-contents a[aria-current]  {
-  border-color: var(--accent);
-  color: var(--accent);
-}
-.section-target, .current-section  {
-  font-size: 14px;
-  color: var(--muted);
-}
-.current-section  {
-  margin-left: 12px;
 }
 .panels .figure-visual > img  {
   width: 100%;
@@ -647,9 +677,6 @@ main  {
   .download:hover  {
     background: #efecf8;
   }
-  .section-contents a:hover  {
-    background: var(--surface);
-  }
 }
 @media (max-width: 1250px)  {
   .site-header nav  {
@@ -754,9 +781,6 @@ main  {
   .project-intro > .media  {
     max-width: 600px;
   }
-  .section-contents nav  {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
   .page-photography main  {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -778,6 +802,7 @@ main  {
   :root  {
     --gutter: 20px;
     --section-space: 40px;
+    --media-radius: 20px;
   }
   body  {
     font-size: 16px;
@@ -834,23 +859,18 @@ main  {
   .page-art .index-content > .media img  {
     max-height: 260px;
   }
-  .media-grid  {
-    grid-template-columns: 1fr;
-    gap: var(--s6);
+  .media-row, .media-mosaic, .media-comparison {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .media-group, .captioned-group, .media-comparison {
     margin: var(--s6) 0;
   }
-  .figure-visual > img, .media-grid .figure-visual > img  {
-    max-height: none;
+  .media-row--inset {
+    width: 100%;
+    margin: 0;
   }
-  .figure-legend, .section-contents nav  {
+  .figure-legend {
     grid-template-columns: 1fr;
-  }
-  .section-contents  {
-    margin: var(--s6) 0;
-  }
-  .current-section  {
-    display: block;
-    margin: 0 0 0 18px;
   }
   .page-photography main  {
     grid-template-columns: 1fr;

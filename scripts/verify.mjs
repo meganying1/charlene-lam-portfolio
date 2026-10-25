@@ -108,6 +108,8 @@ for (const p of pages) {
         errors.push(`${p.path}: missing file ${url}`);
     }
   }
+  if (/class="section-contents"/.test(html))
+    errors.push(`${p.path}: removed section contents must stay absent`);
   for (const a of p.nav)
     if (!seen.has(a.target))
       errors.push(`${p.path}: missing section target ${a.target}`);

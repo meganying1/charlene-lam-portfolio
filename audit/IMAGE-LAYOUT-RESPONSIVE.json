@@ -1,0 +1,1364 @@
+{
+  "date": "2026-10-25",
+  "widths": [
+    320,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "checks": [
+    {
+      "path": "/copy-of-autopasser",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 10,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "280px"
+      ]
+    },
+    {
+      "path": "/autopasser",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 26,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "280px"
+      ]
+    },
+    {
+      "path": "/engineering",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 4,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/design",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 4,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/art",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 7,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/photography",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 21,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/strawberry-sandals",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/shoe-design-exploration",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/automated-gripper",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 23,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "280px"
+      ]
+    },
+    {
+      "path": "/portrait-dog",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/design-with-type",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 2,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "280px"
+      ]
+    },
+    {
+      "path": "/copy-of-automated-gripper",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 11,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "280px"
+      ]
+    },
+    {
+      "path": "/air-jordan-colorway",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 3,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "280px"
+      ]
+    },
+    {
+      "path": "/updating",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 0,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/portrait-george-floyd",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/about",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 3,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/bird-painting-leather",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/portrait-ruth-bader-ginsburg",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/copy-of-sageware",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/homage-norman-ives",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 6,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "280px"
+      ]
+    },
+    {
+      "path": "/apple",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/sageware",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 21,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 4,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/endless-garden",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 7,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/portrait-aphrodite",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/fullscreen-page",
+      "width": 320,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 0,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/copy-of-autopasser",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 10,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "350px"
+      ]
+    },
+    {
+      "path": "/autopasser",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 26,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "350px"
+      ]
+    },
+    {
+      "path": "/engineering",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 4,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/design",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 4,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/art",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 7,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/photography",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 21,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/strawberry-sandals",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/shoe-design-exploration",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/automated-gripper",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 23,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "350px"
+      ]
+    },
+    {
+      "path": "/portrait-dog",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/design-with-type",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 2,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "350px"
+      ]
+    },
+    {
+      "path": "/copy-of-automated-gripper",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 11,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "350px"
+      ]
+    },
+    {
+      "path": "/air-jordan-colorway",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 3,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "350px"
+      ]
+    },
+    {
+      "path": "/updating",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 0,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/portrait-george-floyd",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/about",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 3,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/bird-painting-leather",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/portrait-ruth-bader-ginsburg",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/copy-of-sageware",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/homage-norman-ives",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 6,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "350px"
+      ]
+    },
+    {
+      "path": "/apple",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/sageware",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 21,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 4,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/endless-garden",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 7,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/portrait-aphrodite",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/fullscreen-page",
+      "width": 390,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 0,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/copy-of-autopasser",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 10,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "218.664px 218.664px 218.672px",
+        "161.125px 333.742px 161.125px"
+      ]
+    },
+    {
+      "path": "/autopasser",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 26,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "184.438px 287.117px 184.445px",
+        "207.586px 249.656px 198.758px",
+        "375.922px 304.078px",
+        "353.531px 326.469px",
+        "118.562px 561.438px",
+        "230.719px 449.273px",
+        "510.172px 169.828px",
+        "173.641px 308.711px 173.641px"
+      ]
+    },
+    {
+      "path": "/engineering",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 4,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/design",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 4,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/art",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 7,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/photography",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 21,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/strawberry-sandals",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/shoe-design-exploration",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/automated-gripper",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 23,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "340px 340px",
+        "189.906px 490.094px"
+      ]
+    },
+    {
+      "path": "/portrait-dog",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/design-with-type",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 2,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "299.695px 380.297px"
+      ]
+    },
+    {
+      "path": "/copy-of-automated-gripper",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 11,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "338.93px 341.062px",
+        "341.094px 338.906px",
+        "275.797px 404.203px"
+      ]
+    },
+    {
+      "path": "/air-jordan-colorway",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 3,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "704px",
+        "265.375px 414.617px"
+      ]
+    },
+    {
+      "path": "/updating",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 0,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/portrait-george-floyd",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/about",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 3,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/bird-painting-leather",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/portrait-ruth-bader-ginsburg",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/copy-of-sageware",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/homage-norman-ives",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 6,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "704px",
+        "218.664px 219.117px 218.211px",
+        "219.336px 217.992px"
+      ]
+    },
+    {
+      "path": "/apple",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/sageware",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 21,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 4,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/endless-garden",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 7,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/portrait-aphrodite",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/fullscreen-page",
+      "width": 768,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 0,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/copy-of-autopasser",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 10,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "224px 224px 224px",
+        "304px 304px 304px",
+        "224px 463.992px 224.008px"
+      ]
+    },
+    {
+      "path": "/autopasser",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 26,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "256.414px 399.164px 256.422px",
+        "287.141px 345.32px 279.539px",
+        "517.453px 418.547px",
+        "361.5px 334.5px",
+        "121.352px 574.641px",
+        "317.578px 618.422px",
+        "702.234px 233.758px",
+        "241.406px 429.18px 241.406px"
+      ]
+    },
+    {
+      "path": "/engineering",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 4,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/design",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 4,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/art",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 7,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/photography",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 21,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/strawberry-sandals",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/shoe-design-exploration",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/automated-gripper",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 23,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "468px 468px",
+        "261.398px 674.602px"
+      ]
+    },
+    {
+      "path": "/portrait-dog",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/design-with-type",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 2,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "412.523px 523.477px"
+      ]
+    },
+    {
+      "path": "/copy-of-automated-gripper",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 11,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "346.906px 349.086px",
+        "349.117px 346.883px",
+        "281.984px 414.016px"
+      ]
+    },
+    {
+      "path": "/air-jordan-colorway",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 3,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "959.992px",
+        "365.289px 570.711px"
+      ]
+    },
+    {
+      "path": "/updating",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 0,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/portrait-george-floyd",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/about",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 3,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/bird-painting-leather",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/portrait-ruth-bader-ginsburg",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/copy-of-sageware",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/homage-norman-ives",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 6,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "960px",
+        "303.992px 304.633px 303.375px",
+        "304.93px 303.062px"
+      ]
+    },
+    {
+      "path": "/apple",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/sageware",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 21,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 4,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/endless-garden",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 7,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/portrait-aphrodite",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/fullscreen-page",
+      "width": 1024,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 0,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/copy-of-autopasser",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 10,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "224px 224px 224px",
+        "330.664px 330.664px 330.664px",
+        "243.656px 504.68px 243.664px"
+      ]
+    },
+    {
+      "path": "/autopasser",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 26,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "278.906px 434.18px 278.914px",
+        "311.992px 375.219px 304.789px",
+        "561.68px 454.32px",
+        "361.5px 334.5px",
+        "121.352px 574.641px",
+        "344.727px 671.273px",
+        "762.258px 253.742px",
+        "262.586px 466.82px 262.586px"
+      ]
+    },
+    {
+      "path": "/engineering",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 4,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/design",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 4,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/art",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 7,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/photography",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 21,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/strawberry-sandals",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/shoe-design-exploration",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/automated-gripper",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 23,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "508px 508px",
+        "283.742px 732.258px"
+      ]
+    },
+    {
+      "path": "/portrait-dog",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/design-with-type",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 2,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "447.781px 568.219px"
+      ]
+    },
+    {
+      "path": "/copy-of-automated-gripper",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 11,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "346.906px 349.086px",
+        "349.117px 346.883px",
+        "281.984px 414.016px"
+      ]
+    },
+    {
+      "path": "/air-jordan-colorway",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 3,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "1040px",
+        "396.508px 619.484px"
+      ]
+    },
+    {
+      "path": "/updating",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 0,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/portrait-george-floyd",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/about",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 3,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/bird-painting-leather",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/portrait-ruth-bader-ginsburg",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/copy-of-sageware",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/homage-norman-ives",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 6,
+      "staticImageIssues": [],
+      "mediaColumns": [
+        "1040px",
+        "330.664px 331.352px 329.984px",
+        "331.68px 329.648px"
+      ]
+    },
+    {
+      "path": "/apple",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/sageware",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 21,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 4,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/endless-garden",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 7,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/portrait-aphrodite",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 1,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    },
+    {
+      "path": "/fullscreen-page",
+      "width": 1440,
+      "overflow": false,
+      "removedControls": 0,
+      "images": 0,
+      "staticImageIssues": [],
+      "mediaColumns": []
+    }
+  ],
+  "captionAssociations": [
+    {
+      "path": "/autopasser",
+      "captions": [
+        {
+          "caption": "comp-ll3d20dn",
+          "images": [
+            "img_comp-ll3cczro",
+            "img_comp-ll3cdfmh",
+            "img_comp-ll3cbqna"
+          ],
+          "videos": []
+        },
+        {
+          "caption": "comp-ll3d4zs8",
+          "images": [
+            "img_comp-ll3cym9n"
+          ],
+          "videos": []
+        }
+      ]
+    },
+    {
+      "path": "/automated-gripper",
+      "captions": [
+        {
+          "caption": "comp-lkzur2ah",
+          "images": [
+            "img_comp-lkp1o4cx"
+          ],
+          "videos": []
+        },
+        {
+          "caption": "comp-lkzus9qv",
+          "images": [],
+          "videos": [
+            "comp-lkp1lmx5"
+          ]
+        },
+        {
+          "caption": "comp-lkzx2rdh",
+          "images": [
+            "img_comp-lkzw9frg"
+          ],
+          "videos": []
+        }
+      ]
+    },
+    {
+      "path": "/about",
+      "captions": [
+        {
+          "caption": "comp-m0y66jhm",
+          "images": [
+            "img_comp-m0y66210"
+          ],
+          "videos": []
+        },
+        {
+          "caption": "comp-m0y6b6dt",
+          "images": [
+            "img_comp-m0y53kcn"
+          ],
+          "videos": []
+        }
+      ]
+    }
+  ]
+}

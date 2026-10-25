@@ -24,16 +24,17 @@ npm run check
 ## Source structure and editing
 
 - `src/content.json`: one original content source for all widths, preserving text, captions, metadata, image order and project paths.
-- `scripts/components.mjs`: shared semantic header, cards, introductions, figures, evaluation rows, contents, downloads and gallery.
+- `scripts/media-layout.mjs`: proportional image rows and project-specific mixed-media compositions.
+- `scripts/components.mjs`: shared semantic header, cards, introductions, figures, evaluation rows, downloads and gallery.
 - `src/styles.css`: shared tokens, component styles and responsive reflow; no whole-page scaling.
-- `src/app.js`: compact navigation and current-section indication.
+- `src/app.js`: compact navigation and keyboard menu handling.
 - `src/image-descriptions.json`: reviewed descriptions of artwork, travel and live-music photographs.
 - `src/panel-transcripts.json`: reviewed printed text alternatives for29 intact original panels.
 - `src/layouts/` and `src/desktop-overrides.css`: archived original desktop layouts, excluded from generated pages.
 - `public/`: unchanged original media, variants, fonts, PDFs and Arduino embed.
 - `audit/`: captured original content, hashes and validation evidence. Contact stays archived in `src/contact-popup.json`.
 
-See `DESIGN-SYSTEM.md` for shared rules and intentional differences, and `audit/DESIGN-REFINEMENT-QA.md` for checks and limitations. Update content once in `src/content.json`; change shared presentation in components/styles. The audit compares original wording with whitespace normalization, checks the original desktop capture, image sequence, PDF links, IDs, anchors and asset hashes.
+See `DESIGN-SYSTEM.md` for shared rules and intentional differences, and `audit/IMAGE-LAYOUT-QA.md` for checks and limitations. Update content once in `src/content.json`; change shared presentation in components/styles. The audit compares original wording with whitespace normalization, checks the original desktop capture, image sequence, PDF links, IDs, anchors and asset hashes.
 
 On a disk with limited free space, run `node scripts/build.mjs --link-assets`, then `node scripts/serve.mjs`. The local-only flag avoids duplicating media. Normal `npm run build` still creates a self-contained static deployment.
 
@@ -54,7 +55,7 @@ The `.openai/hosting.json` file configures the separate private Sites review dep
 
 ## Functionality and services
 
-The published site uses local native video controls, original animated GIFs, project links, section links, local PDFs, and a mobile menu. Email uses the original `mailto:` link and opens the visitor's mail application. LinkedIn and Generate remain their original external destinations.
+The published site uses local native video controls, original animated GIFs, project links, preserved section hash targets, local PDFs, and a mobile menu. Email uses the original `mailto:` link and opens the visitor's mail application. LinkedIn and Generate remain their original external destinations.
 
 The dormant Contact popup contains pre-existing template text (`info@mysite.com`, `Tel: 123-456-7890`, `San Francisco, California`) and a Wix submission form. It is archived exactly, not introduced into navigation. Activating it independently requires choosing and configuring a form submission service/backend, along with spam protection and delivery details. No submission service is falsely simulated and no success message is shown without delivery.
 

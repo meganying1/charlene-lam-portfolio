@@ -1,13 +1,75 @@
-import fs from 'node:fs';import path from 'node:path';
-const desktop=Object.fromEntries(fs.readdirSync('src/layouts').filter(f=>f.endsWith('.html')).map(f=>{const slug=f.slice(0,-5);return [slug,{html:fs.readFileSync(`src/layouts/${slug}.html`,'utf8'),css:fs.readFileSync(`src/layouts/${slug}.css`,'utf8')}]}));
-const pages=JSON.parse(fs.readFileSync('src/content.json','utf8'));
-const responsive=fs.existsSync('src/responsive.json')?JSON.parse(fs.readFileSync('src/responsive.json','utf8')):{};
-fs.mkdirSync('dist',{recursive:true});fs.cpSync('public','dist',{recursive:true});fs.copyFileSync('src/app.js','dist/app.js');fs.writeFileSync('dist/styles.css','@media(max-width:900px){'+fs.readFileSync('src/styles.css','utf8')+'}\n'+fs.readFileSync('src/desktop-overrides.css','utf8'));fs.mkdirSync('dist/layouts',{recursive:true});
-const esc=s=>String(s??'').replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
-const rich=n=>`<div class="rich" id="${esc(n.id)}">${n.html}</div>`;
-function image(n,card=false){const r=responsive[n.src];const attrs=r?`src="${esc(r.default)}" srcset="${r.sources.map(x=>`${esc(x.src)} ${x.width}w`).join(', ')}" sizes="${card?'(max-width:640px) 100vw, 50vw':'(max-width:900px) 100vw, 1100px'}"`:`src="${esc(n.src)}"`;return `<img ${attrs} alt="${esc(n.alt)}" width="${r?.width||n.width}" height="${r?.height||n.height}" loading="lazy" decoding="async" data-original="${esc(n.src)}" data-source-id="${esc(n.id)}">`;}
-function render(nodes){let out='';for(let i=0;i<nodes.length;i++){const n=nodes[i];if(n.type==='mediaGrid')out+=`<div class="media-grid">${render(n.items)}</div>`;if(n.type==='anchor')out+=`<span class="anchor" id="${esc(n.id)}"></span>`;if(n.type==='text')out+=rich(n);if(n.type==='cards')out+=`<div class="project-grid">${n.items.map(c=>`<a class="project" href="${esc(c.href)}"><div class="project-image">${image(c.image,true)}</div>${rich(c.caption)}</a>`).join('')}</div>`;if(n.type==='image'){let visual=image(n);visual=n.href?`<a href="${esc(n.href)}">${visual}</a>`:`<button class="image-expand" type="button" aria-label="${esc(n.alt?'Expand image: '+n.alt:'Expand image')}" data-image="${esc(n.src)}">${visual}</button>`;out+=`<figure class="media" id="${esc(n.id)}-figure">${visual}</figure>`;}if(n.type==='video'){const poster=n.poster?{src:n.poster}:null;out+=`<figure class="media video-media"><video id="${esc(n.id)}" src="${esc(n.src)}" ${poster?`poster="${esc(poster.src)}"`:''} controls playsinline preload="metadata" ${n.loop?'loop':''} ${n.muted?'muted':''} aria-label="Play video"></video></figure>`;}if(n.type==='embed')out+=`<iframe class="code-embed" id="${esc(n.id)}" title="Gripper Code" src="/embeds/gripper-code.html" sandbox="" loading="lazy"></iframe>`;if(n.type==='link'){if(!n.text&&nodes[i+1]?.type==='text'&&/download full book/.test(nodes[i+1].html)){out+=`<a class="download" href="${esc(n.href)}">${rich(nodes[++i])}</a>`;}else out+=`<a class="download ${n.text?'':'icon-download'}" href="${esc(n.href)}" ${n.text?'':'aria-label="Open linked document"'}>${n.text?esc(n.text):''}</a>`;}}return out;}
-function groupMedia(nodes,slug){if(['home','engineering','design','art','photography','about','sageware','copy-of-sageware','endless-garden'].includes(slug))return nodes;let grouped=[];for(let i=0;i<nodes.length;i++){if(nodes[i].type==='image'&&nodes[i+1]?.type==='image'){let items=[nodes[i]];while(nodes[i+1]?.type==='image')items.push(nodes[++i]);grouped.push({type:'mediaGrid',items});}else grouped.push(nodes[i]);}return grouped;}
-const contact='<a href="/_files/ugd/55147f_6ee3d566cf67449d8fc84a0aa4309a5c.pdf">RESUME</a><a href="https://www.linkedin.com/in/charlene-lam/">LINKEDIN</a><a href="mailto:charlenelam138@gmail.com">EMAIL</a>';
-for(const p of pages){const index=['home','engineering','design','art'].includes(p.slug),panel=['sageware','copy-of-sageware','endless-garden'].includes(p.slug);const nav=['ENGINEERING','DESIGN','ART','PHOTOGRAPHY','ABOUT'].map(l=>`<a href="/${l.toLowerCase()}" ${p.slug===l.toLowerCase()?'aria-current="page"':''}>${l}</a>`).join('');const section=p.nav.length?`<nav class="section-nav" aria-label="Page">${p.nav.map(a=>`<a href="#${esc(a.target)}">${esc(a.text)}</a>`).join('')}</nav>`:'';const header=`<header class="site-header" id="top"><div class="topbar"><a class="wordmark" href="/">CHARLENE</a><button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-navigation"><span></span><span></span></button><nav id="primary-navigation" aria-label="Main navigation">${nav}<div class="mobile-contact">${contact}</div></nav></div><div class="identity"><a href="/" class="identity-title">CHARLENE</a><a href="/" class="identity-description">designer | mechanical engineer | creative</a><div class="contact-links">${contact}</div></div></header>`;const doc=`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#f5f3ee"><title>${esc(p.title)}</title><link rel="stylesheet" href="/layouts/${p.slug}.css"><link rel="stylesheet" href="/styles.css"><script src="/app.js" defer></script></head><body data-js-loaded="true" class="page-${p.slug} ${index?'index-page':''} ${panel?'panel-page':''}"><div class="mobile-view"><a class="skip-link" href="#main">Skip to Main Content</a>${header}${section}<main id="main" tabindex="-1" class="${index?'index-content':panel?'panels':'project-content'}" aria-label="${esc(p.title.split(' | ')[0])}">${render(groupMedia(p.nodes,p.slug))}</main><footer class="site-footer" aria-label="bottom of page"></footer><dialog class="image-dialog" aria-label="Expanded image"><button class="close-dialog" type="button" aria-label="Close expanded image">×</button><div class="expanded-image-scroll"><img alt=""></div></dialog></div><div class="desktop-view">${desktop[p.slug].html}</div></body></html>`;const dest=p.slug==='home'?'dist/index.html':`dist/${p.slug}/index.html`;fs.mkdirSync(path.dirname(dest),{recursive:true});let html=doc;const mobile=html.match(/<div class="mobile-view">[\s\S]*?<\/dialog><\/div>/)?.[0];if(mobile){const renamed=mobile.replace(/\bid="([^"]+)"/g,(_,id)=>`id="mobile-${id}"`).replace(/href="#([^"]+)"/g,(_,id)=>`href="#mobile-${id}"`).replace('aria-controls="primary-navigation"','aria-controls="mobile-primary-navigation"');html=html.replace(mobile,renamed);}fs.writeFileSync(dest,html);fs.writeFileSync(`dist/layouts/${p.slug}.css`,'@media(min-width:901px){'+desktop[p.slug].css.replace(/@view-transition\s*\{[^}]*\}/g,'')+'}');}
-fs.writeFileSync('dist/_redirects','/home / 301\n'+pages.filter(p=>p.slug!=='home').map(p=>`${p.path} ${p.path}/index.html 200`).join('\n')+'\n');fs.writeFileSync('dist/404.html','<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>404</title><link rel="stylesheet" href="/layouts/${p.slug}.css"><link rel="stylesheet" href="/styles.css"><main><h1>404</h1><a href="/">CHARLENE</a></main></html>');console.log(`Built ${pages.length} static pages in dist/`);
+import fs from "node:fs";
+import path from "node:path";
+import { engineeringLayoutStyles } from "./engineering-layout.mjs";
+import {
+  SiteHeader,
+  renderPage,
+  esc,
+  category,
+  indexes,
+  panels,
+} from "./components.mjs";
+const pages = JSON.parse(fs.readFileSync("src/content.json", "utf8"));
+const engineeringLayouts = JSON.parse(fs.readFileSync("src/engineering-layouts.json", "utf8"));
+const responsive = JSON.parse(fs.readFileSync("src/responsive.json", "utf8"));
+const originals = JSON.parse(
+  fs.readFileSync("audit/original-pages.json", "utf8"),
+);
+const transcripts = JSON.parse(
+  fs.readFileSync("src/panel-transcripts.json", "utf8"),
+);
+const descriptions = JSON.parse(
+  fs.readFileSync("src/image-descriptions.json", "utf8"),
+);
+fs.mkdirSync("dist", { recursive: true });
+// Link original assets only for local reviews on disks with limited free space.
+for (const entry of fs.readdirSync("public")) {
+  const dest = path.join("dist", entry);
+  if (fs.existsSync(dest) && fs.lstatSync(dest).isSymbolicLink())
+    fs.unlinkSync(dest);
+  if (process.argv.includes("--link-assets")) {
+    if (!fs.existsSync(dest))
+      fs.symlinkSync(path.resolve("public", entry), dest);
+  } else fs.cpSync(path.join("public", entry), dest, { recursive: true });
+}
+for (const file of ["app.js", "styles.css"])
+  fs.copyFileSync("src/" + file, "dist/" + file);
+for (const p of pages) {
+  const blank = p.slug === "fullscreen-page";
+  const layout = engineeringLayouts[p.slug];
+  if (layout) {
+    fs.mkdirSync("dist/layouts", { recursive: true });
+    fs.writeFileSync(`dist/layouts/engineering-${p.slug}.css`, engineeringLayoutStyles(layout));
+  }
+  const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#FFFFFF"><title>${esc(p.title)}</title><link rel="preload" href="/fonts/00915920e370-helvetica-w01-roman.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="/styles.css">${layout ? `<link rel="stylesheet" href="/layouts/engineering-${p.slug}.css">` : ""}<script src="/app.js" defer></script></head><body class="page-${p.slug} category-${category(p.slug)} ${indexes.has(p.slug) ? "index-page" : ""} ${panels.has(p.slug) ? "panel-page" : ""} ${p.nav.length ? "case-study" : ""} ${layout ? "engineering-layout-page" : ""}">${
+    blank
+      ? '<main id="main" aria-label="Fullscreen Page"></main>'
+      : SiteHeader(p) +
+        renderPage(
+          p,
+          responsive,
+          transcripts,
+          originals.find((x) => x.slug === p.slug),
+          descriptions,
+          layout,
+        )
+  }</body></html>`;
+  const dest =
+    p.slug === "home" ? "dist/index.html" : `dist/${p.slug}/index.html`;
+  fs.mkdirSync(path.dirname(dest), { recursive: true });
+  fs.writeFileSync(dest, html);
+}
+fs.writeFileSync(
+  "dist/_redirects",
+  "/home / 301\n" +
+    pages
+      .filter((p) => p.slug !== "home")
+      .map((p) => `${p.path} ${p.path}/index.html 200`)
+      .join("\n") +
+    "\n",
+);
+fs.writeFileSync(
+  "dist/404.html",
+  '<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>404</title><link rel="stylesheet" href="/styles.css"><main><h1>404</h1><a href="/">CHARLENE</a></main></html>',
+);
+console.log(`Built ${pages.length} shared responsive pages in dist/`);

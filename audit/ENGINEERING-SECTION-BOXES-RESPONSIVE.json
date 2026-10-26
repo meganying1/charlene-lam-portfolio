@@ -1,0 +1,1257 @@
+[
+  {
+    "width": 1440,
+    "slug": "autopasser",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e87",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e94",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e107",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e124",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e138",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e151",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e166",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e174",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e190",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      }
+    ],
+    "zoomCursors": 0
+  },
+  {
+    "width": 1440,
+    "slug": "automated-gripper",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e83",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e94",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e106",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e118",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e125",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e149",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e156",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e167",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e177",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e192",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e204",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e222",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      }
+    ],
+    "zoomCursors": 1,
+    "linkedCursorImages": 1,
+    "staticZoomCursors": 0
+  },
+  {
+    "width": 1440,
+    "slug": "copy-of-autopasser",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e56",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e63",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      }
+    ],
+    "zoomCursors": 0
+  },
+  {
+    "width": 1440,
+    "slug": "copy-of-automated-gripper",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e70",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e108",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e123",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e134",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      }
+    ],
+    "zoomCursors": 0
+  },
+  {
+    "width": 1440,
+    "slug": "apple",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [],
+    "zoomCursors": 0
+  },
+  {
+    "width": 1440,
+    "slug": "sageware",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [],
+    "zoomCursors": 0
+  },
+  {
+    "width": 1440,
+    "slug": "endless-garden",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [],
+    "zoomCursors": 0
+  },
+  {
+    "width": 1280,
+    "slug": "autopasser",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e87",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e94",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e107",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e124",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e138",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e151",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e166",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e174",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e190",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      }
+    ],
+    "zoomCursors": 0
+  },
+  {
+    "width": 1280,
+    "slug": "automated-gripper",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e83",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e94",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e106",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e118",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e125",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e149",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e156",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e167",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e177",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e192",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e204",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e222",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      }
+    ],
+    "zoomCursors": 1,
+    "linkedCursorImages": 1,
+    "staticZoomCursors": 0
+  },
+  {
+    "width": 1280,
+    "slug": "copy-of-autopasser",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e56",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e63",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      }
+    ],
+    "zoomCursors": 0
+  },
+  {
+    "width": 1280,
+    "slug": "copy-of-automated-gripper",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e70",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e108",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e123",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e134",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      }
+    ],
+    "zoomCursors": 0
+  },
+  {
+    "width": 1280,
+    "slug": "apple",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [],
+    "zoomCursors": 0
+  },
+  {
+    "width": 1280,
+    "slug": "sageware",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [],
+    "zoomCursors": 0
+  },
+  {
+    "width": 1280,
+    "slug": "endless-garden",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [],
+    "zoomCursors": 0
+  },
+  {
+    "width": 768,
+    "slug": "autopasser",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e87",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e94",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e107",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e124",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e138",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e151",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e166",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e174",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e190",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      }
+    ],
+    "zoomCursors": 0
+  },
+  {
+    "width": 768,
+    "slug": "automated-gripper",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e83",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e94",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e106",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e118",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e125",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e149",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e156",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e167",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e177",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e192",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e204",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e222",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      }
+    ],
+    "zoomCursors": 1,
+    "linkedCursorImages": 1,
+    "staticZoomCursors": 0
+  },
+  {
+    "width": 768,
+    "slug": "copy-of-autopasser",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e56",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e63",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      }
+    ],
+    "zoomCursors": 0
+  },
+  {
+    "width": 768,
+    "slug": "copy-of-automated-gripper",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e70",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e108",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e123",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e134",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "24px"
+      }
+    ],
+    "zoomCursors": 0
+  },
+  {
+    "width": 768,
+    "slug": "apple",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [],
+    "zoomCursors": 0
+  },
+  {
+    "width": 768,
+    "slug": "sageware",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [],
+    "zoomCursors": 0
+  },
+  {
+    "width": 768,
+    "slug": "endless-garden",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [],
+    "zoomCursors": 0
+  },
+  {
+    "width": 390,
+    "slug": "autopasser",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e87",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e94",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e107",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e124",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e138",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e151",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e166",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e174",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e190",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      }
+    ],
+    "zoomCursors": 0
+  },
+  {
+    "width": 390,
+    "slug": "automated-gripper",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e83",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e94",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e106",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e118",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e125",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e149",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e156",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e167",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e177",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e192",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e204",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e222",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      }
+    ],
+    "zoomCursors": 1,
+    "linkedCursorImages": 1,
+    "staticZoomCursors": 0
+  },
+  {
+    "width": 390,
+    "slug": "copy-of-autopasser",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e56",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e63",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      }
+    ],
+    "zoomCursors": 0
+  },
+  {
+    "width": 390,
+    "slug": "copy-of-automated-gripper",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e70",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e108",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e123",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e134",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      }
+    ],
+    "zoomCursors": 0
+  },
+  {
+    "width": 390,
+    "slug": "apple",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [],
+    "zoomCursors": 0
+  },
+  {
+    "width": 390,
+    "slug": "sageware",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [],
+    "zoomCursors": 0
+  },
+  {
+    "width": 390,
+    "slug": "endless-garden",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [],
+    "zoomCursors": 0
+  },
+  {
+    "width": 320,
+    "slug": "autopasser",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e87",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e94",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e107",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e124",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e138",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e151",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e166",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e174",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e190",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      }
+    ],
+    "zoomCursors": 0
+  },
+  {
+    "width": 320,
+    "slug": "automated-gripper",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e83",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e94",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e106",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e118",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e125",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e149",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e156",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e167",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e177",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e192",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e204",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e222",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      }
+    ],
+    "zoomCursors": 1,
+    "linkedCursorImages": 1,
+    "staticZoomCursors": 0
+  },
+  {
+    "width": 320,
+    "slug": "copy-of-autopasser",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e56",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e63",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      }
+    ],
+    "zoomCursors": 0
+  },
+  {
+    "width": 320,
+    "slug": "copy-of-automated-gripper",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e70",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e108",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e123",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      },
+      {
+        "background": "rgb(242, 243, 248)",
+        "key": "e134",
+        "outline": "rgb(222, 222, 228) 0px 0px 0px 1px inset",
+        "overflow": false,
+        "radius": "20px"
+      }
+    ],
+    "zoomCursors": 0
+  },
+  {
+    "width": 320,
+    "slug": "apple",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [],
+    "zoomCursors": 0
+  },
+  {
+    "width": 320,
+    "slug": "sageware",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [],
+    "zoomCursors": 0
+  },
+  {
+    "width": 320,
+    "slug": "endless-garden",
+    "imageBoxes": 0,
+    "overflow": false,
+    "panels": [],
+    "zoomCursors": 0
+  }
+]

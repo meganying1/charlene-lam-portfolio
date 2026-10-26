@@ -1,0 +1,1311 @@
+{
+  "date": "2026-10-26",
+  "sitewide": [
+    {
+      "path": "/engineering",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/design",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/art",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/photography",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/strawberry-sandals",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/shoe-design-exploration",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/portrait-dog",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/design-with-type",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/air-jordan-colorway",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/updating",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/portrait-george-floyd",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/about",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/bird-painting-leather",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/portrait-ruth-bader-ginsburg",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/copy-of-sageware",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/homage-norman-ives",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/portrait-aphrodite",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/fullscreen-page",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/engineering",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/design",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/art",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/photography",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/strawberry-sandals",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/shoe-design-exploration",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/portrait-dog",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/design-with-type",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/air-jordan-colorway",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/updating",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/portrait-george-floyd",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/about",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/bird-painting-leather",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/portrait-ruth-bader-ginsburg",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/copy-of-sageware",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/homage-norman-ives",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/portrait-aphrodite",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/fullscreen-page",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/engineering",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/design",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/art",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/photography",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/strawberry-sandals",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/shoe-design-exploration",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/portrait-dog",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/design-with-type",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/air-jordan-colorway",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/updating",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/portrait-george-floyd",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/about",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/bird-painting-leather",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/portrait-ruth-bader-ginsburg",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/copy-of-sageware",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/homage-norman-ives",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/portrait-aphrodite",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/fullscreen-page",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/engineering",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/design",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/art",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/photography",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/strawberry-sandals",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/shoe-design-exploration",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/portrait-dog",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/design-with-type",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/air-jordan-colorway",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/updating",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/portrait-george-floyd",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/about",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/bird-painting-leather",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/portrait-ruth-bader-ginsburg",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/copy-of-sageware",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/homage-norman-ives",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/portrait-aphrodite",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/fullscreen-page",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/engineering",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/design",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/art",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/photography",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/strawberry-sandals",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/shoe-design-exploration",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/portrait-dog",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/design-with-type",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/air-jordan-colorway",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/updating",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/portrait-george-floyd",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/about",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/bird-painting-leather",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/portrait-ruth-bader-ginsburg",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/copy-of-sageware",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/homage-norman-ives",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/portrait-aphrodite",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/fullscreen-page",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/engineering",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/design",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/art",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/photography",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/strawberry-sandals",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/shoe-design-exploration",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/portrait-dog",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/design-with-type",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/air-jordan-colorway",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/updating",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/portrait-george-floyd",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/about",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/bird-painting-leather",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/portrait-ruth-bader-ginsburg",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/copy-of-sageware",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/homage-norman-ives",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/portrait-aphrodite",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "path": "/fullscreen-page",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    }
+  ],
+  "engineering": [
+    {
+      "slug": "autopasser",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "automated-gripper",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "copy-of-autopasser",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "copy-of-automated-gripper",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "apple",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "sageware",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "endless-garden",
+      "width": 320,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "autopasser",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "automated-gripper",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "copy-of-autopasser",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "copy-of-automated-gripper",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "apple",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "sageware",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "endless-garden",
+      "width": 390,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "autopasser",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "automated-gripper",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "copy-of-autopasser",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "copy-of-automated-gripper",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "apple",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "sageware",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "endless-garden",
+      "width": 768,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "autopasser",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "automated-gripper",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "copy-of-autopasser",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "copy-of-automated-gripper",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "apple",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "sageware",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "endless-garden",
+      "width": 1024,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "autopasser",
+      "width": 1200,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "automated-gripper",
+      "width": 1200,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "copy-of-autopasser",
+      "width": 1200,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "copy-of-automated-gripper",
+      "width": 1200,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "apple",
+      "width": 1200,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "sageware",
+      "width": 1200,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "endless-garden",
+      "width": 1200,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "autopasser",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "automated-gripper",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "copy-of-autopasser",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "copy-of-automated-gripper",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "apple",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "sageware",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "endless-garden",
+      "width": 1280,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "autopasser",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "automated-gripper",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "copy-of-autopasser",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "copy-of-automated-gripper",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "apple",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "sageware",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    },
+    {
+      "slug": "endless-garden",
+      "width": 1440,
+      "controls": 0,
+      "missingBoxes": 0,
+      "overflow": false,
+      "staticImageCursors": 0
+    }
+  ]
+}

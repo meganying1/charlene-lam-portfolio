@@ -1,0 +1,23 @@
+[
+  {
+    "path": "/_files/ugd/55147f_6ee3d566cf67449d8fc84a0aa4309a5c.pdf",
+    "status": 200,
+    "bytes": 107274
+  },
+  {
+    "path": "/_files/ugd/55147f_f5e2e5c2ba844369bc86ac8a9dc27881.pdf",
+    "status": 200,
+    "bytes": 40350
+  },
+  {
+    "path": "/assets/55147f_7a207269769c4fd68229b72a3164c907-480p.mp4",
+    "status": 200,
+    "bytes": 2001707
+  },
+  {
+    "path": "/assets/55147f_7a207269769c4fd68229b72a3164c907-480p.mp4",
+    "status": 206,
+    "range": "bytes 0-1023/2001707",
+    "bytes": 1024
+  }
+]

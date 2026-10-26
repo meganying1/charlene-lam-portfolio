@@ -1,0 +1,716 @@
+[
+  {
+    "slug": "autopasser",
+    "width": 320,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "32px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "automated-gripper",
+    "width": 320,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 9,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "32px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "copy-of-autopasser",
+    "width": 320,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "32px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "copy-of-automated-gripper",
+    "width": 320,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "32px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "apple",
+    "width": 320,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "32px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "sageware",
+    "width": 320,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "32px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "endless-garden",
+    "width": 320,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "32px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "autopasser",
+    "width": 390,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "32px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "automated-gripper",
+    "width": 390,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 9,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "32px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "copy-of-autopasser",
+    "width": 390,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "32px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "copy-of-automated-gripper",
+    "width": 390,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "32px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "apple",
+    "width": 390,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "32px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "sageware",
+    "width": 390,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "32px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "endless-garden",
+    "width": 390,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "32px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "autopasser",
+    "width": 768,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "32px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "automated-gripper",
+    "width": 768,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 9,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "32px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "copy-of-autopasser",
+    "width": 768,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "32px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "copy-of-automated-gripper",
+    "width": 768,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "32px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "apple",
+    "width": 768,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "32px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "sageware",
+    "width": 768,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "32px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "endless-garden",
+    "width": 768,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "32px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "autopasser",
+    "width": 1024,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "35.84px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "automated-gripper",
+    "width": 1024,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 9,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "35.84px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "copy-of-autopasser",
+    "width": 1024,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "35.84px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "copy-of-automated-gripper",
+    "width": 1024,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "35.84px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "apple",
+    "width": 1024,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "35.84px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "sageware",
+    "width": 1024,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "35.84px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "endless-garden",
+    "width": 1024,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "35.84px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "autopasser",
+    "width": 1280,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "44.8px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "automated-gripper",
+    "width": 1280,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 9,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "44.8px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "copy-of-autopasser",
+    "width": 1280,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "44.8px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "copy-of-automated-gripper",
+    "width": 1280,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "44.8px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "apple",
+    "width": 1280,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "44.8px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "sageware",
+    "width": 1280,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "44.8px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "endless-garden",
+    "width": 1280,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "44.8px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "autopasser",
+    "width": 1440,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "48px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "automated-gripper",
+    "width": 1440,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 9,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "48px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "copy-of-autopasser",
+    "width": 1440,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "48px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "copy-of-automated-gripper",
+    "width": 1440,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "48px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "apple",
+    "width": 1440,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "48px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "sageware",
+    "width": 1440,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "48px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  },
+  {
+    "slug": "endless-garden",
+    "width": 1440,
+    "backgrounds": [
+      "rgb(255, 255, 255)"
+    ],
+    "evaluationRows": 0,
+    "imageBoxesMissing": 0,
+    "overflow": false,
+    "staticCursors": 0,
+    "title": {
+      "color": "rgb(36, 35, 35)",
+      "size": "48px",
+      "weight": "700"
+    },
+    "unwantedControls": 0
+  }
+]

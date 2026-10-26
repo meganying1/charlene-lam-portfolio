@@ -350,7 +350,9 @@
                                                                 "width": "100%",
                                                                 "min-height": "auto",
                                                                 "grid-template-rows": "min-content 1fr",
-                                                                "grid-template-columns": "100%"
+                                                                "grid-template-columns": "388px 666px",
+                                                                "column-gap": "25px",
+                                                                "justify-content": "center"
                                                               },
                                                               "grid": true,
                                                               "children": [
@@ -359,9 +361,9 @@
                                                                   "style": {
                                                                     "position": "relative",
                                                                     "margin": "36px 0px 26px calc((100% - 980px) * 0)",
-                                                                    "left": "540px",
-                                                                    "grid-area": "1 / 1 / 2 / 2",
-                                                                    "justify-self": "start",
+                                                                    "left": "0",
+                                                                    "grid-area": "1 / 1 / 2 / 3",
+                                                                    "justify-self": "center",
                                                                     "align-self": "start",
                                                                     "width": "401px",
                                                                     "height": "auto",
@@ -386,7 +388,7 @@
                                                                   "style": {
                                                                     "position": "relative",
                                                                     "margin": "1px 0px 58px calc((100% - 980px) * 0)",
-                                                                    "left": "219px",
+                                                                    "left": "0",
                                                                     "grid-area": "2 / 1 / 3 / 2",
                                                                     "justify-self": "start",
                                                                     "align-self": "start",
@@ -421,10 +423,10 @@
                                                                               "key": "e91",
                                                                               "style": {
                                                                                 "position": "relative",
-                                                                                "left": "158px",
+                                                                                "left": "0",
                                                                                 "margin": "46px 0px 17px 0",
                                                                                 "grid-area": "1 / 1 / 2 / 2",
-                                                                                "justify-self": "start",
+                                                                                "justify-self": "center",
                                                                                 "align-self": "start",
                                                                                 "width": "71px",
                                                                                 "height": "72px"
@@ -437,9 +439,9 @@
                                                                               "style": {
                                                                                 "position": "relative",
                                                                                 "margin": "0px 0px 17px 0",
-                                                                                "left": "39px",
+                                                                                "left": "0",
                                                                                 "grid-area": "2 / 1 / 3 / 2",
-                                                                                "justify-self": "start",
+                                                                                "justify-self": "center",
                                                                                 "align-self": "start",
                                                                                 "width": "310px",
                                                                                 "height": "auto"
@@ -462,9 +464,9 @@
                                                                               "style": {
                                                                                 "position": "relative",
                                                                                 "margin": "0px 0px 10px 0",
-                                                                                "left": "39px",
+                                                                                "left": "0",
                                                                                 "grid-area": "3 / 1 / 4 / 2",
-                                                                                "justify-self": "start",
+                                                                                "justify-self": "center",
                                                                                 "align-self": "start",
                                                                                 "width": "310px",
                                                                                 "height": "auto",
@@ -492,8 +494,8 @@
                                                                   "style": {
                                                                     "position": "relative",
                                                                     "margin": "0px 0px 59px calc((100% - 980px) * 0)",
-                                                                    "left": "632px",
-                                                                    "grid-area": "2 / 1 / 3 / 2",
+                                                                    "left": "0",
+                                                                    "grid-area": "2 / 2 / 3 / 3",
                                                                     "justify-self": "start",
                                                                     "align-self": "start",
                                                                     "width": "666px"
@@ -527,10 +529,10 @@
                                                                               "key": "e98",
                                                                               "style": {
                                                                                 "position": "relative",
-                                                                                "left": "307px",
+                                                                                "left": "0",
                                                                                 "margin": "47px 0px 17px 0",
                                                                                 "grid-area": "1 / 1 / 2 / 2",
-                                                                                "justify-self": "start",
+                                                                                "justify-self": "center",
                                                                                 "align-self": "start",
                                                                                 "width": "82px",
                                                                                 "height": "72px"
@@ -543,9 +545,9 @@
                                                                               "style": {
                                                                                 "position": "relative",
                                                                                 "margin": "0px 0px 17px 0",
-                                                                                "left": "178px",
+                                                                                "left": "0",
                                                                                 "grid-area": "2 / 1 / 3 / 2",
-                                                                                "justify-self": "start",
+                                                                                "justify-self": "center",
                                                                                 "align-self": "start",
                                                                                 "width": "339px",
                                                                                 "height": "auto"
@@ -568,9 +570,9 @@
                                                                               "style": {
                                                                                 "position": "relative",
                                                                                 "margin": "0px 0px 53px 0",
-                                                                                "left": "100px",
+                                                                                "left": "0",
                                                                                 "grid-area": "3 / 1 / 4 / 2",
-                                                                                "justify-self": "start",
+                                                                                "justify-self": "center",
                                                                                 "align-self": "start",
                                                                                 "width": "495px",
                                                                                 "height": "auto"

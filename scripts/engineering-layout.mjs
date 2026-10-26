@@ -72,8 +72,7 @@ export function renderEngineeringLayout(p, tree, { esc, figure, video, evaluatio
     if (node.svg) classes.push("engineering-connector");
     if (node.section && sectionDepth === 0) classes.push("engineering-section");
     let visual = "";
-    if (node.background || node.panel) visual += "background:var(--paper);";
-    if (node.panel) visual += "border-radius:var(--media-radius);";
+    if (node.background && !node.panel) visual += "background:var(--paper);";
     if (node.rule) visual += "border-top:1px solid var(--line);";
     let id = node.id;
     let content;

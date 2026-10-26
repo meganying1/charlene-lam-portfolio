@@ -915,6 +915,11 @@ figcaption .rich {
   line-height: inherit;
 }
 .engineering-original .engineering-cell { min-width: 0; }
+.engineering-original .engineering-panel {
+  background: var(--surface);
+  border-radius: var(--media-radius);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
 .engineering-original .engineering-grid { display: grid; gap: 24px; }
 .engineering-original .rich { max-width: none; margin: 0; font-size: inherit; color: inherit; }
 .engineering-original :is(h1, h2, h3, p, ul, ol) {
@@ -972,7 +977,7 @@ figcaption .rich {
 }
 @media (max-width: 1279px) {
   .engineering-original .engineering-section { padding: 40px var(--gutter); }
-  .engineering-original .engineering-panel { padding: 24px 0; }
+  .engineering-original .engineering-panel { padding: clamp(16px, 4vw, 24px); }
   .engineering-original .engineering-spacer,
   .engineering-original .engineering-connector { display: none; }
   .engineering-original .engineering-cell { max-width: 100%; }

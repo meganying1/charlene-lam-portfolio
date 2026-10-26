@@ -2,6 +2,8 @@
 
 The owner requested the other pages’ formatting and color scheme while retaining the restored engineering composition. This report supersedes the legacy palette/typography and exact vertical positions in ENGINEERING-MAIN-LAYOUT-QA.md.
 
+Follow-up: ENGINEERING-SECTION-BOXES-QA.md restores subtle boxes to the original panel groups. The all-white panel treatment described below is historical; shared typography and other styling remain.
+
 | Before | After | Why |
 | --- | --- | --- |
 | Gray section bands with contrasting white cards | White canvas and shared subtle dividers | Matches the rest of the portfolio without adding section decoration |

@@ -78,17 +78,6 @@ function semantic(html, title = false, about = false) {
 }
 const Rich = (n, o = {}) =>
   `<div class="rich ${o.className || ""}" id="${esc(n.id)}">${semantic(n.html, o.title, o.about)}</div>`;
-function EvaluationList(n, icons) {
-  let index = 0;
-  const html = semantic(n.html).replace(/<p>([\s\S]*?)<\/p>/g, (match, text) => {
-    if (!plain(text).startsWith("•")) return match;
-    const icon = icons[index++];
-    if (!icon) throw Error("Missing evaluation icon");
-    return `<p class="evaluation-row"><img src="${esc(icon.src)}" data-original="${esc(icon.src)}" data-source-id="${esc(icon.id)}" alt="${icon.src.includes("258e84") ? "Not met" : "Met"}" width="22" height="22"><span>${text}</span></p>`;
-  });
-  if (index !== icons.length) throw Error("Unpaired evaluation icon");
-  return `<div class="rich evaluation" id="${esc(n.id)}">${html}</div>`;
-}
 export function renderPage(
   p,
   responsive,
@@ -172,7 +161,7 @@ export function renderPage(
   };
   const video = (n, caption) => `<figure class="media video-media"><video id="${esc(n.id)}" src="${esc(n.src)}" ${n.poster ? `poster="${esc(n.poster)}"` : ""} controls playsinline preload="metadata" ${n.loop ? "loop" : ""} ${n.muted ? "muted" : ""} aria-label="${esc(label)} video"></video>${caption ? `<figcaption>${text(caption)}</figcaption>` : ''}</figure>`;
   if (engineeringLayout)
-    return renderEngineeringLayout(p, engineeringLayout, { esc, figure, video, evaluation: EvaluationList });
+    return renderEngineeringLayout(p, engineeringLayout, { esc, figure, video });
   const captionIds = new Set(['comp-ll3d20dn', 'comp-ll3d4zs8', 'comp-lkzur2ah', 'comp-lkzus9qv', 'comp-lkzx2rdh']);
   const leadingAnchors = [];
   while (nodes[0]?.type === "anchor") leadingAnchors.push(nodes.shift());
@@ -241,7 +230,18 @@ export function renderPage(
         )
           icons.push(nodes[++i]);
         const evaluation = nodes[++i];
-        body += EvaluationList(evaluation, icons);
+        let k = 0;
+        const html = semantic(evaluation.html).replace(
+          /<p>([\s\S]*?)<\/p>/g,
+          (m, t) => {
+            if (!plain(t).startsWith("•")) return m;
+            const icon = icons[k++];
+            if (!icon) throw Error("Missing evaluation icon");
+            return `<p class="evaluation-row"><img src="${esc(icon.src)}" data-original="${esc(icon.src)}" data-source-id="${esc(icon.id)}" alt="${icon.src.includes("258e84") ? "Not met" : "Met"}" width="22" height="22"><span>${t}</span></p>`;
+          },
+        );
+        if (k !== icons.length) throw Error("Unpaired evaluation icon");
+        body += `<div class="rich evaluation" id="${esc(evaluation.id)}">${html}</div>`;
         continue;
       }
       const annotations = [];

@@ -898,3 +898,85 @@ figcaption .rich {
     animation: none !important;
   }
 }
+
+:root { --engineering-unit: 1px; }
+@media (min-width: 1280px) and (max-width: 1439px) {
+  :root { --engineering-unit: calc(100vw / 1440); }
+}
+
+/* Main's engineering composition, with one content rendering at every width.
+   Original grid dimensions fit desktops through a shared CSS length unit. */
+.engineering-original {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  font-size: calc(16 * var(--engineering-unit));
+  line-height: 1.4;
+}
+.engineering-original .engineering-cell { min-width: 0; }
+.engineering-original .engineering-grid { display: grid; gap: 24px; }
+.engineering-original .rich { max-width: none; margin: 0; font-size: inherit; color: inherit; }
+.engineering-original :is(h1, h2, h3, p, ul, ol) {
+  margin: 0;
+  letter-spacing: normal;
+  line-height: 1.4;
+  text-wrap: initial;
+}
+.engineering-original h1 { font-size: calc(50 * var(--engineering-unit)); font-weight: 700; }
+.engineering-original h2 { font-size: calc(30 * var(--engineering-unit)); font-weight: 400; }
+.engineering-original h3 { font-size: calc(24 * var(--engineering-unit)); font-weight: 400; }
+.engineering-original p { font-size: calc(16 * var(--engineering-unit)); }
+.engineering-original :is(ul, ol) { padding: 0; margin-left: calc(8 * var(--engineering-unit)); line-height: normal; }
+.engineering-original li { margin: 0 0 0 calc(20.8 * var(--engineering-unit)); padding: 0; line-height: normal; }
+.engineering-original .media { width: 100%; max-width: none; margin: 0; }
+.engineering-original .figure-visual img { width: 100%; max-height: none; border-radius: 0; }
+.engineering-original .video-media video { max-height: none; }
+.engineering-original .engineering-rule { height: 1px; background: none; }
+.engineering-original .code-details { max-width: none; margin: 0; }
+.engineering-original .code-embed { margin: 0; }
+.engineering-original .engineering-connector svg { display: block; width: 100%; height: 100%; }
+.engineering-original .engineering-document {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  margin: 0;
+  font-size: 28px;
+}
+.engineering-panel-text { max-width: 980px; margin: 32px auto; padding: 0 var(--gutter); }
+@media (min-width: 1280px) {
+  .engineering-layout-page .masthead { min-height: calc(161.1015625 * var(--engineering-unit)); }
+  .engineering-original .engineering-grid { gap: 0; }
+  .engineering-original .engineering-image > .media,
+  .engineering-original .engineering-video > .media,
+  .engineering-original .engineering-embed > .code-details { height: 100%; }
+  .engineering-original .engineering-image .figure-visual,
+  .engineering-original .engineering-image .figure-visual img,
+  .engineering-original .engineering-image .media > a { display: block; height: 100%; }
+  .engineering-original .engineering-image img { object-fit: contain; }
+  .engineering-original .engineering-video video { height: 100%; object-fit: contain; }
+  .engineering-original .engineering-embed .code-embed { height: calc(100% - 48px); }
+}
+@media (max-width: 1279px) {
+  .engineering-original .engineering-section { padding: 40px var(--gutter); }
+  .engineering-original .engineering-panel { padding: 24px; }
+  .engineering-original .engineering-spacer,
+  .engineering-original .engineering-connector { display: none; }
+  .engineering-original .engineering-cell { max-width: 100%; }
+  .engineering-original h1 { font-size: clamp(32px, 4vw, 50px) !important; }
+  .engineering-original h2 { font-size: 28px !important; }
+  .engineering-original h3 { font-size: 22px !important; }
+  .engineering-original .engineering-copy p { font-size: 16px !important; }
+  .engineering-original .engineering-copy :is(h1, h2, h3, p) { text-align: left !important; }
+  .engineering-original .engineering-copy span { font-size: inherit !important; line-height: inherit !important; }
+  .engineering-original .engineering-rule { width: 100%; }
+  .engineering-original .engineering-image { max-width: 720px; }
+  .engineering-original .engineering-image:has(.small-figure) { max-width: 100px; }
+  .engineering-original .engineering-intro-grid { display: flex; flex-direction: column; }
+  .engineering-original .engineering-intro-grid > .engineering-text { order: 2; }
+  .engineering-original .engineering-intro-grid > .engineering-title { order: 0; }
+  .engineering-original .engineering-intro-grid > .engineering-date { order: 1; }
+  .engineering-original .engineering-intro-grid > :is(.engineering-image, .engineering-video) { order: 3; }
+}

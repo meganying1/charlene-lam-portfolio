@@ -5,10 +5,10 @@ Edit shared tokens in `src/styles.css`, components in `scripts/components.mjs`, 
 | Rule | Value | Applies to |
 |---|---|---|
 | Fonts | Local Helvetica roman/bold; original DIN condensed | Content and centered wordmark; navigation and tagline |
-| Project title | Fluid 32–48px | All project headers and About |
+| Project title | Fluid 32–48px | Shared project headers and About; engineering retains main’s sizes |
 | Category title | Fluid 32–64px | Engineering, Design, Art, Photography |
 | Section/subsection | Fluid 26–32px / 21–24px | Shared h2/h3 hierarchy |
-| Body/secondary | 18px desktop; 17px tablet; 16px phone / 15px | Prose / metadata, captions and legends |
+| Body/secondary | 18px desktop; 17px tablet; 16px phone / 15px; engineering uses main’s 16px body | Prose / metadata, captions and legends |
 | Leading | Body 1.65; headings 1.15 | Shared typography |
 | Colors | White #fff; ink #242323; muted #616166; surface #f2f3f8; line #dedee4; action #6661a2 | Shared canvas, text and controls |
 | Disciplines | Engineering #40678f; Design #c82f25; Art #6661a2; Photography #596b26 | Category headings and active navigation |
@@ -25,6 +25,8 @@ The existing masthead, category colors, rounded project thumbnails, white canvas
 
 All content images, including Photography, are static: no image-expansion arrows, viewers, image click handlers, zoom cursors or enlargement hover effects. Actual project/document links retain normal link feedback. Individual projects have no bottom category/CHARLENE footer links. Header navigation retains the original overview links and indicates the current discipline; the requested “On this page” navigation is removed, while original section IDs remain available for existing hash URLs.
 
-Hover feedback is gated to fine pointers, reduced-motion preferences disable transitions, and phone layouts preserve browser zoom and document scrolling. Real phone testing remains a separate hardware check. See `audit/IMAGE-LAYOUT-QA.md` for the completed browser and preservation checks.
+Hover feedback is gated to fine pointers, reduced-motion preferences disable transitions, and phone layouts preserve browser zoom and document scrolling. Real phone testing remains a separate hardware check. See `audit/ENGINEERING-MAIN-LAYOUT-QA.md` for the completed browser and preservation checks.
 
 Image groups use `scripts/media-layout.mjs`: proportional columns create rows of matching height, mixed portrait/detail groups align through an adjacent stack, banners get their own row, and five square works use three-plus-two at the same scale. All groups stack in source order below 640px. Shared 24px gaps and 24px/20px photo corners follow the homepage; artwork, diagrams and panel graphics keep square edges. Single images align with the 720px reading guide; artwork uses a centered container sized to its proportions, with a 760px height/width ceiling. Captions are attached to their original figures or image groups without changing their text. Detailed panel graphics remain full width.
+
+Engineering projects intentionally use main’s original compositions: section backgrounds, centered section headings, rounded panels, introduction/date placement, diagram connectors and specific image grids. `src/engineering-layouts.json` holds layout data keyed to stable source IDs; `scripts/engineering-layout.mjs` renders it with canonical text and media. At 1440px it uses the original dimensions; 1280–1439px uses responsive CSS length units, and narrower widths stack the grids at readable sizes. No whole-page zoom, Wix runtime, second viewport-specific content copy or image expansion is introduced. Engineering panel transcripts follow the intact presentation graphics; Arduino code starts open and remains collapsible. This supersedes the generic engineering media groupings described in the earlier image-layout report.

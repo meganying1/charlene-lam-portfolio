@@ -24,6 +24,7 @@ npm run check
 ## Source structure and editing
 
 - `src/content.json`: one original content source for all widths, preserving text, captions, metadata, image order and project paths.
+- `scripts/engineering-layout.mjs` and `src/engineering-layouts.json`: main’s engineering section/grid compositions, using the same editable text and media source.
 - `scripts/media-layout.mjs`: proportional image rows and project-specific mixed-media compositions.
 - `scripts/components.mjs`: shared semantic header, cards, introductions, figures, evaluation rows, downloads and gallery.
 - `src/styles.css`: shared tokens, component styles and responsive reflow; no whole-page scaling.
@@ -34,7 +35,9 @@ npm run check
 - `public/`: unchanged original media, variants, fonts, PDFs and Arduino embed.
 - `audit/`: captured original content, hashes and validation evidence. Contact stays archived in `src/contact-popup.json`.
 
-See `DESIGN-SYSTEM.md` for shared rules and intentional differences, and `audit/IMAGE-LAYOUT-QA.md` for checks and limitations. Update content once in `src/content.json`; change shared presentation in components/styles. The audit compares original wording with whitespace normalization, checks the original desktop capture, image sequence, PDF links, IDs, anchors and asset hashes.
+See `DESIGN-SYSTEM.md` for shared rules and intentional differences, and `audit/ENGINEERING-MAIN-LAYOUT-QA.md` for checks and limitations. Update content once in `src/content.json`; change shared presentation in components/styles. Engineering case studies retain main’s desktop composition, including section backgrounds, centered headings, original panels and image placement. They reflow below 1280px. The optional `python3 scripts/extract-engineering-layouts.py` authoring tool regenerates grid metadata from the archived layouts and requires Beautiful Soup; normal builds still require only Node. Panel text disclosures follow the engineering presentation graphics so the original panels stay contiguous.
+
+The audit compares original wording with whitespace normalization, checks the original desktop capture, image sequence, PDF links, IDs, anchors and asset hashes.
 
 On a disk with limited free space, run `node scripts/build.mjs --link-assets`, then `node scripts/serve.mjs`. The local-only flag avoids duplicating media. Normal `npm run build` still creates a self-contained static deployment.
 

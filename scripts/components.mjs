@@ -1,4 +1,5 @@
 import { imageRatio, renderMediaGroup } from "./media-layout.mjs";
+import { renderEngineeringLayout } from "./engineering-layout.mjs";
 
 // All templates use the same content, typography and interactive components.
 export const esc = (s) =>
@@ -83,6 +84,7 @@ export function renderPage(
   transcripts,
   original,
   descriptions = {},
+  engineeringLayout,
 ) {
   let titleSeen = false;
   let imageIndex = 0;
@@ -158,6 +160,8 @@ export function renderPage(
     return html;
   };
   const video = (n, caption) => `<figure class="media video-media"><video id="${esc(n.id)}" src="${esc(n.src)}" ${n.poster ? `poster="${esc(n.poster)}"` : ""} controls playsinline preload="metadata" ${n.loop ? "loop" : ""} ${n.muted ? "muted" : ""} aria-label="${esc(label)} video"></video>${caption ? `<figcaption>${text(caption)}</figcaption>` : ''}</figure>`;
+  if (engineeringLayout)
+    return renderEngineeringLayout(p, engineeringLayout, { esc, figure, video });
   const captionIds = new Set(['comp-ll3d20dn', 'comp-ll3d4zs8', 'comp-lkzur2ah', 'comp-lkzus9qv', 'comp-lkzx2rdh']);
   const leadingAnchors = [];
   while (nodes[0]?.type === "anchor") leadingAnchors.push(nodes.shift());

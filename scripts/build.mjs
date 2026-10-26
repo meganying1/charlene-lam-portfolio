@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { engineeringLayoutStyles } from "./engineering-layout.mjs";
 import {
   SiteHeader,
   renderPage,
@@ -9,6 +10,7 @@ import {
   panels,
 } from "./components.mjs";
 const pages = JSON.parse(fs.readFileSync("src/content.json", "utf8"));
+const engineeringLayouts = JSON.parse(fs.readFileSync("src/engineering-layouts.json", "utf8"));
 const responsive = JSON.parse(fs.readFileSync("src/responsive.json", "utf8"));
 const originals = JSON.parse(
   fs.readFileSync("audit/original-pages.json", "utf8"),
@@ -34,7 +36,12 @@ for (const file of ["app.js", "styles.css"])
   fs.copyFileSync("src/" + file, "dist/" + file);
 for (const p of pages) {
   const blank = p.slug === "fullscreen-page";
-  const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#FFFFFF"><title>${esc(p.title)}</title><link rel="preload" href="/fonts/00915920e370-helvetica-w01-roman.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="/styles.css"><script src="/app.js" defer></script></head><body class="page-${p.slug} category-${category(p.slug)} ${indexes.has(p.slug) ? "index-page" : ""} ${panels.has(p.slug) ? "panel-page" : ""} ${p.nav.length ? "case-study" : ""}">${
+  const layout = engineeringLayouts[p.slug];
+  if (layout) {
+    fs.mkdirSync("dist/layouts", { recursive: true });
+    fs.writeFileSync(`dist/layouts/engineering-${p.slug}.css`, engineeringLayoutStyles(layout));
+  }
+  const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#FFFFFF"><title>${esc(p.title)}</title><link rel="preload" href="/fonts/00915920e370-helvetica-w01-roman.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="/styles.css">${layout ? `<link rel="stylesheet" href="/layouts/engineering-${p.slug}.css">` : ""}<script src="/app.js" defer></script></head><body class="page-${p.slug} category-${category(p.slug)} ${indexes.has(p.slug) ? "index-page" : ""} ${panels.has(p.slug) ? "panel-page" : ""} ${p.nav.length ? "case-study" : ""} ${layout ? "engineering-layout-page" : ""}">${
     blank
       ? '<main id="main" aria-label="Fullscreen Page"></main>'
       : SiteHeader(p) +
@@ -44,6 +51,7 @@ for (const p of pages) {
           transcripts,
           originals.find((x) => x.slug === p.slug),
           descriptions,
+          layout,
         )
   }</body></html>`;
   const dest =
